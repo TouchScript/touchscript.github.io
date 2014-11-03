@@ -1,0 +1,2486 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>TouchScript — multitouch library for Unity - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 100px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+    src="CloseSearch.png" height="16" width="16" alt="Hide search" style="float: right;"/>
+Keyword(s) for which to search:
+<input id="txtSearchText" type="text" style="width: 100%;"
+  onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label><br />
+<input type="button" value="Search" onclick="javascript: return PerformSearch();" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 25px; display: none;">
+<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+    src="CloseSearch.png" height="17" width="17" alt="Hide index" style="float: right;"/>
+Keyword Index
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 20px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.gif"
+        height="16" width="16" alt="Sync to TOC"/>
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.png" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/R_Project_Documentation.htm" target="TopicContent">TouchScript</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript.htm" target="TopicContent">TouchScript Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_IGestureDelegate.htm" target="TopicContent">IGestureDelegate Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_IGestureDelegate.htm" target="TopicContent">IGestureDelegate Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_IGestureDelegate_ShouldBegin.htm" target="TopicContent">ShouldBegin Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_IGestureDelegate_ShouldReceiveTouch.htm" target="TopicContent">ShouldReceiveTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_IGestureDelegate_ShouldRecognizeSimultaneously.htm" target="TopicContent">ShouldRecognizeSimultaneously Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_IGestureManager.htm" target="TopicContent">IGestureManager Interface</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_ITouch.htm" target="TopicContent">ITouch Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_ITouch.htm" target="TopicContent">ITouch Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_Hit.htm" target="TopicContent">Hit Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_Id.htm" target="TopicContent">Id Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_Layer.htm" target="TopicContent">Layer Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_Position.htm" target="TopicContent">Position Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_PreviousPosition.htm" target="TopicContent">PreviousPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_Properties.htm" target="TopicContent">Properties Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_Tags.htm" target="TopicContent">Tags Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouch_Target.htm" target="TopicContent">Target Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_ITouchManager.htm" target="TopicContent">ITouchManager Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_ITouchManager.htm" target="TopicContent">ITouchManager Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_ITouchManager_AddLayer.htm" target="TopicContent">AddLayer Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_AddLayer.htm" target="TopicContent">AddLayer Method (TouchLayer)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_AddLayer_1.htm" target="TopicContent">AddLayer Method (TouchLayer, Int32)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_ITouchManager_BeginTouch.htm" target="TopicContent">BeginTouch Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_BeginTouch.htm" target="TopicContent">BeginTouch Method ()</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_BeginTouch_1.htm" target="TopicContent">BeginTouch Method (, Tags)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_BeginTouch_2.htm" target="TopicContent">BeginTouch Method (, Tags, IDictionary(String, Object))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_CancelTouch.htm" target="TopicContent">CancelTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_ChangeLayerIndex.htm" target="TopicContent">ChangeLayerIndex Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_EndTouch.htm" target="TopicContent">EndTouch Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_ITouchManager_GetHitTarget.htm" target="TopicContent">GetHitTarget Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_GetHitTarget.htm" target="TopicContent">GetHitTarget Method ()</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_GetHitTarget_1.htm" target="TopicContent">GetHitTarget Method (, ITouchHit)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_GetHitTarget_2.htm" target="TopicContent">GetHitTarget Method (, ITouchHit, TouchLayer)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_MoveTouch.htm" target="TopicContent">MoveTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_ITouchManager_RemoveLayer.htm" target="TopicContent">RemoveLayer Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_ITouchManager.htm" target="TopicContent">ITouchManager Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouchManager_ActiveTouches.htm" target="TopicContent">ActiveTouches Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouchManager_DisplayDevice.htm" target="TopicContent">DisplayDevice Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouchManager_DotsPerCentimeter.htm" target="TopicContent">DotsPerCentimeter Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouchManager_DPI.htm" target="TopicContent">DPI Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouchManager_Layers.htm" target="TopicContent">Layers Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_ITouchManager_NumberOfTouches.htm" target="TopicContent">NumberOfTouches Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_ITouchManager.htm" target="TopicContent">ITouchManager Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_ITouchManager_FrameFinished.htm" target="TopicContent">FrameFinished Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_ITouchManager_FrameStarted.htm" target="TopicContent">FrameStarted Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_ITouchManager_TouchesBegan.htm" target="TopicContent">TouchesBegan Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_ITouchManager_TouchesCancelled.htm" target="TopicContent">TouchesCancelled Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_ITouchManager_TouchesEnded.htm" target="TopicContent">TouchesEnded Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_ITouchManager_TouchesMoved.htm" target="TopicContent">TouchesMoved Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Tags.htm" target="TopicContent">Tags Class</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_Tags__ctor.htm" target="TopicContent">Tags Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags__ctor.htm" target="TopicContent">Tags Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags__ctor_1.htm" target="TopicContent">Tags Constructor (IEnumerable(String))</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags__ctor_2.htm" target="TopicContent">Tags Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags__ctor_3.htm" target="TopicContent">Tags Constructor (Tags)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Tags.htm" target="TopicContent">Tags Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Tags_INPUT_MOUSE.htm" target="TopicContent">INPUT_MOUSE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Tags_INPUT_OBJECT.htm" target="TopicContent">INPUT_OBJECT Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Tags_INPUT_PEN.htm" target="TopicContent">INPUT_PEN Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Tags_INPUT_TOUCH.htm" target="TopicContent">INPUT_TOUCH Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Tags_SOURCE_TUIO.htm" target="TopicContent">SOURCE_TUIO Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Tags_SOURCE_WINDOWS.htm" target="TopicContent">SOURCE_WINDOWS Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Tags.htm" target="TopicContent">Tags Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags_AddTag.htm" target="TopicContent">AddTag Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags_HasTag.htm" target="TopicContent">HasTag Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags_RemoveTag.htm" target="TopicContent">RemoveTag Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Tags_ToString.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Tags.htm" target="TopicContent">Tags Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Tags_Count.htm" target="TopicContent">Count Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Tags_TagList.htm" target="TopicContent">TagList Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_TouchEventArgs.htm" target="TopicContent">TouchEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_TouchEventArgs__ctor.htm" target="TopicContent">TouchEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_TouchEventArgs.htm" target="TopicContent">TouchEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_TouchEventArgs.htm" target="TopicContent">TouchEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_TouchEventArgs_Touches.htm" target="TopicContent">Touches Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_TouchManager.htm" target="TopicContent">TouchManager Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_TouchManager__ctor.htm" target="TopicContent">TouchManager Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_TouchManager.htm" target="TopicContent">TouchManager Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_TouchManager_CM_TO_INCH.htm" target="TopicContent">CM_TO_INCH Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_TouchManager_INCH_TO_CM.htm" target="TopicContent">INCH_TO_CM Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_TouchManager_INVALID_POSITION.htm" target="TopicContent">INVALID_POSITION Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_TouchManager.htm" target="TopicContent">TouchManager Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_TouchManager_IsInvalidPosition.htm" target="TopicContent">IsInvalidPosition Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_TouchManager.htm" target="TopicContent">TouchManager Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_TouchManager_DisplayDevice.htm" target="TopicContent">DisplayDevice Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_TouchManager_Instance.htm" target="TopicContent">Instance Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_TouchManager_SendMessageEvents.htm" target="TopicContent">SendMessageEvents Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_TouchManager_SendMessageTarget.htm" target="TopicContent">SendMessageTarget Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_TouchManager_UseSendMessage.htm" target="TopicContent">UseSendMessage Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_TouchManager_MessageName.htm" target="TopicContent">TouchManager.MessageName Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_TouchManager_MessageType.htm" target="TopicContent">TouchManager.MessageType Enumeration</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Behaviors.htm" target="TopicContent">TouchScript.Behaviors Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Behaviors_FullscreenTarget.htm" target="TopicContent">FullscreenTarget Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Behaviors_FullscreenTarget__ctor.htm" target="TopicContent">FullscreenTarget Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Behaviors_FullscreenTarget.htm" target="TopicContent">FullscreenTarget Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Behaviors_FullscreenTarget_Type.htm" target="TopicContent">Type Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Behaviors_FullscreenTarget.htm" target="TopicContent">FullscreenTarget Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Behaviors_FullscreenTarget.htm" target="TopicContent">FullscreenTarget Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_Behaviors_FullscreenTarget_TargetType.htm" target="TopicContent">FullscreenTarget.TargetType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Behaviors_Transformer2D.htm" target="TopicContent">Transformer2D Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Behaviors_Transformer2D__ctor.htm" target="TopicContent">Transformer2D Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Behaviors_Transformer2D.htm" target="TopicContent">Transformer2D Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Behaviors_Transformer2D_Speed.htm" target="TopicContent">Speed Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Behaviors_Transformer2D.htm" target="TopicContent">Transformer2D Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Behaviors_Transformer2D.htm" target="TopicContent">Transformer2D Properties</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Clusters.htm" target="TopicContent">TouchScript.Clusters Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Clusters_Clusters.htm" target="TopicContent">Clusters Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters__ctor.htm" target="TopicContent">Clusters Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Clusters_Clusters.htm" target="TopicContent">Clusters Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Clusters_Clusters_CLUSTER1.htm" target="TopicContent">CLUSTER1 Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Clusters_Clusters_CLUSTER2.htm" target="TopicContent">CLUSTER2 Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Clusters_Clusters.htm" target="TopicContent">Clusters Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_AddPoint.htm" target="TopicContent">AddPoint Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_AddPoints.htm" target="TopicContent">AddPoints Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_GetCenterPosition.htm" target="TopicContent">GetCenterPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_GetPreviousCenterPosition.htm" target="TopicContent">GetPreviousCenterPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_Invalidate.htm" target="TopicContent">Invalidate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_RemoveAllPoints.htm" target="TopicContent">RemoveAllPoints Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_RemovePoint.htm" target="TopicContent">RemovePoint Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Clusters_Clusters_RemovePoints.htm" target="TopicContent">RemovePoints Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Clusters_Clusters.htm" target="TopicContent">Clusters Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Clusters_Clusters_HasClusters.htm" target="TopicContent">HasClusters Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Clusters_Clusters_MinPointsDistance.htm" target="TopicContent">MinPointsDistance Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Clusters_Clusters_PointsCount.htm" target="TopicContent">PointsCount Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Debugging.htm" target="TopicContent">TouchScript.Debugging Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Debugging_TouchDebugger.htm" target="TopicContent">TouchDebugger Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Debugging_TouchDebugger__ctor.htm" target="TopicContent">TouchDebugger Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Debugging_TouchDebugger.htm" target="TopicContent">TouchDebugger Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Debugging_TouchDebugger.htm" target="TopicContent">TouchDebugger Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Debugging_TouchDebugger_FontColor.htm" target="TopicContent">FontColor Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Debugging_TouchDebugger_ShowTags.htm" target="TopicContent">ShowTags Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Debugging_TouchDebugger_ShowTouchId.htm" target="TopicContent">ShowTouchId Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Debugging_TouchDebugger_TouchSize.htm" target="TopicContent">TouchSize Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Debugging_TouchDebugger_TouchTexture.htm" target="TopicContent">TouchTexture Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Debugging_TouchDebugger_UseDPI.htm" target="TopicContent">UseDPI Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Devices_Display.htm" target="TopicContent">TouchScript.Devices.Display Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Devices_Display_DisplayDevice.htm" target="TopicContent">DisplayDevice Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Devices_Display_DisplayDevice__ctor.htm" target="TopicContent">DisplayDevice Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Devices_Display_DisplayDevice.htm" target="TopicContent">DisplayDevice Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Devices_Display_DisplayDevice_dpi.htm" target="TopicContent">dpi Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Devices_Display_DisplayDevice_name.htm" target="TopicContent">name Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Devices_Display_DisplayDevice.htm" target="TopicContent">DisplayDevice Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Devices_Display_DisplayDevice_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Devices_Display_DisplayDevice.htm" target="TopicContent">DisplayDevice Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Devices_Display_DisplayDevice_DPI.htm" target="TopicContent">DPI Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Devices_Display_DisplayDevice_Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Devices_Display_GenericDisplayDevice.htm" target="TopicContent">GenericDisplayDevice Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Devices_Display_GenericDisplayDevice__ctor.htm" target="TopicContent">GenericDisplayDevice Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_TouchScript_Devices_Display_GenericDisplayDevice.htm" target="TopicContent">GenericDisplayDevice Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Devices_Display_GenericDisplayDevice.htm" target="TopicContent">GenericDisplayDevice Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Devices_Display_GenericDisplayDevice_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Devices_Display_GenericDisplayDevice.htm" target="TopicContent">GenericDisplayDevice Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Devices_Display_IDisplayDevice.htm" target="TopicContent">IDisplayDevice Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Devices_Display_IDisplayDevice.htm" target="TopicContent">IDisplayDevice Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Devices_Display_IDisplayDevice_DPI.htm" target="TopicContent">DPI Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Devices_Display_IDisplayDevice_Name.htm" target="TopicContent">Name Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Gestures.htm" target="TopicContent">TouchScript.Gestures Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_FlickGesture.htm" target="TopicContent">FlickGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture__ctor.htm" target="TopicContent">FlickGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_FlickGesture.htm" target="TopicContent">FlickGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_FlickGesture_FLICK_MESSAGE.htm" target="TopicContent">FLICK_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_FlickGesture.htm" target="TopicContent">FlickGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture_LateUpdate.htm" target="TopicContent">LateUpdate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture_touchesCancelled.htm" target="TopicContent">touchesCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_FlickGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_FlickGesture.htm" target="TopicContent">FlickGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_FlickGesture_Direction.htm" target="TopicContent">Direction Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_FlickGesture_FlickTime.htm" target="TopicContent">FlickTime Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_FlickGesture_MinDistance.htm" target="TopicContent">MinDistance Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_FlickGesture_MovementThreshold.htm" target="TopicContent">MovementThreshold Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_FlickGesture_ScreenFlickTime.htm" target="TopicContent">ScreenFlickTime Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_FlickGesture_ScreenFlickVector.htm" target="TopicContent">ScreenFlickVector Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_FlickGesture.htm" target="TopicContent">FlickGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_FlickGesture_Flicked.htm" target="TopicContent">Flicked Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_Gestures_FlickGesture_GestureDirection.htm" target="TopicContent">FlickGesture.GestureDirection Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_Gesture.htm" target="TopicContent">Gesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture__ctor.htm" target="TopicContent">Gesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_Gesture.htm" target="TopicContent">Gesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Gesture_activeTouches.htm" target="TopicContent">activeTouches Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Gesture_STATE_CHANGE_MESSAGE.htm" target="TopicContent">STATE_CHANGE_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_Gesture.htm" target="TopicContent">Gesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_AddFriendlyGesture.htm" target="TopicContent">AddFriendlyGesture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_Awake.htm" target="TopicContent">Awake Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_CanBePreventedByGesture.htm" target="TopicContent">CanBePreventedByGesture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_CanPreventGesture.htm" target="TopicContent">CanPreventGesture Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_Gestures_Gesture_GetTargetHitResult.htm" target="TopicContent">GetTargetHitResult Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult.htm" target="TopicContent">GetTargetHitResult Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_2.htm" target="TopicContent">GetTargetHitResult Method ()</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_1.htm" target="TopicContent">GetTargetHitResult Method (ITouchHit)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_3.htm" target="TopicContent">GetTargetHitResult Method (, ITouchHit)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_HasTouch.htm" target="TopicContent">HasTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_IsFriendly.htm" target="TopicContent">IsFriendly Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_onBegan.htm" target="TopicContent">onBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_onCancelled.htm" target="TopicContent">onCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_onChanged.htm" target="TopicContent">onChanged Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_OnDestroy.htm" target="TopicContent">OnDestroy Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_OnDisable.htm" target="TopicContent">OnDisable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_onFailed.htm" target="TopicContent">onFailed Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_onPossible.htm" target="TopicContent">onPossible Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_setState.htm" target="TopicContent">setState Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_ShouldBegin.htm" target="TopicContent">ShouldBegin Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_shouldCacheTouchPosition.htm" target="TopicContent">shouldCacheTouchPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_ShouldReceiveTouch.htm" target="TopicContent">ShouldReceiveTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_touchesCancelled.htm" target="TopicContent">touchesCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Gesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_Gesture.htm" target="TopicContent">Gesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_ActiveTouches.htm" target="TopicContent">ActiveTouches Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_CombineTouches.htm" target="TopicContent">CombineTouches Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_CombineTouchesInterval.htm" target="TopicContent">CombineTouchesInterval Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_Delegate.htm" target="TopicContent">Delegate Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_gestureManager.htm" target="TopicContent">gestureManager Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_NormalizedScreenPosition.htm" target="TopicContent">NormalizedScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_PreviousNormalizedScreenPosition.htm" target="TopicContent">PreviousNormalizedScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_PreviousScreenPosition.htm" target="TopicContent">PreviousScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_PreviousState.htm" target="TopicContent">PreviousState Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_RequireGestureToFail.htm" target="TopicContent">RequireGestureToFail Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_ScreenPosition.htm" target="TopicContent">ScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_SendMessageTarget.htm" target="TopicContent">SendMessageTarget Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_SendStateChangeMessages.htm" target="TopicContent">SendStateChangeMessages Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_State.htm" target="TopicContent">State Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_touchManager.htm" target="TopicContent">touchManager Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Gesture_UseSendMessage.htm" target="TopicContent">UseSendMessage Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_Gesture.htm" target="TopicContent">Gesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Gesture_StateChanged.htm" target="TopicContent">StateChanged Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_Gestures_Gesture_GestureState.htm" target="TopicContent">Gesture.GestureState Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_GestureStateChangeEventArgs.htm" target="TopicContent">GestureStateChangeEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_GestureStateChangeEventArgs__ctor.htm" target="TopicContent">GestureStateChangeEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Gestures_GestureStateChangeEventArgs.htm" target="TopicContent">GestureStateChangeEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_GestureStateChangeEventArgs.htm" target="TopicContent">GestureStateChangeEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_GestureStateChangeEventArgs_PreviousState.htm" target="TopicContent">PreviousState Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_GestureStateChangeEventArgs_State.htm" target="TopicContent">State Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_LongPressGesture.htm" target="TopicContent">LongPressGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_LongPressGesture__ctor.htm" target="TopicContent">LongPressGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_LongPressGesture.htm" target="TopicContent">LongPressGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_LongPressGesture_LONG_PRESS_MESSAGE.htm" target="TopicContent">LONG_PRESS_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_LongPressGesture.htm" target="TopicContent">LongPressGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_LongPressGesture_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_LongPressGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_LongPressGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_LongPressGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_LongPressGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_LongPressGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_LongPressGesture.htm" target="TopicContent">LongPressGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_LongPressGesture_DistanceLimit.htm" target="TopicContent">DistanceLimit Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_LongPressGesture_MaxTouches.htm" target="TopicContent">MaxTouches Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_LongPressGesture_TimeToPress.htm" target="TopicContent">TimeToPress Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_LongPressGesture.htm" target="TopicContent">LongPressGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_LongPressGesture_LongPressed.htm" target="TopicContent">LongPressed Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_MetaGesture.htm" target="TopicContent">MetaGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_MetaGesture__ctor.htm" target="TopicContent">MetaGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_MetaGesture.htm" target="TopicContent">MetaGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_MetaGesture_TOUCH_BEGAN_MESSAGE.htm" target="TopicContent">TOUCH_BEGAN_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_MetaGesture_TOUCH_CANCELLED_MESSAGE.htm" target="TopicContent">TOUCH_CANCELLED_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_MetaGesture_TOUCH_ENDED_MESSAGE.htm" target="TopicContent">TOUCH_ENDED_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_MetaGesture_TOUCH_MOVED_MESSAGE.htm" target="TopicContent">TOUCH_MOVED_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_MetaGesture.htm" target="TopicContent">MetaGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_MetaGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_MetaGesture_touchesCancelled.htm" target="TopicContent">touchesCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_MetaGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_MetaGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Gestures_MetaGesture.htm" target="TopicContent">MetaGesture Properties</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_MetaGesture.htm" target="TopicContent">MetaGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_MetaGesture_TouchBegan.htm" target="TopicContent">TouchBegan Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_MetaGesture_TouchCancelled.htm" target="TopicContent">TouchCancelled Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_MetaGesture_TouchEnded.htm" target="TopicContent">TouchEnded Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_MetaGesture_TouchMoved.htm" target="TopicContent">TouchMoved Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_MetaGestureEventArgs.htm" target="TopicContent">MetaGestureEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_MetaGestureEventArgs__ctor.htm" target="TopicContent">MetaGestureEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Gestures_MetaGestureEventArgs.htm" target="TopicContent">MetaGestureEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_MetaGestureEventArgs.htm" target="TopicContent">MetaGestureEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_MetaGestureEventArgs_Touch.htm" target="TopicContent">Touch Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_PanGesture.htm" target="TopicContent">PanGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PanGesture__ctor.htm" target="TopicContent">PanGesture Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_TouchScript_Gestures_PanGesture.htm" target="TopicContent">PanGesture Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_PanGesture.htm" target="TopicContent">PanGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PanGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PanGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PanGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PanGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_PanGesture.htm" target="TopicContent">PanGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_PanGesture_PreviousScreenPosition.htm" target="TopicContent">PreviousScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_PanGesture_ScreenPosition.htm" target="TopicContent">ScreenPosition Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Gestures_PanGesture.htm" target="TopicContent">PanGesture Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_PressGesture.htm" target="TopicContent">PressGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PressGesture__ctor.htm" target="TopicContent">PressGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_PressGesture.htm" target="TopicContent">PressGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_PressGesture_PRESS_MESSAGE.htm" target="TopicContent">PRESS_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_PressGesture.htm" target="TopicContent">PressGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PressGesture_CanBePreventedByGesture.htm" target="TopicContent">CanBePreventedByGesture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PressGesture_CanPreventGesture.htm" target="TopicContent">CanPreventGesture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PressGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PressGesture_ShouldReceiveTouch.htm" target="TopicContent">ShouldReceiveTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_PressGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_PressGesture.htm" target="TopicContent">PressGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_PressGesture_IgnoreChildren.htm" target="TopicContent">IgnoreChildren Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_PressGesture.htm" target="TopicContent">PressGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_PressGesture_Pressed.htm" target="TopicContent">Pressed Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_ReleaseGesture.htm" target="TopicContent">ReleaseGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ReleaseGesture__ctor.htm" target="TopicContent">ReleaseGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_ReleaseGesture.htm" target="TopicContent">ReleaseGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_ReleaseGesture_RELEASE_MESSAGE.htm" target="TopicContent">RELEASE_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_ReleaseGesture.htm" target="TopicContent">ReleaseGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ReleaseGesture_CanBePreventedByGesture.htm" target="TopicContent">CanBePreventedByGesture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ReleaseGesture_CanPreventGesture.htm" target="TopicContent">CanPreventGesture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ReleaseGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ReleaseGesture_ShouldReceiveTouch.htm" target="TopicContent">ShouldReceiveTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ReleaseGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_ReleaseGesture.htm" target="TopicContent">ReleaseGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_ReleaseGesture_IgnoreChildren.htm" target="TopicContent">IgnoreChildren Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_ReleaseGesture.htm" target="TopicContent">ReleaseGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_ReleaseGesture_Released.htm" target="TopicContent">Released Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_RotateGesture.htm" target="TopicContent">RotateGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture__ctor.htm" target="TopicContent">RotateGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_RotateGesture.htm" target="TopicContent">RotateGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_RotateGesture_clusters.htm" target="TopicContent">clusters Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_RotateGesture.htm" target="TopicContent">RotateGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_getPointPreviousScreenPosition.htm" target="TopicContent">getPointPreviousScreenPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_getPointScreenPosition.htm" target="TopicContent">getPointScreenPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_gotEnoughTouches.htm" target="TopicContent">gotEnoughTouches Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_relevantTouches.htm" target="TopicContent">relevantTouches Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_RotateGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_RotateGesture.htm" target="TopicContent">RotateGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_RotateGesture_MinPointsDistance.htm" target="TopicContent">MinPointsDistance Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Gestures_RotateGesture.htm" target="TopicContent">RotateGesture Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_ScaleGesture.htm" target="TopicContent">ScaleGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture__ctor.htm" target="TopicContent">ScaleGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_ScaleGesture.htm" target="TopicContent">ScaleGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_ScaleGesture_clusters.htm" target="TopicContent">clusters Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_ScaleGesture.htm" target="TopicContent">ScaleGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_getPointPreviousScreenPosition.htm" target="TopicContent">getPointPreviousScreenPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_getPointScreenPosition.htm" target="TopicContent">getPointScreenPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_gotEnoughTouches.htm" target="TopicContent">gotEnoughTouches Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_relevantTouches.htm" target="TopicContent">relevantTouches Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_ScaleGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_ScaleGesture.htm" target="TopicContent">ScaleGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_ScaleGesture_MinPointsDistance.htm" target="TopicContent">MinPointsDistance Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Gestures_ScaleGesture.htm" target="TopicContent">ScaleGesture Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_TapGesture.htm" target="TopicContent">TapGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture__ctor.htm" target="TopicContent">TapGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_TapGesture.htm" target="TopicContent">TapGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_TapGesture_TAP_MESSAGE.htm" target="TopicContent">TAP_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_TapGesture.htm" target="TopicContent">TapGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_shouldCacheTouchPosition.htm" target="TopicContent">shouldCacheTouchPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_touchesCancelled.htm" target="TopicContent">touchesCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_TapGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_TapGesture.htm" target="TopicContent">TapGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_TapGesture_DistanceLimit.htm" target="TopicContent">DistanceLimit Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_TapGesture_NumberOfTapsRequired.htm" target="TopicContent">NumberOfTapsRequired Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_TapGesture_TimeLimit.htm" target="TopicContent">TimeLimit Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_TapGesture.htm" target="TopicContent">TapGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_TapGesture_Tapped.htm" target="TopicContent">Tapped Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Gestures_Simple.htm" target="TopicContent">TouchScript.Gestures.Simple Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_Simple_SimplePanGesture.htm" target="TopicContent">SimplePanGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture__ctor.htm" target="TopicContent">SimplePanGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_Simple_SimplePanGesture.htm" target="TopicContent">SimplePanGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_COMPLETE_MESSAGE.htm" target="TopicContent">PAN_COMPLETE_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_MESSAGE.htm" target="TopicContent">PAN_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_START_MESSAGE.htm" target="TopicContent">PAN_START_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_Simple_SimplePanGesture.htm" target="TopicContent">SimplePanGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onBegan.htm" target="TopicContent">onBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onCancelled.htm" target="TopicContent">onCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onChanged.htm" target="TopicContent">onChanged Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onFailed.htm" target="TopicContent">onFailed Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimplePanGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_Simple_SimplePanGesture.htm" target="TopicContent">SimplePanGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimplePanGesture_LocalDeltaPosition.htm" target="TopicContent">LocalDeltaPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimplePanGesture_MovementThreshold.htm" target="TopicContent">MovementThreshold Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimplePanGesture_PreviousScreenPosition.htm" target="TopicContent">PreviousScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimplePanGesture_ScreenPosition.htm" target="TopicContent">ScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimplePanGesture_WorldDeltaPosition.htm" target="TopicContent">WorldDeltaPosition Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_Simple_SimplePanGesture.htm" target="TopicContent">SimplePanGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimplePanGesture_PanCompleted.htm" target="TopicContent">PanCompleted Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimplePanGesture_Panned.htm" target="TopicContent">Panned Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimplePanGesture_PanStarted.htm" target="TopicContent">PanStarted Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm" target="TopicContent">SimpleRotateGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture__ctor.htm" target="TopicContent">SimpleRotateGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm" target="TopicContent">SimpleRotateGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimpleRotateGesture_ROTATE_COMPLETE_MESSAGE.htm" target="TopicContent">ROTATE_COMPLETE_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimpleRotateGesture_ROTATE_MESSAGE.htm" target="TopicContent">ROTATE_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimpleRotateGesture_ROTATE_START_MESSAGE.htm" target="TopicContent">ROTATE_START_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm" target="TopicContent">SimpleRotateGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onBegan.htm" target="TopicContent">onBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onCancelled.htm" target="TopicContent">onCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onChanged.htm" target="TopicContent">onChanged Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onFailed.htm" target="TopicContent">onFailed Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_restart.htm" target="TopicContent">restart Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm" target="TopicContent">SimpleRotateGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimpleRotateGesture_DeltaRotation.htm" target="TopicContent">DeltaRotation Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimpleRotateGesture_RotationAxis.htm" target="TopicContent">RotationAxis Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimpleRotateGesture_RotationThreshold.htm" target="TopicContent">RotationThreshold Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm" target="TopicContent">SimpleRotateGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimpleRotateGesture_RotateCompleted.htm" target="TopicContent">RotateCompleted Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimpleRotateGesture_Rotated.htm" target="TopicContent">Rotated Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimpleRotateGesture_RotateStarted.htm" target="TopicContent">RotateStarted Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm" target="TopicContent">SimpleScaleGesture Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture__ctor.htm" target="TopicContent">SimpleScaleGesture Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm" target="TopicContent">SimpleScaleGesture Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimpleScaleGesture_SCALE_COMPLETE_MESSAGE.htm" target="TopicContent">SCALE_COMPLETE_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimpleScaleGesture_SCALE_MESSAGE.htm" target="TopicContent">SCALE_MESSAGE Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_SimpleScaleGesture_SCALE_START_MESSAGE.htm" target="TopicContent">SCALE_START_MESSAGE Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm" target="TopicContent">SimpleScaleGesture Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onBegan.htm" target="TopicContent">onBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onCancelled.htm" target="TopicContent">onCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onChanged.htm" target="TopicContent">onChanged Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onFailed.htm" target="TopicContent">onFailed Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onRecognized.htm" target="TopicContent">onRecognized Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_restart.htm" target="TopicContent">restart Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm" target="TopicContent">SimpleScaleGesture Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimpleScaleGesture_LocalDeltaScale.htm" target="TopicContent">LocalDeltaScale Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_SimpleScaleGesture_ScalingThreshold.htm" target="TopicContent">ScalingThreshold Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm" target="TopicContent">SimpleScaleGesture Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimpleScaleGesture_ScaleCompleted.htm" target="TopicContent">ScaleCompleted Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimpleScaleGesture_Scaled.htm" target="TopicContent">Scaled Event</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Gestures_Simple_SimpleScaleGesture_ScaleStarted.htm" target="TopicContent">ScaleStarted Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm" target="TopicContent">Transform2DGestureBase Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase__ctor.htm" target="TopicContent">Transform2DGestureBase Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm" target="TopicContent">Transform2DGestureBase Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_Transform2DGestureBase_projectionCamera.htm" target="TopicContent">projectionCamera Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_Transform2DGestureBase_worldTransformPlane.htm" target="TopicContent">worldTransformPlane Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm" target="TopicContent">Transform2DGestureBase Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_Awake.htm" target="TopicContent">Awake Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesBegan.htm" target="TopicContent">touchesBegan Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesCancelled.htm" target="TopicContent">touchesCancelled Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesMoved.htm" target="TopicContent">touchesMoved Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_updateProjectionPlane.htm" target="TopicContent">updateProjectionPlane Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm" target="TopicContent">Transform2DGestureBase Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_PreviousWorldTransformCenter.htm" target="TopicContent">PreviousWorldTransformCenter Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_Projection.htm" target="TopicContent">Projection Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_ProjectionNormal.htm" target="TopicContent">ProjectionNormal Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_WorldTransformCenter.htm" target="TopicContent">WorldTransformCenter Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_WorldTransformPlane.htm" target="TopicContent">WorldTransformPlane Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm" target="TopicContent">Transform2DGestureBase Events</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_Gestures_Simple_Transform2DGestureBase_ProjectionType.htm" target="TopicContent">Transform2DGestureBase.ProjectionType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm" target="TopicContent">TwoPointTransform2DGestureBase Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase__ctor.htm" target="TopicContent">TwoPointTransform2DGestureBase Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm" target="TopicContent">TwoPointTransform2DGestureBase Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_minPixelDistance.htm" target="TopicContent">minPixelDistance Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_minPixelDistanceSquared.htm" target="TopicContent">minPixelDistanceSquared Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_previousScreenPosition.htm" target="TopicContent">previousScreenPosition Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_screenPosition.htm" target="TopicContent">screenPosition Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm" target="TopicContent">TwoPointTransform2DGestureBase Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_getPointPreviousScreenPosition.htm" target="TopicContent">getPointPreviousScreenPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_getPointScreenPosition.htm" target="TopicContent">getPointScreenPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_gotEnoughTouches.htm" target="TopicContent">gotEnoughTouches Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_relevantTouches.htm" target="TopicContent">relevantTouches Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_reset.htm" target="TopicContent">reset Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_restart.htm" target="TopicContent">restart Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_touchesEnded.htm" target="TopicContent">touchesEnded Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm" target="TopicContent">TwoPointTransform2DGestureBase Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_MinPointsDistance.htm" target="TopicContent">MinPointsDistance Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_PreviousScreenPosition.htm" target="TopicContent">PreviousScreenPosition Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_ScreenPosition.htm" target="TopicContent">ScreenPosition Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm" target="TopicContent">TwoPointTransform2DGestureBase Events</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Hit.htm" target="TopicContent">TouchScript.Hit Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Hit_HitTest.htm" target="TopicContent">HitTest Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Hit_HitTest__ctor.htm" target="TopicContent">HitTest Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Hit_HitTest.htm" target="TopicContent">HitTest Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Hit_HitTest_IsHit.htm" target="TopicContent">IsHit Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Hit_HitTest.htm" target="TopicContent">HitTest Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_Hit_HitTest_ObjectHitResult.htm" target="TopicContent">HitTest.ObjectHitResult Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Hit_ITouchHit.htm" target="TopicContent">ITouchHit Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Hit_ITouchHit.htm" target="TopicContent">ITouchHit Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit_Transform.htm" target="TopicContent">Transform Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Hit_ITouchHit2D.htm" target="TopicContent">ITouchHit2D Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Hit_ITouchHit2D.htm" target="TopicContent">ITouchHit2D Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit2D_Collider2D.htm" target="TopicContent">Collider2D Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit2D_Point.htm" target="TopicContent">Point Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit2D_Rigidbody2D.htm" target="TopicContent">Rigidbody2D Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Hit_ITouchHit3D.htm" target="TopicContent">ITouchHit3D Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Hit_ITouchHit3D.htm" target="TopicContent">ITouchHit3D Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit3D_Collider.htm" target="TopicContent">Collider Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit3D_Normal.htm" target="TopicContent">Normal Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit3D_Point.htm" target="TopicContent">Point Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_ITouchHit3D_Rigidbody.htm" target="TopicContent">Rigidbody Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Hit_TouchHitFactory.htm" target="TopicContent">TouchHitFactory Class</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Hit_TouchHitFactory.htm" target="TopicContent">TouchHitFactory Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_Hit_TouchHitFactory_GetTouchHit.htm" target="TopicContent">GetTouchHit Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Hit_TouchHitFactory_GetTouchHit.htm" target="TopicContent">GetTouchHit Method ()</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Hit_TouchHitFactory_GetTouchHit_1.htm" target="TopicContent">GetTouchHit Method ()</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Hit_TouchHitFactory_GetTouchHit_2.htm" target="TopicContent">GetTouchHit Method ()</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Hit_TouchHitFactory.htm" target="TopicContent">TouchHitFactory Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Hit_TouchHitFactory_Instance.htm" target="TopicContent">Instance Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Hit_Untouchable.htm" target="TopicContent">Untouchable Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Hit_Untouchable__ctor.htm" target="TopicContent">Untouchable Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Hit_Untouchable.htm" target="TopicContent">Untouchable Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Hit_Untouchable_DiscardTouch.htm" target="TopicContent">DiscardTouch Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Hit_Untouchable.htm" target="TopicContent">Untouchable Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Hit_Untouchable_IsHit.htm" target="TopicContent">IsHit Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Hit_Untouchable.htm" target="TopicContent">Untouchable Properties</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_InputSources.htm" target="TopicContent">TouchScript.InputSources Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_ICoordinatesRemapper.htm" target="TopicContent">ICoordinatesRemapper Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_InputSources_ICoordinatesRemapper.htm" target="TopicContent">ICoordinatesRemapper Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_ICoordinatesRemapper_Remap.htm" target="TopicContent">Remap Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_IInputSource.htm" target="TopicContent">IInputSource Interface</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_InputSources_IInputSource.htm" target="TopicContent">IInputSource Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_InputSources_IInputSource_CoordinatesRemapper.htm" target="TopicContent">CoordinatesRemapper Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_InputSource.htm" target="TopicContent">InputSource Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource__ctor.htm" target="TopicContent">InputSource Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_InputSources_InputSource.htm" target="TopicContent">InputSource Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_InputSource_manager.htm" target="TopicContent">manager Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_InputSources_InputSource.htm" target="TopicContent">InputSource Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_InputSources_InputSource_beginTouch.htm" target="TopicContent">beginTouch Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_beginTouch.htm" target="TopicContent">beginTouch Method ()</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_beginTouch_1.htm" target="TopicContent">beginTouch Method (, Tags)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_beginTouch_2.htm" target="TopicContent">beginTouch Method (, Tags, IDictionary(String, Object))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_cancelTouch.htm" target="TopicContent">cancelTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_endTouch.htm" target="TopicContent">endTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_moveTouch.htm" target="TopicContent">moveTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_OnDisable.htm" target="TopicContent">OnDisable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_InputSource_Update.htm" target="TopicContent">Update Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_InputSources_InputSource.htm" target="TopicContent">InputSource Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_InputSources_InputSource_CoordinatesRemapper.htm" target="TopicContent">CoordinatesRemapper Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_MobileInput.htm" target="TopicContent">MobileInput Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MobileInput__ctor.htm" target="TopicContent">MobileInput Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_InputSources_MobileInput.htm" target="TopicContent">MobileInput Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_MobileInput_DisableOnNonTouchPlatforms.htm" target="TopicContent">DisableOnNonTouchPlatforms Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_MobileInput_Tags.htm" target="TopicContent">Tags Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_InputSources_MobileInput.htm" target="TopicContent">MobileInput Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_InputSources_MobileInput_beginTouch.htm" target="TopicContent">beginTouch Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MobileInput_beginTouch.htm" target="TopicContent">beginTouch Method ()</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MobileInput_OnDisable.htm" target="TopicContent">OnDisable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MobileInput_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MobileInput_Update.htm" target="TopicContent">Update Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_InputSources_MobileInput.htm" target="TopicContent">MobileInput Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_MouseInput.htm" target="TopicContent">MouseInput Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MouseInput__ctor.htm" target="TopicContent">MouseInput Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_InputSources_MouseInput.htm" target="TopicContent">MouseInput Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_MouseInput_DisableOnMobilePlatforms.htm" target="TopicContent">DisableOnMobilePlatforms Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_MouseInput_Tags.htm" target="TopicContent">Tags Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_InputSources_MouseInput.htm" target="TopicContent">MouseInput Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload_TouchScript_InputSources_MouseInput_beginTouch.htm" target="TopicContent">beginTouch Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MouseInput_beginTouch.htm" target="TopicContent">beginTouch Method ()</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MouseInput_OnDisable.htm" target="TopicContent">OnDisable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MouseInput_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_MouseInput_Update.htm" target="TopicContent">Update Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_InputSources_MouseInput.htm" target="TopicContent">MouseInput Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_TuioInput.htm" target="TopicContent">TuioInput Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_TuioInput__ctor.htm" target="TopicContent">TuioInput Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_InputSources_TuioInput.htm" target="TopicContent">TuioInput Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_TuioInput_MovementThreshold.htm" target="TopicContent">MovementThreshold Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_TuioInput_Tags.htm" target="TopicContent">Tags Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_TuioInput_TuioPort.htm" target="TopicContent">TuioPort Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_InputSources_TuioInput.htm" target="TopicContent">TuioInput Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_TuioInput_OnDisable.htm" target="TopicContent">OnDisable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_TuioInput_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_TuioInput_Update.htm" target="TopicContent">Update Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_InputSources_TuioInput.htm" target="TopicContent">TuioInput Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_Win7TouchInput.htm" target="TopicContent">Win7TouchInput Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_Win7TouchInput__ctor.htm" target="TopicContent">Win7TouchInput Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_InputSources_Win7TouchInput.htm" target="TopicContent">Win7TouchInput Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_Win7TouchInput_DisableMouseInputInBuilds.htm" target="TopicContent">DisableMouseInputInBuilds Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_Win7TouchInput_Tags.htm" target="TopicContent">Tags Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_InputSources_Win7TouchInput.htm" target="TopicContent">Win7TouchInput Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_Win7TouchInput_OnDisable.htm" target="TopicContent">OnDisable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_Win7TouchInput_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_InputSources_Win7TouchInput.htm" target="TopicContent">Win7TouchInput Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_InputSources_Win8TouchInput.htm" target="TopicContent">Win8TouchInput Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_Win8TouchInput__ctor.htm" target="TopicContent">Win8TouchInput Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_InputSources_Win8TouchInput.htm" target="TopicContent">Win8TouchInput Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_Win8TouchInput_MouseTags.htm" target="TopicContent">MouseTags Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_Win8TouchInput_PenTags.htm" target="TopicContent">PenTags Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_InputSources_Win8TouchInput_TouchTags.htm" target="TopicContent">TouchTags Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_InputSources_Win8TouchInput.htm" target="TopicContent">Win8TouchInput Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_Win8TouchInput_OnDisable.htm" target="TopicContent">OnDisable Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_InputSources_Win8TouchInput_OnEnable.htm" target="TopicContent">OnEnable Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_InputSources_Win8TouchInput.htm" target="TopicContent">Win8TouchInput Properties</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Layers.htm" target="TopicContent">TouchScript.Layers Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Layers_CameraLayer.htm" target="TopicContent">CameraLayer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayer__ctor.htm" target="TopicContent">CameraLayer Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_TouchScript_Layers_CameraLayer.htm" target="TopicContent">CameraLayer Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Layers_CameraLayer.htm" target="TopicContent">CameraLayer Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayer_castRay.htm" target="TopicContent">castRay Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Layers_CameraLayer.htm" target="TopicContent">CameraLayer Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Layers_CameraLayer.htm" target="TopicContent">CameraLayer Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Layers_CameraLayer2D.htm" target="TopicContent">CameraLayer2D Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayer2D__ctor.htm" target="TopicContent">CameraLayer2D Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_TouchScript_Layers_CameraLayer2D.htm" target="TopicContent">CameraLayer2D Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Layers_CameraLayer2D.htm" target="TopicContent">CameraLayer2D Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayer2D_castRay.htm" target="TopicContent">castRay Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Layers_CameraLayer2D.htm" target="TopicContent">CameraLayer2D Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Layers_CameraLayer2D.htm" target="TopicContent">CameraLayer2D Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Layers_CameraLayerBase.htm" target="TopicContent">CameraLayerBase Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayerBase__ctor.htm" target="TopicContent">CameraLayerBase Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_TouchScript_Layers_CameraLayerBase.htm" target="TopicContent">CameraLayerBase Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Layers_CameraLayerBase.htm" target="TopicContent">CameraLayerBase Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayerBase_castRay.htm" target="TopicContent">castRay Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayerBase_Hit.htm" target="TopicContent">Hit Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_CameraLayerBase_setName.htm" target="TopicContent">setName Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Layers_CameraLayerBase.htm" target="TopicContent">CameraLayerBase Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Layers_CameraLayerBase_Camera.htm" target="TopicContent">Camera Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Layers_CameraLayerBase_LayerMask.htm" target="TopicContent">LayerMask Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Layers_CameraLayerBase.htm" target="TopicContent">CameraLayerBase Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Layers_FullscreenLayer.htm" target="TopicContent">FullscreenLayer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_FullscreenLayer__ctor.htm" target="TopicContent">FullscreenLayer Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Fields_T_TouchScript_Layers_FullscreenLayer.htm" target="TopicContent">FullscreenLayer Fields</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Layers_FullscreenLayer.htm" target="TopicContent">FullscreenLayer Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_FullscreenLayer_Hit.htm" target="TopicContent">Hit Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_FullscreenLayer_setName.htm" target="TopicContent">setName Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Layers_FullscreenLayer.htm" target="TopicContent">FullscreenLayer Properties</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Events_T_TouchScript_Layers_FullscreenLayer.htm" target="TopicContent">FullscreenLayer Events</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Layers_TouchLayer.htm" target="TopicContent">TouchLayer Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer__ctor.htm" target="TopicContent">TouchLayer Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Layers_TouchLayer.htm" target="TopicContent">TouchLayer Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Layers_TouchLayer_Name.htm" target="TopicContent">Name Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Layers_TouchLayer.htm" target="TopicContent">TouchLayer Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_Awake.htm" target="TopicContent">Awake Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_beginTouch.htm" target="TopicContent">beginTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_cancelTouch.htm" target="TopicContent">cancelTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_endTouch.htm" target="TopicContent">endTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_Hit.htm" target="TopicContent">Hit Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_moveTouch.htm" target="TopicContent">moveTouch Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_OnDestroy.htm" target="TopicContent">OnDestroy Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayer_setName.htm" target="TopicContent">setName Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Layers_TouchLayer.htm" target="TopicContent">TouchLayer Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Layers_TouchLayer_Camera.htm" target="TopicContent">Camera Property </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Events_T_TouchScript_Layers_TouchLayer.htm" target="TopicContent">TouchLayer Events</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/E_TouchScript_Layers_TouchLayer_TouchBegan.htm" target="TopicContent">TouchBegan Event</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/T_TouchScript_Layers_TouchLayer_LayerHitResult.htm" target="TopicContent">TouchLayer.LayerHitResult Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Layers_TouchLayerEventArgs.htm" target="TopicContent">TouchLayerEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Layers_TouchLayerEventArgs__ctor.htm" target="TopicContent">TouchLayerEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Layers_TouchLayerEventArgs.htm" target="TopicContent">TouchLayerEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Properties_T_TouchScript_Layers_TouchLayerEventArgs.htm" target="TopicContent">TouchLayerEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/P_TouchScript_Layers_TouchLayerEventArgs_Touch.htm" target="TopicContent">Touch Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Utils.htm" target="TopicContent">TouchScript.Utils Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Utils_ClusterUtils.htm" target="TopicContent">ClusterUtils Class</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Utils_ClusterUtils.htm" target="TopicContent">ClusterUtils Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Utils_ClusterUtils_Get2DCenterPosition.htm" target="TopicContent">Get2DCenterPosition Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Utils_ClusterUtils_GetPointsHash.htm" target="TopicContent">GetPointsHash Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Utils_ClusterUtils_GetPrevious2DCenterPosition.htm" target="TopicContent">GetPrevious2DCenterPosition Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Utils_ProjectionUtils.htm" target="TopicContent">ProjectionUtils Class</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods_T_TouchScript_Utils_ProjectionUtils.htm" target="TopicContent">ProjectionUtils Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Utils_ProjectionUtils_CameraToPlaneProjection.htm" target="TopicContent">CameraToPlaneProjection Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N_TouchScript_Utils_Editor_Attributes.htm" target="TopicContent">TouchScript.Utils.Editor.Attributes Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Utils_Editor_Attributes_NullToggleAttribute.htm" target="TopicContent">NullToggleAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Utils_Editor_Attributes_NullToggleAttribute__ctor.htm" target="TopicContent">NullToggleAttribute Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields_T_TouchScript_Utils_Editor_Attributes_NullToggleAttribute.htm" target="TopicContent">NullToggleAttribute Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Utils_Editor_Attributes_NullToggleAttribute_NullFloatValue.htm" target="TopicContent">NullFloatValue Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Utils_Editor_Attributes_NullToggleAttribute_NullIntValue.htm" target="TopicContent">NullIntValue Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F_TouchScript_Utils_Editor_Attributes_NullToggleAttribute_NullObjectValue.htm" target="TopicContent">NullObjectValue Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Utils_Editor_Attributes_NullToggleAttribute.htm" target="TopicContent">NullToggleAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Utils_Editor_Attributes_NullToggleAttribute.htm" target="TopicContent">NullToggleAttribute Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T_TouchScript_Utils_Editor_Attributes_ToggleLeftAttribute.htm" target="TopicContent">ToggleLeftAttribute Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M_TouchScript_Utils_Editor_Attributes_ToggleLeftAttribute__ctor.htm" target="TopicContent">ToggleLeftAttribute Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Methods_T_TouchScript_Utils_Editor_Attributes_ToggleLeftAttribute.htm" target="TopicContent">ToggleLeftAttribute Methods</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/Properties_T_TouchScript_Utils_Editor_Attributes_ToggleLeftAttribute.htm" target="TopicContent">ToggleLeftAttribute Properties</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/R_Project_Documentation.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>
