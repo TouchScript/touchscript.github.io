@@ -1,168 +1,232 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="8800919f-df17-44db-8c23-f2697274b534" Title="TouchScript" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="ab42e1cf-eae9-4ee6-9cad-f5014d933947" Title="TouchScript" Url="html/N_TouchScript.htm">
-      <HelpTOCNode Id="95e9fd95-5ab3-461b-8d52-bbce7d564284" Title="IGestureDelegate Interface" Url="html/T_TouchScript_IGestureDelegate.htm">
-        <HelpTOCNode Id="3e72dcaa-747b-47da-9c7a-458cdb578282" Title="IGestureDelegate Methods" Url="html/Methods_T_TouchScript_IGestureDelegate.htm">
+  <HelpTOCNode Id="b6fd3368-9bdf-4d4a-bb63-f044c5bbb851" Title="TouchScript" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="71c247ce-1c39-435c-a6bf-43ead94b2748" Title="TouchScript" Url="html/N_TouchScript.htm">
+      <HelpTOCNode Id="5d2bf2cb-56d2-4c10-b683-4de0e945e653" Title="DebuggableMonoBehaviour Class" Url="html/T_TouchScript_DebuggableMonoBehaviour.htm">
+        <HelpTOCNode Title="DebuggableMonoBehaviour Constructor " Url="html/M_TouchScript_DebuggableMonoBehaviour__ctor.htm" />
+        <HelpTOCNode Id="b36d4ef8-4a19-4a7e-b1db-42e39399c8bf" Title="DebuggableMonoBehaviour Properties" Url="html/Properties_T_TouchScript_DebuggableMonoBehaviour.htm">
+          <HelpTOCNode Title="DebugMode Property " Url="html/P_TouchScript_DebuggableMonoBehaviour_DebugMode.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="57eecc3d-50e0-48c2-b4fa-8f354482bd54" Title="GestureManager Class" Url="html/T_TouchScript_GestureManager.htm">
+        <HelpTOCNode Title="GestureManager Constructor " Url="html/M_TouchScript_GestureManager__ctor.htm" />
+        <HelpTOCNode Id="682831bd-9c54-48f9-9198-1d1b1c79dc7a" Title="GestureManager Properties" Url="html/Properties_T_TouchScript_GestureManager.htm">
+          <HelpTOCNode Title="Instance Property " Url="html/P_TouchScript_GestureManager_Instance.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="3a0a50d7-7377-4ecc-b8d5-ce136102c4bd" Title="IDebuggable Interface" Url="html/T_TouchScript_IDebuggable.htm">
+        <HelpTOCNode Id="61222593-05bf-440b-af4b-5c989f7b7117" Title="IDebuggable Properties" Url="html/Properties_T_TouchScript_IDebuggable.htm">
+          <HelpTOCNode Title="DebugMode Property " Url="html/P_TouchScript_IDebuggable_DebugMode.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="cdf3a410-6ef8-44c3-b906-532cad411f8c" Title="IGestureDelegate Interface" Url="html/T_TouchScript_IGestureDelegate.htm">
+        <HelpTOCNode Id="cd35874c-ad3f-4b64-b729-4652e77d9e3e" Title="IGestureDelegate Methods" Url="html/Methods_T_TouchScript_IGestureDelegate.htm">
           <HelpTOCNode Title="ShouldBegin Method " Url="html/M_TouchScript_IGestureDelegate_ShouldBegin.htm" />
           <HelpTOCNode Title="ShouldReceiveTouch Method " Url="html/M_TouchScript_IGestureDelegate_ShouldReceiveTouch.htm" />
           <HelpTOCNode Title="ShouldRecognizeSimultaneously Method " Url="html/M_TouchScript_IGestureDelegate_ShouldRecognizeSimultaneously.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Title="IGestureManager Interface" Url="html/T_TouchScript_IGestureManager.htm" />
-      <HelpTOCNode Id="dd75f288-8f89-481e-97e5-a5678aa4d947" Title="ITouch Interface" Url="html/T_TouchScript_ITouch.htm">
-        <HelpTOCNode Id="a4c532b6-23b3-44f4-85b8-3ce02a546c86" Title="ITouch Properties" Url="html/Properties_T_TouchScript_ITouch.htm">
+      <HelpTOCNode Id="2fdd872e-e329-473d-92c9-cf28a12e77e0" Title="IGestureManager Interface" Url="html/T_TouchScript_IGestureManager.htm">
+        <HelpTOCNode Id="b7b65201-50a1-4b41-9a50-2d56bd57ce3e" Title="IGestureManager Properties" Url="html/Properties_T_TouchScript_IGestureManager.htm">
+          <HelpTOCNode Title="GlobalGestureDelegate Property " Url="html/P_TouchScript_IGestureManager_GlobalGestureDelegate.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="e22be394-7164-40ac-8c61-5e4793cf7375" Title="ITouch Interface" Url="html/T_TouchScript_ITouch.htm">
+        <HelpTOCNode Id="ad06fc97-800e-477b-9b22-8ca819848a1b" Title="ITouch Properties" Url="html/Properties_T_TouchScript_ITouch.htm">
           <HelpTOCNode Title="Hit Property " Url="html/P_TouchScript_ITouch_Hit.htm" />
           <HelpTOCNode Title="Id Property " Url="html/P_TouchScript_ITouch_Id.htm" />
           <HelpTOCNode Title="Layer Property " Url="html/P_TouchScript_ITouch_Layer.htm" />
           <HelpTOCNode Title="Position Property " Url="html/P_TouchScript_ITouch_Position.htm" />
           <HelpTOCNode Title="PreviousPosition Property " Url="html/P_TouchScript_ITouch_PreviousPosition.htm" />
+          <HelpTOCNode Title="ProjectionParams Property " Url="html/P_TouchScript_ITouch_ProjectionParams.htm" />
           <HelpTOCNode Title="Properties Property " Url="html/P_TouchScript_ITouch_Properties.htm" />
           <HelpTOCNode Title="Tags Property " Url="html/P_TouchScript_ITouch_Tags.htm" />
           <HelpTOCNode Title="Target Property " Url="html/P_TouchScript_ITouch_Target.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="10d9f726-c2f7-4c36-bdca-8bd702486297" Title="ITouchManager Interface" Url="html/T_TouchScript_ITouchManager.htm">
-        <HelpTOCNode Id="d390c9ed-598f-4336-8018-a7dd1486fa60" Title="ITouchManager Methods" Url="html/Methods_T_TouchScript_ITouchManager.htm">
-          <HelpTOCNode Id="c54e8a8a-7da5-4895-97f3-504305718b1e" Title="AddLayer Method " Url="html/Overload_TouchScript_ITouchManager_AddLayer.htm">
-            <HelpTOCNode Title="AddLayer Method (TouchLayer)" Url="html/M_TouchScript_ITouchManager_AddLayer.htm" />
-            <HelpTOCNode Title="AddLayer Method (TouchLayer, Int32)" Url="html/M_TouchScript_ITouchManager_AddLayer_1.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="ChangeLayerIndex Method " Url="html/M_TouchScript_ITouchManager_ChangeLayerIndex.htm" />
-          <HelpTOCNode Id="fcfdaf43-f60c-444e-9818-8031ef2285fe" Title="GetHitTarget Method " Url="html/Overload_TouchScript_ITouchManager_GetHitTarget.htm">
-            <HelpTOCNode Title="GetHitTarget Method (Vector2)" Url="html/M_TouchScript_ITouchManager_GetHitTarget.htm" />
-            <HelpTOCNode Title="GetHitTarget Method (Vector2, ITouchHit)" Url="html/M_TouchScript_ITouchManager_GetHitTarget_1.htm" />
-            <HelpTOCNode Title="GetHitTarget Method (Vector2, ITouchHit, TouchLayer)" Url="html/M_TouchScript_ITouchManager_GetHitTarget_2.htm" />
-          </HelpTOCNode>
-          <HelpTOCNode Title="RemoveLayer Method " Url="html/M_TouchScript_ITouchManager_RemoveLayer.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="f9552213-584f-49ba-b1c2-22d1694e87ec" Title="ITouchManager Properties" Url="html/Properties_T_TouchScript_ITouchManager.htm">
+      <HelpTOCNode Id="515a8606-231a-4c57-b949-d30226340f67" Title="ITouchManager Interface" Url="html/T_TouchScript_ITouchManager.htm">
+        <HelpTOCNode Id="9d9c63d3-fdd1-44fb-8822-5ae2de568683" Title="ITouchManager Properties" Url="html/Properties_T_TouchScript_ITouchManager.htm">
           <HelpTOCNode Title="ActiveTouches Property " Url="html/P_TouchScript_ITouchManager_ActiveTouches.htm" />
           <HelpTOCNode Title="DisplayDevice Property " Url="html/P_TouchScript_ITouchManager_DisplayDevice.htm" />
           <HelpTOCNode Title="DotsPerCentimeter Property " Url="html/P_TouchScript_ITouchManager_DotsPerCentimeter.htm" />
           <HelpTOCNode Title="DPI Property " Url="html/P_TouchScript_ITouchManager_DPI.htm" />
+          <HelpTOCNode Title="Inputs Property " Url="html/P_TouchScript_ITouchManager_Inputs.htm" />
           <HelpTOCNode Title="Layers Property " Url="html/P_TouchScript_ITouchManager_Layers.htm" />
           <HelpTOCNode Title="NumberOfTouches Property " Url="html/P_TouchScript_ITouchManager_NumberOfTouches.htm" />
           <HelpTOCNode Title="ShouldCreateCameraLayer Property " Url="html/P_TouchScript_ITouchManager_ShouldCreateCameraLayer.htm" />
+          <HelpTOCNode Title="ShouldCreateStandardInput Property " Url="html/P_TouchScript_ITouchManager_ShouldCreateStandardInput.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="055c33c0-c37b-4baa-a452-021bad91e40e" Title="ITouchManager Events" Url="html/Events_T_TouchScript_ITouchManager.htm">
+        <HelpTOCNode Id="dc565656-4bdd-40e9-881e-6b244671f6d3" Title="ITouchManager Methods" Url="html/Methods_T_TouchScript_ITouchManager.htm">
+          <HelpTOCNode Title="AddInput Method " Url="html/M_TouchScript_ITouchManager_AddInput.htm" />
+          <HelpTOCNode Id="8b003684-2965-4442-abd4-39e38acf4792" Title="AddLayer Method " Url="html/Overload_TouchScript_ITouchManager_AddLayer.htm">
+            <HelpTOCNode Title="AddLayer Method (TouchLayer)" Url="html/M_TouchScript_ITouchManager_AddLayer.htm" />
+            <HelpTOCNode Title="AddLayer Method (TouchLayer, Int32, Boolean)" Url="html/M_TouchScript_ITouchManager_AddLayer_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="6e86823f-24ff-461c-bba7-9bcbadcfcc0b" Title="CancelTouch Method " Url="html/Overload_TouchScript_ITouchManager_CancelTouch.htm">
+            <HelpTOCNode Title="CancelTouch Method (Int32)" Url="html/M_TouchScript_ITouchManager_CancelTouch.htm" />
+            <HelpTOCNode Title="CancelTouch Method (Int32, Boolean)" Url="html/M_TouchScript_ITouchManager_CancelTouch_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ChangeLayerIndex Method " Url="html/M_TouchScript_ITouchManager_ChangeLayerIndex.htm" />
+          <HelpTOCNode Id="16036c14-c7c5-4f4c-bb3a-b2ed972d63dd" Title="GetHitTarget Method " Url="html/Overload_TouchScript_ITouchManager_GetHitTarget.htm">
+            <HelpTOCNode Title="GetHitTarget Method (Vector2)" Url="html/M_TouchScript_ITouchManager_GetHitTarget.htm" />
+            <HelpTOCNode Title="GetHitTarget Method (Vector2, TouchHit)" Url="html/M_TouchScript_ITouchManager_GetHitTarget_1.htm" />
+            <HelpTOCNode Title="GetHitTarget Method (Vector2, TouchHit, TouchLayer)" Url="html/M_TouchScript_ITouchManager_GetHitTarget_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="RemoveInput Method " Url="html/M_TouchScript_ITouchManager_RemoveInput.htm" />
+          <HelpTOCNode Title="RemoveLayer Method " Url="html/M_TouchScript_ITouchManager_RemoveLayer.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="04c01ca8-280d-42bb-9b2d-f70c95379fb5" Title="ITouchManager Events" Url="html/Events_T_TouchScript_ITouchManager.htm">
           <HelpTOCNode Title="FrameFinished Event" Url="html/E_TouchScript_ITouchManager_FrameFinished.htm" />
           <HelpTOCNode Title="FrameStarted Event" Url="html/E_TouchScript_ITouchManager_FrameStarted.htm" />
-          <HelpTOCNode Title="TouchesBegan Event" Url="html/E_TouchScript_ITouchManager_TouchesBegan.htm" />
-          <HelpTOCNode Title="TouchesCancelled Event" Url="html/E_TouchScript_ITouchManager_TouchesCancelled.htm" />
-          <HelpTOCNode Title="TouchesEnded Event" Url="html/E_TouchScript_ITouchManager_TouchesEnded.htm" />
-          <HelpTOCNode Title="TouchesMoved Event" Url="html/E_TouchScript_ITouchManager_TouchesMoved.htm" />
+          <HelpTOCNode Title="TouchBegan Event" Url="html/E_TouchScript_ITouchManager_TouchBegan.htm" />
+          <HelpTOCNode Title="TouchCancelled Event" Url="html/E_TouchScript_ITouchManager_TouchCancelled.htm" />
+          <HelpTOCNode Title="TouchEnded Event" Url="html/E_TouchScript_ITouchManager_TouchEnded.htm" />
+          <HelpTOCNode Title="TouchMoved Event" Url="html/E_TouchScript_ITouchManager_TouchMoved.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a973d41c-9911-41b8-8fe0-5803759cc06b" Title="Tags Class" Url="html/T_TouchScript_Tags.htm">
-        <HelpTOCNode Id="b2c2da46-6217-4ef5-9c4c-a8fbd18aa826" Title="Tags Constructor " Url="html/Overload_TouchScript_Tags__ctor.htm">
+      <HelpTOCNode Id="2014ffa9-620a-409a-a508-7a802660725b" Title="Tags Class" Url="html/T_TouchScript_Tags.htm">
+        <HelpTOCNode Id="ca1db5ef-0a3c-49f8-8c2b-3b06675f8f32" Title="Tags Constructor " Url="html/Overload_TouchScript_Tags__ctor.htm">
           <HelpTOCNode Title="Tags Constructor " Url="html/M_TouchScript_Tags__ctor.htm" />
           <HelpTOCNode Title="Tags Constructor (IEnumerable(String))" Url="html/M_TouchScript_Tags__ctor_1.htm" />
           <HelpTOCNode Title="Tags Constructor (String)" Url="html/M_TouchScript_Tags__ctor_2.htm" />
-          <HelpTOCNode Title="Tags Constructor (Tags)" Url="html/M_TouchScript_Tags__ctor_3.htm" />
+          <HelpTOCNode Title="Tags Constructor (String[])" Url="html/M_TouchScript_Tags__ctor_3.htm" />
+          <HelpTOCNode Title="Tags Constructor (Tags)" Url="html/M_TouchScript_Tags__ctor_4.htm" />
+          <HelpTOCNode Title="Tags Constructor (Tags, IEnumerable(String))" Url="html/M_TouchScript_Tags__ctor_5.htm" />
+          <HelpTOCNode Title="Tags Constructor (Tags, String)" Url="html/M_TouchScript_Tags__ctor_6.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="79e84d1c-a8ce-495e-a7bf-90e5ef8c6598" Title="Tags Fields" Url="html/Fields_T_TouchScript_Tags.htm">
+        <HelpTOCNode Id="1199fa26-f275-421f-b9fa-80e0bf6e3f78" Title="Tags Methods" Url="html/Methods_T_TouchScript_Tags.htm">
+          <HelpTOCNode Title="HasTag Method " Url="html/M_TouchScript_Tags_HasTag.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_TouchScript_Tags_ToString.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e434cd74-a30a-4169-9171-94810d4349e4" Title="Tags Fields" Url="html/Fields_T_TouchScript_Tags.htm">
+          <HelpTOCNode Title="EMPTY Field" Url="html/F_TouchScript_Tags_EMPTY.htm" />
           <HelpTOCNode Title="INPUT_MOUSE Field" Url="html/F_TouchScript_Tags_INPUT_MOUSE.htm" />
           <HelpTOCNode Title="INPUT_OBJECT Field" Url="html/F_TouchScript_Tags_INPUT_OBJECT.htm" />
           <HelpTOCNode Title="INPUT_PEN Field" Url="html/F_TouchScript_Tags_INPUT_PEN.htm" />
           <HelpTOCNode Title="INPUT_TOUCH Field" Url="html/F_TouchScript_Tags_INPUT_TOUCH.htm" />
-          <HelpTOCNode Title="SOURCE_TUIO Field" Url="html/F_TouchScript_Tags_SOURCE_TUIO.htm" />
-          <HelpTOCNode Title="SOURCE_WINDOWS Field" Url="html/F_TouchScript_Tags_SOURCE_WINDOWS.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="0f94a8de-bd85-42fe-ab67-a9060d5645e1" Title="Tags Methods" Url="html/Methods_T_TouchScript_Tags.htm">
-          <HelpTOCNode Title="AddTag Method " Url="html/M_TouchScript_Tags_AddTag.htm" />
-          <HelpTOCNode Title="HasTag Method " Url="html/M_TouchScript_Tags_HasTag.htm" />
-          <HelpTOCNode Title="RemoveTag Method " Url="html/M_TouchScript_Tags_RemoveTag.htm" />
-          <HelpTOCNode Title="ToString Method " Url="html/M_TouchScript_Tags_ToString.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="d096e0ad-f176-47d7-a12a-71041d7afeaa" Title="Tags Properties" Url="html/Properties_T_TouchScript_Tags.htm">
-          <HelpTOCNode Title="Count Property " Url="html/P_TouchScript_Tags_Count.htm" />
-          <HelpTOCNode Title="TagList Property " Url="html/P_TouchScript_Tags_TagList.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b09a7d1f-bbe1-42b9-b455-9e765aff4d86" Title="TouchEventArgs Class" Url="html/T_TouchScript_TouchEventArgs.htm">
-        <HelpTOCNode Title="TouchEventArgs Constructor " Url="html/M_TouchScript_TouchEventArgs__ctor.htm" />
-        <HelpTOCNode Id="37a73385-29af-4404-a067-83c978c8fa78" Title="TouchEventArgs Properties" Url="html/Properties_T_TouchScript_TouchEventArgs.htm">
-          <HelpTOCNode Title="Touches Property " Url="html/P_TouchScript_TouchEventArgs_Touches.htm" />
+      <HelpTOCNode Id="9491ccfc-237f-4aef-a31c-356424b0a28c" Title="TouchEventArgs Class" Url="html/T_TouchScript_TouchEventArgs.htm">
+        <HelpTOCNode Id="402fb839-68df-45cf-b8a0-1eacf559671b" Title="TouchEventArgs Properties" Url="html/Properties_T_TouchScript_TouchEventArgs.htm">
+          <HelpTOCNode Title="Touch Property " Url="html/P_TouchScript_TouchEventArgs_Touch.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f85224f3-215a-4e74-8ac4-3e790fd6ad0c" Title="TouchEventArgs Methods" Url="html/Methods_T_TouchScript_TouchEventArgs.htm">
+          <HelpTOCNode Title="GetCachedEventArgs Method " Url="html/M_TouchScript_TouchEventArgs_GetCachedEventArgs.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="505c4cf0-8900-4e27-8e47-0887c4746763" Title="TouchManager Class" Url="html/T_TouchScript_TouchManager.htm">
+      <HelpTOCNode Id="872e6dd1-b5d7-4976-9355-88c1c48916e9" Title="TouchManager Class" Url="html/T_TouchScript_TouchManager.htm">
         <HelpTOCNode Title="TouchManager Constructor " Url="html/M_TouchScript_TouchManager__ctor.htm" />
-        <HelpTOCNode Id="6284e54b-3d8e-4ade-8ee6-37278c520f5d" Title="TouchManager Fields" Url="html/Fields_T_TouchScript_TouchManager.htm">
-          <HelpTOCNode Title="CM_TO_INCH Field" Url="html/F_TouchScript_TouchManager_CM_TO_INCH.htm" />
-          <HelpTOCNode Title="INCH_TO_CM Field" Url="html/F_TouchScript_TouchManager_INCH_TO_CM.htm" />
-          <HelpTOCNode Title="INVALID_POSITION Field" Url="html/F_TouchScript_TouchManager_INVALID_POSITION.htm" />
-          <HelpTOCNode Title="VERSION Field" Url="html/F_TouchScript_TouchManager_VERSION.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="b17ba51d-9b92-4f64-8a21-903eb43b43d1" Title="TouchManager Methods" Url="html/Methods_T_TouchScript_TouchManager.htm">
-          <HelpTOCNode Title="IsInvalidPosition Method " Url="html/M_TouchScript_TouchManager_IsInvalidPosition.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="153a69db-c0da-499f-a158-9c49a85a0fda" Title="TouchManager Properties" Url="html/Properties_T_TouchScript_TouchManager.htm">
+        <HelpTOCNode Id="86765b75-4863-48ac-89a2-ab03ed4bcb22" Title="TouchManager Properties" Url="html/Properties_T_TouchScript_TouchManager.htm">
           <HelpTOCNode Title="DisplayDevice Property " Url="html/P_TouchScript_TouchManager_DisplayDevice.htm" />
           <HelpTOCNode Title="Instance Property " Url="html/P_TouchScript_TouchManager_Instance.htm" />
           <HelpTOCNode Title="SendMessageEvents Property " Url="html/P_TouchScript_TouchManager_SendMessageEvents.htm" />
           <HelpTOCNode Title="SendMessageTarget Property " Url="html/P_TouchScript_TouchManager_SendMessageTarget.htm" />
           <HelpTOCNode Title="ShouldCreateCameraLayer Property " Url="html/P_TouchScript_TouchManager_ShouldCreateCameraLayer.htm" />
+          <HelpTOCNode Title="ShouldCreateStandardInput Property " Url="html/P_TouchScript_TouchManager_ShouldCreateStandardInput.htm" />
           <HelpTOCNode Title="UseSendMessage Property " Url="html/P_TouchScript_TouchManager_UseSendMessage.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9fdc2c96-8d17-42b3-be5d-dcece331c63b" Title="TouchManager Methods" Url="html/Methods_T_TouchScript_TouchManager.htm">
+          <HelpTOCNode Title="IsInvalidPosition Method " Url="html/M_TouchScript_TouchManager_IsInvalidPosition.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="17f0f006-0011-451e-9c08-845f7e8e2bef" Title="TouchManager Fields" Url="html/Fields_T_TouchScript_TouchManager.htm">
+          <HelpTOCNode Title="CM_TO_INCH Field" Url="html/F_TouchScript_TouchManager_CM_TO_INCH.htm" />
+          <HelpTOCNode Title="INCH_TO_CM Field" Url="html/F_TouchScript_TouchManager_INCH_TO_CM.htm" />
+          <HelpTOCNode Title="INVALID_POSITION Field" Url="html/F_TouchScript_TouchManager_INVALID_POSITION.htm" />
+          <HelpTOCNode Title="VERSION Field" Url="html/F_TouchScript_TouchManager_VERSION.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="TouchManager.MessageName Enumeration" Url="html/T_TouchScript_TouchManager_MessageName.htm" />
       <HelpTOCNode Title="TouchManager.MessageType Enumeration" Url="html/T_TouchScript_TouchManager_MessageType.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="4aac3e77-998d-4d94-b175-5c34747cb16a" Title="TouchScript.Behaviors" Url="html/N_TouchScript_Behaviors.htm">
-      <HelpTOCNode Id="60fd02fe-45dc-4539-805f-8b9fe8ed1256" Title="FullscreenTarget Class" Url="html/T_TouchScript_Behaviors_FullscreenTarget.htm">
-        <HelpTOCNode Title="FullscreenTarget Constructor " Url="html/M_TouchScript_Behaviors_FullscreenTarget__ctor.htm" />
-        <HelpTOCNode Id="79717665-80eb-45a5-8c6f-8e744e2c2683" Title="FullscreenTarget Fields" Url="html/Fields_T_TouchScript_Behaviors_FullscreenTarget.htm">
-          <HelpTOCNode Title="Type Field" Url="html/F_TouchScript_Behaviors_FullscreenTarget_Type.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="FullscreenTarget.TargetType Enumeration" Url="html/T_TouchScript_Behaviors_FullscreenTarget_TargetType.htm" />
-      <HelpTOCNode Id="1df594d8-7610-45f5-92d9-298c4416a69c" Title="TouchScriptInputModule Class" Url="html/T_TouchScript_Behaviors_TouchScriptInputModule.htm">
+    <HelpTOCNode Id="52213797-22c0-4af6-b026-f72f2f90993f" Title="TouchScript.Behaviors" Url="html/N_TouchScript_Behaviors.htm">
+      <HelpTOCNode Id="9670be61-af87-463c-a58c-f70b49f6d15c" Title="TouchScriptInputModule Class" Url="html/T_TouchScript_Behaviors_TouchScriptInputModule.htm">
         <HelpTOCNode Title="TouchScriptInputModule Constructor " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule__ctor.htm" />
-        <HelpTOCNode Id="b4fbab62-dba2-4ec4-b179-806d3028ae13" Title="TouchScriptInputModule Fields" Url="html/Fields_T_TouchScript_Behaviors_TouchScriptInputModule.htm">
-          <HelpTOCNode Title="pointerEvents Field" Url="html/F_TouchScript_Behaviors_TouchScriptInputModule_pointerEvents.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="f46aeb8a-a040-4b61-950a-ee821bd6f9d3" Title="TouchScriptInputModule Methods" Url="html/Methods_T_TouchScript_Behaviors_TouchScriptInputModule.htm">
-          <HelpTOCNode Title="ActivateModule Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_ActivateModule.htm" />
-          <HelpTOCNode Title="clearSelection Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_clearSelection.htm" />
-          <HelpTOCNode Title="DeactivateModule Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_DeactivateModule.htm" />
-          <HelpTOCNode Title="deselectIfSelectionChanged Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_deselectIfSelectionChanged.htm" />
-          <HelpTOCNode Title="getLastPointerEventData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_getLastPointerEventData.htm" />
-          <HelpTOCNode Title="getPointerData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_getPointerData.htm" />
-          <HelpTOCNode Title="IsModuleSupported Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_IsModuleSupported.htm" />
-          <HelpTOCNode Title="IsPointerOverGameObject Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_IsPointerOverGameObject.htm" />
-          <HelpTOCNode Title="Process Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_Process.htm" />
-          <HelpTOCNode Title="processBegan Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_processBegan.htm" />
-          <HelpTOCNode Title="raycastPointer Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_raycastPointer.htm" />
-          <HelpTOCNode Title="removePointerData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_removePointerData.htm" />
-          <HelpTOCNode Title="ShouldActivateModule Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_ShouldActivateModule.htm" />
-          <HelpTOCNode Title="ToString Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_ToString.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="fb6287e9-5b42-455c-836d-e4e90574d73f" Title="TouchScriptInputModule Properties" Url="html/Properties_T_TouchScript_Behaviors_TouchScriptInputModule.htm">
+        <HelpTOCNode Id="52711f53-13a8-4d35-9d68-ac4f54957f95" Title="TouchScriptInputModule Properties" Url="html/Properties_T_TouchScript_Behaviors_TouchScriptInputModule.htm">
           <HelpTOCNode Title="CancelButton Property " Url="html/P_TouchScript_Behaviors_TouchScriptInputModule_CancelButton.htm" />
           <HelpTOCNode Title="HorizontalAxis Property " Url="html/P_TouchScript_Behaviors_TouchScriptInputModule_HorizontalAxis.htm" />
           <HelpTOCNode Title="SubmitButton Property " Url="html/P_TouchScript_Behaviors_TouchScriptInputModule_SubmitButton.htm" />
           <HelpTOCNode Title="VerticalAxis Property " Url="html/P_TouchScript_Behaviors_TouchScriptInputModule_VerticalAxis.htm" />
         </HelpTOCNode>
+        <HelpTOCNode Id="a82e0100-dc9d-4baf-8bff-78b6f4b5a5d8" Title="TouchScriptInputModule Methods" Url="html/Methods_T_TouchScript_Behaviors_TouchScriptInputModule.htm">
+          <HelpTOCNode Title="ActivateModule Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_ActivateModule.htm" />
+          <HelpTOCNode Title="clearSelection Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_clearSelection.htm" />
+          <HelpTOCNode Title="DeactivateModule Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_DeactivateModule.htm" />
+          <HelpTOCNode Title="deselectIfSelectionChanged Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_deselectIfSelectionChanged.htm" />
+          <HelpTOCNode Title="endPointer Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_endPointer.htm" />
+          <HelpTOCNode Title="getLastPointerEventData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_getLastPointerEventData.htm" />
+          <HelpTOCNode Title="getPointerData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_getPointerData.htm" />
+          <HelpTOCNode Title="initPointerData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_initPointerData.htm" />
+          <HelpTOCNode Title="injectPointer Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_injectPointer.htm" />
+          <HelpTOCNode Title="IsModuleSupported Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_IsModuleSupported.htm" />
+          <HelpTOCNode Title="IsPointerOverGameObject Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_IsPointerOverGameObject.htm" />
+          <HelpTOCNode Title="movePointer Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_movePointer.htm" />
+          <HelpTOCNode Title="Process Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_Process.htm" />
+          <HelpTOCNode Title="raycastPointer Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_raycastPointer.htm" />
+          <HelpTOCNode Title="removePointerData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_removePointerData.htm" />
+          <HelpTOCNode Title="ShouldActivateModule Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_ShouldActivateModule.htm" />
+          <HelpTOCNode Title="ToString Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_ToString.htm" />
+          <HelpTOCNode Title="updatePointerData Method " Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_updatePointerData.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0cab1ad6-89df-44b1-b025-5441efcbffee" Title="TouchScriptInputModule Fields" Url="html/Fields_T_TouchScript_Behaviors_TouchScriptInputModule.htm">
+          <HelpTOCNode Title="pointerEvents Field" Url="html/F_TouchScript_Behaviors_TouchScriptInputModule_pointerEvents.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e3d9f857-9992-42b2-a9ea-216aa6ce4fd0" Title="Transformer2D Class" Url="html/T_TouchScript_Behaviors_Transformer2D.htm">
-        <HelpTOCNode Title="Transformer2D Constructor " Url="html/M_TouchScript_Behaviors_Transformer2D__ctor.htm" />
-        <HelpTOCNode Id="529619a2-8d4f-45de-89d1-cb6cf719bbac" Title="Transformer2D Fields" Url="html/Fields_T_TouchScript_Behaviors_Transformer2D.htm">
-          <HelpTOCNode Title="AllowChangingFromOutside Field" Url="html/F_TouchScript_Behaviors_Transformer2D_AllowChangingFromOutside.htm" />
-          <HelpTOCNode Title="PanMultiplier Field" Url="html/F_TouchScript_Behaviors_Transformer2D_PanMultiplier.htm" />
-          <HelpTOCNode Title="Speed Field" Url="html/F_TouchScript_Behaviors_Transformer2D_Speed.htm" />
+      <HelpTOCNode Id="013bb2b4-caf6-41e4-9c9a-9f2e32eeb1ec" Title="Transformer Class" Url="html/T_TouchScript_Behaviors_Transformer.htm">
+        <HelpTOCNode Title="Transformer Constructor " Url="html/M_TouchScript_Behaviors_Transformer__ctor.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b458bb9d-18ea-4b17-b700-1265a8144b81" Title="TouchScript.Behaviors.Visualizer" Url="html/N_TouchScript_Behaviors_Visualizer.htm">
+      <HelpTOCNode Id="93463393-2872-4a06-bf98-8217d6fe8f00" Title="TouchProxy Class" Url="html/T_TouchScript_Behaviors_Visualizer_TouchProxy.htm">
+        <HelpTOCNode Title="TouchProxy Constructor " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxy__ctor.htm" />
+        <HelpTOCNode Id="9786f869-f14a-4285-84cd-3ce9ce38b708" Title="TouchProxy Methods" Url="html/Methods_T_TouchScript_Behaviors_Visualizer_TouchProxy.htm">
+          <HelpTOCNode Title="updateOnce Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxy_updateOnce.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9d055243-8947-4870-bdc6-78c7972c2859" Title="TouchProxy Fields" Url="html/Fields_T_TouchScript_Behaviors_Visualizer_TouchProxy.htm">
+          <HelpTOCNode Title="Text Field" Url="html/F_TouchScript_Behaviors_Visualizer_TouchProxy_Text.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ec55ba7d-bc11-456a-adf8-4df086470b61" Title="TouchProxyBase Class" Url="html/T_TouchScript_Behaviors_Visualizer_TouchProxyBase.htm">
+        <HelpTOCNode Title="TouchProxyBase Constructor " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase__ctor.htm" />
+        <HelpTOCNode Id="ae2e5097-1e86-4c0f-8f1e-12018b97b389" Title="TouchProxyBase Properties" Url="html/Properties_T_TouchScript_Behaviors_Visualizer_TouchProxyBase.htm">
+          <HelpTOCNode Title="ShowTags Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchProxyBase_ShowTags.htm" />
+          <HelpTOCNode Title="ShowTouchId Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchProxyBase_ShowTouchId.htm" />
+          <HelpTOCNode Title="Size Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchProxyBase_Size.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8104e707-f1c2-4178-92d4-3251d85f3e24" Title="TouchProxyBase Methods" Url="html/Methods_T_TouchScript_Behaviors_Visualizer_TouchProxyBase.htm">
+          <HelpTOCNode Title="M:TouchScript.Behaviors.Visualizer.TouchProxyBase.hide" Url="" />
+          <HelpTOCNode Title="Hide Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_Hide.htm" />
+          <HelpTOCNode Title="Init Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_Init.htm" />
+          <HelpTOCNode Title="show Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_show.htm" />
+          <HelpTOCNode Title="update Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_update.htm" />
+          <HelpTOCNode Title="updateOnce Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_updateOnce.htm" />
+          <HelpTOCNode Title="UpdateTouch Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_UpdateTouch.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fe9a848e-5326-4d49-9241-8d26558b9799" Title="TouchProxyBase Fields" Url="html/Fields_T_TouchScript_Behaviors_Visualizer_TouchProxyBase.htm">
+          <HelpTOCNode Title="rect Field" Url="html/F_TouchScript_Behaviors_Visualizer_TouchProxyBase_rect.htm" />
+          <HelpTOCNode Title="size Field" Url="html/F_TouchScript_Behaviors_Visualizer_TouchProxyBase_size.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="54770880-a3c6-4a55-9741-dadfd22825d8" Title="TouchVisualizer Class" Url="html/T_TouchScript_Behaviors_Visualizer_TouchVisualizer.htm">
+        <HelpTOCNode Title="TouchVisualizer Constructor " Url="html/M_TouchScript_Behaviors_Visualizer_TouchVisualizer__ctor.htm" />
+        <HelpTOCNode Id="8259121f-2fb8-4265-bfd0-43d15a70819e" Title="TouchVisualizer Properties" Url="html/Properties_T_TouchScript_Behaviors_Visualizer_TouchVisualizer.htm">
+          <HelpTOCNode Title="ShowTags Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchVisualizer_ShowTags.htm" />
+          <HelpTOCNode Title="ShowTouchId Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchVisualizer_ShowTouchId.htm" />
+          <HelpTOCNode Title="TouchProxy Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchVisualizer_TouchProxy.htm" />
+          <HelpTOCNode Title="TouchSize Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchVisualizer_TouchSize.htm" />
+          <HelpTOCNode Title="UseDPI Property " Url="html/P_TouchScript_Behaviors_Visualizer_TouchVisualizer_UseDPI.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="22c82cf3-9f79-49c3-95ad-41613f870556" Title="TouchScript.Clusters" Url="html/N_TouchScript_Clusters.htm">
-      <HelpTOCNode Id="6c0ccf27-292e-417e-be36-197004a55bb2" Title="Clusters Class" Url="html/T_TouchScript_Clusters_Clusters.htm">
+    <HelpTOCNode Id="ecf7459d-006a-4a6c-9531-4daefefac3f4" Title="TouchScript.Clusters" Url="html/N_TouchScript_Clusters.htm">
+      <HelpTOCNode Id="07ab2760-9679-44f3-9ce2-71aac8669d89" Title="Clusters Class" Url="html/T_TouchScript_Clusters_Clusters.htm">
         <HelpTOCNode Title="Clusters Constructor " Url="html/M_TouchScript_Clusters_Clusters__ctor.htm" />
-        <HelpTOCNode Id="3dc4b67b-d1c9-4dab-9232-cb9b0ebdd9fc" Title="Clusters Fields" Url="html/Fields_T_TouchScript_Clusters_Clusters.htm">
-          <HelpTOCNode Title="CLUSTER1 Field" Url="html/F_TouchScript_Clusters_Clusters_CLUSTER1.htm" />
-          <HelpTOCNode Title="CLUSTER2 Field" Url="html/F_TouchScript_Clusters_Clusters_CLUSTER2.htm" />
+        <HelpTOCNode Id="80f04951-f81b-4587-b85b-9153da262fd2" Title="Clusters Properties" Url="html/Properties_T_TouchScript_Clusters_Clusters.htm">
+          <HelpTOCNode Title="HasClusters Property " Url="html/P_TouchScript_Clusters_Clusters_HasClusters.htm" />
+          <HelpTOCNode Title="MinPointsDistance Property " Url="html/P_TouchScript_Clusters_Clusters_MinPointsDistance.htm" />
+          <HelpTOCNode Title="PointsCount Property " Url="html/P_TouchScript_Clusters_Clusters_PointsCount.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2ddf35e3-dcb3-43b4-bcaa-813f911b8a58" Title="Clusters Methods" Url="html/Methods_T_TouchScript_Clusters_Clusters.htm">
+        <HelpTOCNode Id="c4f24726-8365-43ab-9b47-4872001c1f56" Title="Clusters Methods" Url="html/Methods_T_TouchScript_Clusters_Clusters.htm">
           <HelpTOCNode Title="AddPoint Method " Url="html/M_TouchScript_Clusters_Clusters_AddPoint.htm" />
           <HelpTOCNode Title="AddPoints Method " Url="html/M_TouchScript_Clusters_Clusters_AddPoints.htm" />
           <HelpTOCNode Title="GetCenterPosition Method " Url="html/M_TouchScript_Clusters_Clusters_GetCenterPosition.htm" />
@@ -172,70 +236,44 @@
           <HelpTOCNode Title="RemovePoint Method " Url="html/M_TouchScript_Clusters_Clusters_RemovePoint.htm" />
           <HelpTOCNode Title="RemovePoints Method " Url="html/M_TouchScript_Clusters_Clusters_RemovePoints.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="936d3f46-4c38-4b88-ab1d-be5e7bbee793" Title="Clusters Properties" Url="html/Properties_T_TouchScript_Clusters_Clusters.htm">
-          <HelpTOCNode Title="HasClusters Property " Url="html/P_TouchScript_Clusters_Clusters_HasClusters.htm" />
-          <HelpTOCNode Title="MinPointsDistance Property " Url="html/P_TouchScript_Clusters_Clusters_MinPointsDistance.htm" />
-          <HelpTOCNode Title="PointsCount Property " Url="html/P_TouchScript_Clusters_Clusters_PointsCount.htm" />
+        <HelpTOCNode Id="6cf29fd1-d88a-4203-8920-ec17c32e5a1e" Title="Clusters Fields" Url="html/Fields_T_TouchScript_Clusters_Clusters.htm">
+          <HelpTOCNode Title="CLUSTER1 Field" Url="html/F_TouchScript_Clusters_Clusters_CLUSTER1.htm" />
+          <HelpTOCNode Title="CLUSTER2 Field" Url="html/F_TouchScript_Clusters_Clusters_CLUSTER2.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="e3c95569-f2e1-4f89-bf99-4d0ad1ce9a89" Title="TouchScript.Debugging" Url="html/N_TouchScript_Debugging.htm">
-      <HelpTOCNode Id="bcd3d1f1-e053-4863-8c1c-f9687a6a7715" Title="TouchDebugger Class" Url="html/T_TouchScript_Debugging_TouchDebugger.htm">
-        <HelpTOCNode Title="TouchDebugger Constructor " Url="html/M_TouchScript_Debugging_TouchDebugger__ctor.htm" />
-        <HelpTOCNode Id="ee716555-87f0-4daf-9cc1-833e288297fb" Title="TouchDebugger Properties" Url="html/Properties_T_TouchScript_Debugging_TouchDebugger.htm">
-          <HelpTOCNode Title="FontColor Property " Url="html/P_TouchScript_Debugging_TouchDebugger_FontColor.htm" />
-          <HelpTOCNode Title="ShowTags Property " Url="html/P_TouchScript_Debugging_TouchDebugger_ShowTags.htm" />
-          <HelpTOCNode Title="ShowTouchId Property " Url="html/P_TouchScript_Debugging_TouchDebugger_ShowTouchId.htm" />
-          <HelpTOCNode Title="TouchSize Property " Url="html/P_TouchScript_Debugging_TouchDebugger_TouchSize.htm" />
-          <HelpTOCNode Title="TouchTexture Property " Url="html/P_TouchScript_Debugging_TouchDebugger_TouchTexture.htm" />
-          <HelpTOCNode Title="UseDPI Property " Url="html/P_TouchScript_Debugging_TouchDebugger_UseDPI.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="af52c150-8aa9-4d03-927d-0100329736fb" Title="TouchScript.Devices.Display" Url="html/N_TouchScript_Devices_Display.htm">
-      <HelpTOCNode Id="5c6e0d4a-c260-4168-aeda-40c9a30c507c" Title="DisplayDevice Class" Url="html/T_TouchScript_Devices_Display_DisplayDevice.htm">
+    <HelpTOCNode Id="7b33fc2a-ea4d-471a-9f2c-e4a3994e32c4" Title="TouchScript.Devices.Display" Url="html/N_TouchScript_Devices_Display.htm">
+      <HelpTOCNode Id="cdf1e90f-1f50-40e3-b085-493cc77333c8" Title="DisplayDevice Class" Url="html/T_TouchScript_Devices_Display_DisplayDevice.htm">
         <HelpTOCNode Title="DisplayDevice Constructor " Url="html/M_TouchScript_Devices_Display_DisplayDevice__ctor.htm" />
-        <HelpTOCNode Id="7bfb3ec8-251a-4798-9838-4eaf5866b41c" Title="DisplayDevice Fields" Url="html/Fields_T_TouchScript_Devices_Display_DisplayDevice.htm">
-          <HelpTOCNode Title="dpi Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_dpi.htm" />
-          <HelpTOCNode Title="name Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_name.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="d0c83b19-49b3-4443-9e8b-5daa4e6e34b5" Title="DisplayDevice Methods" Url="html/Methods_T_TouchScript_Devices_Display_DisplayDevice.htm">
-          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Devices_Display_DisplayDevice_OnEnable.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="e4811737-b195-4f89-9b6f-cffd55deab97" Title="DisplayDevice Properties" Url="html/Properties_T_TouchScript_Devices_Display_DisplayDevice.htm">
+        <HelpTOCNode Id="f253111a-a23d-4a40-acd5-5fdd8b13d55e" Title="DisplayDevice Properties" Url="html/Properties_T_TouchScript_Devices_Display_DisplayDevice.htm">
           <HelpTOCNode Title="DPI Property " Url="html/P_TouchScript_Devices_Display_DisplayDevice_DPI.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_TouchScript_Devices_Display_DisplayDevice_Name.htm" />
         </HelpTOCNode>
+        <HelpTOCNode Id="9e367397-4b94-485b-8843-24ff20fb89be" Title="DisplayDevice Methods" Url="html/Methods_T_TouchScript_Devices_Display_DisplayDevice.htm">
+          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Devices_Display_DisplayDevice_OnEnable.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dd07bd2b-7adc-4813-a905-82d9b21e4d08" Title="DisplayDevice Fields" Url="html/Fields_T_TouchScript_Devices_Display_DisplayDevice.htm">
+          <HelpTOCNode Title="dpi Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_dpi.htm" />
+          <HelpTOCNode Title="name Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_name.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="fa99dd20-5356-4f3f-a81d-d4ec298d5854" Title="GenericDisplayDevice Class" Url="html/T_TouchScript_Devices_Display_GenericDisplayDevice.htm">
+      <HelpTOCNode Id="3cae4d11-c140-4fd4-bcff-7792346312e3" Title="GenericDisplayDevice Class" Url="html/T_TouchScript_Devices_Display_GenericDisplayDevice.htm">
         <HelpTOCNode Title="GenericDisplayDevice Constructor " Url="html/M_TouchScript_Devices_Display_GenericDisplayDevice__ctor.htm" />
-        <HelpTOCNode Id="11fbbaa7-b925-4073-b577-b43854083dff" Title="GenericDisplayDevice Methods" Url="html/Methods_T_TouchScript_Devices_Display_GenericDisplayDevice.htm">
+        <HelpTOCNode Id="593a6780-69fc-43b7-88b6-c0b9c05d1049" Title="GenericDisplayDevice Methods" Url="html/Methods_T_TouchScript_Devices_Display_GenericDisplayDevice.htm">
           <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Devices_Display_GenericDisplayDevice_OnEnable.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="38c7027d-6cdf-4335-9732-1aeb05add776" Title="IDisplayDevice Interface" Url="html/T_TouchScript_Devices_Display_IDisplayDevice.htm">
-        <HelpTOCNode Id="1e71d301-bffa-4b44-ad55-16a4c74fa5cf" Title="IDisplayDevice Properties" Url="html/Properties_T_TouchScript_Devices_Display_IDisplayDevice.htm">
+      <HelpTOCNode Id="32703c41-f705-4b9c-8838-2ff16ce26ee0" Title="IDisplayDevice Interface" Url="html/T_TouchScript_Devices_Display_IDisplayDevice.htm">
+        <HelpTOCNode Id="8beace25-fa3c-445e-8c56-8ded2b672a3f" Title="IDisplayDevice Properties" Url="html/Properties_T_TouchScript_Devices_Display_IDisplayDevice.htm">
           <HelpTOCNode Title="DPI Property " Url="html/P_TouchScript_Devices_Display_IDisplayDevice_DPI.htm" />
           <HelpTOCNode Title="Name Property " Url="html/P_TouchScript_Devices_Display_IDisplayDevice_Name.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="294db30f-3e90-4c43-ae3f-6ffd5e2f327a" Title="TouchScript.Gestures" Url="html/N_TouchScript_Gestures.htm">
-      <HelpTOCNode Id="147319e2-660f-4c7d-a60d-e34f08b18fb1" Title="FlickGesture Class" Url="html/T_TouchScript_Gestures_FlickGesture.htm">
+    <HelpTOCNode Id="5eb93a36-acf7-4ca5-bbe7-52cb29991837" Title="TouchScript.Gestures" Url="html/N_TouchScript_Gestures.htm">
+      <HelpTOCNode Id="5c6e818c-de21-45ec-b0a5-f2f49032536d" Title="FlickGesture Class" Url="html/T_TouchScript_Gestures_FlickGesture.htm">
         <HelpTOCNode Title="FlickGesture Constructor " Url="html/M_TouchScript_Gestures_FlickGesture__ctor.htm" />
-        <HelpTOCNode Id="b1e1851f-9456-46b3-80ef-63d0c15a20f8" Title="FlickGesture Fields" Url="html/Fields_T_TouchScript_Gestures_FlickGesture.htm">
-          <HelpTOCNode Title="FLICK_MESSAGE Field" Url="html/F_TouchScript_Gestures_FlickGesture_FLICK_MESSAGE.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="e8f9df16-104c-4d49-bb47-e261f007fac1" Title="FlickGesture Methods" Url="html/Methods_T_TouchScript_Gestures_FlickGesture.htm">
-          <HelpTOCNode Title="LateUpdate Method " Url="html/M_TouchScript_Gestures_FlickGesture_LateUpdate.htm" />
-          <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_FlickGesture_onRecognized.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_FlickGesture_reset.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_FlickGesture_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesCancelled Method " Url="html/M_TouchScript_Gestures_FlickGesture_touchesCancelled.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_FlickGesture_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_FlickGesture_touchesMoved.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="53adcfef-3d2b-4afb-822e-f167c2d5df18" Title="FlickGesture Properties" Url="html/Properties_T_TouchScript_Gestures_FlickGesture.htm">
+        <HelpTOCNode Id="083ad4df-263d-4f8c-b740-b2d1f15de5d7" Title="FlickGesture Properties" Url="html/Properties_T_TouchScript_Gestures_FlickGesture.htm">
           <HelpTOCNode Title="Direction Property " Url="html/P_TouchScript_Gestures_FlickGesture_Direction.htm" />
           <HelpTOCNode Title="FlickTime Property " Url="html/P_TouchScript_Gestures_FlickGesture_FlickTime.htm" />
           <HelpTOCNode Title="MinDistance Property " Url="html/P_TouchScript_Gestures_FlickGesture_MinDistance.htm" />
@@ -243,28 +281,60 @@
           <HelpTOCNode Title="ScreenFlickTime Property " Url="html/P_TouchScript_Gestures_FlickGesture_ScreenFlickTime.htm" />
           <HelpTOCNode Title="ScreenFlickVector Property " Url="html/P_TouchScript_Gestures_FlickGesture_ScreenFlickVector.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="e36d5d6e-2804-4a37-9488-4a6024864979" Title="FlickGesture Events" Url="html/Events_T_TouchScript_Gestures_FlickGesture.htm">
+        <HelpTOCNode Id="78033ec5-a749-4c76-ab0f-345f41d0ceee" Title="FlickGesture Methods" Url="html/Methods_T_TouchScript_Gestures_FlickGesture.htm">
+          <HelpTOCNode Title="LateUpdate Method " Url="html/M_TouchScript_Gestures_FlickGesture_LateUpdate.htm" />
+          <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_FlickGesture_onRecognized.htm" />
+          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_FlickGesture_reset.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_FlickGesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_FlickGesture_touchEnded.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_FlickGesture_touchMoved.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="18d9c550-0975-46ed-b4d4-5c41b12e3164" Title="FlickGesture Events" Url="html/Events_T_TouchScript_Gestures_FlickGesture.htm">
           <HelpTOCNode Title="Flicked Event" Url="html/E_TouchScript_Gestures_FlickGesture_Flicked.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dfd0c6b5-49a7-4608-b013-418a0129f85a" Title="FlickGesture Fields" Url="html/Fields_T_TouchScript_Gestures_FlickGesture.htm">
+          <HelpTOCNode Title="FLICK_MESSAGE Field" Url="html/F_TouchScript_Gestures_FlickGesture_FLICK_MESSAGE.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="FlickGesture.GestureDirection Enumeration" Url="html/T_TouchScript_Gestures_FlickGesture_GestureDirection.htm" />
-      <HelpTOCNode Id="e96b82e5-19d6-4211-acbd-7c63062819e2" Title="Gesture Class" Url="html/T_TouchScript_Gestures_Gesture.htm">
+      <HelpTOCNode Id="4a3472c1-49cf-4243-bbdf-56b430427bdb" Title="Gesture Class" Url="html/T_TouchScript_Gestures_Gesture.htm">
         <HelpTOCNode Title="Gesture Constructor " Url="html/M_TouchScript_Gestures_Gesture__ctor.htm" />
-        <HelpTOCNode Id="39844bee-a370-422f-a171-54c1411da3fe" Title="Gesture Fields" Url="html/Fields_T_TouchScript_Gestures_Gesture.htm">
-          <HelpTOCNode Title="activeTouches Field" Url="html/F_TouchScript_Gestures_Gesture_activeTouches.htm" />
-          <HelpTOCNode Title="cachedTransform Field" Url="html/F_TouchScript_Gestures_Gesture_cachedTransform.htm" />
-          <HelpTOCNode Title="STATE_CHANGE_MESSAGE Field" Url="html/F_TouchScript_Gestures_Gesture_STATE_CHANGE_MESSAGE.htm" />
+        <HelpTOCNode Id="57d4c6a2-aa6c-47d3-bb66-c7793ada0f29" Title="Gesture Properties" Url="html/Properties_T_TouchScript_Gestures_Gesture.htm">
+          <HelpTOCNode Title="ActiveTouches Property " Url="html/P_TouchScript_Gestures_Gesture_ActiveTouches.htm" />
+          <HelpTOCNode Title="CombineTouches Property " Url="html/P_TouchScript_Gestures_Gesture_CombineTouches.htm" />
+          <HelpTOCNode Title="CombineTouchesInterval Property " Url="html/P_TouchScript_Gestures_Gesture_CombineTouchesInterval.htm" />
+          <HelpTOCNode Title="Delegate Property " Url="html/P_TouchScript_Gestures_Gesture_Delegate.htm" />
+          <HelpTOCNode Title="gestureManager Property " Url="html/P_TouchScript_Gestures_Gesture_gestureManager.htm" />
+          <HelpTOCNode Title="MaxTouches Property " Url="html/P_TouchScript_Gestures_Gesture_MaxTouches.htm" />
+          <HelpTOCNode Title="MinTouches Property " Url="html/P_TouchScript_Gestures_Gesture_MinTouches.htm" />
+          <HelpTOCNode Title="NormalizedScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_NormalizedScreenPosition.htm" />
+          <HelpTOCNode Title="NumTouches Property " Url="html/P_TouchScript_Gestures_Gesture_NumTouches.htm" />
+          <HelpTOCNode Title="PreviousNormalizedScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_PreviousNormalizedScreenPosition.htm" />
+          <HelpTOCNode Title="PreviousScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_PreviousScreenPosition.htm" />
+          <HelpTOCNode Title="PreviousState Property " Url="html/P_TouchScript_Gestures_Gesture_PreviousState.htm" />
+          <HelpTOCNode Title="RequireGestureToFail Property " Url="html/P_TouchScript_Gestures_Gesture_RequireGestureToFail.htm" />
+          <HelpTOCNode Title="ScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_ScreenPosition.htm" />
+          <HelpTOCNode Title="SendMessageTarget Property " Url="html/P_TouchScript_Gestures_Gesture_SendMessageTarget.htm" />
+          <HelpTOCNode Title="SendStateChangeMessages Property " Url="html/P_TouchScript_Gestures_Gesture_SendStateChangeMessages.htm" />
+          <HelpTOCNode Title="State Property " Url="html/P_TouchScript_Gestures_Gesture_State.htm" />
+          <HelpTOCNode Title="touchesNumState Property " Url="html/P_TouchScript_Gestures_Gesture_touchesNumState.htm" />
+          <HelpTOCNode Title="touchManager Property " Url="html/P_TouchScript_Gestures_Gesture_touchManager.htm" />
+          <HelpTOCNode Title="UseSendMessage Property " Url="html/P_TouchScript_Gestures_Gesture_UseSendMessage.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="808fb7ea-fca3-45d4-a386-83e5147b0d3e" Title="Gesture Methods" Url="html/Methods_T_TouchScript_Gestures_Gesture.htm">
+        <HelpTOCNode Id="d99db252-bb3a-400e-876b-28511172db35" Title="Gesture Methods" Url="html/Methods_T_TouchScript_Gestures_Gesture.htm">
           <HelpTOCNode Title="AddFriendlyGesture Method " Url="html/M_TouchScript_Gestures_Gesture_AddFriendlyGesture.htm" />
           <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Gestures_Gesture_Awake.htm" />
           <HelpTOCNode Title="CanBePreventedByGesture Method " Url="html/M_TouchScript_Gestures_Gesture_CanBePreventedByGesture.htm" />
+          <HelpTOCNode Id="d0f69204-9235-44ca-bc6a-d61fb181694c" Title="Cancel Method " Url="html/Overload_TouchScript_Gestures_Gesture_Cancel.htm">
+            <HelpTOCNode Title="Cancel Method " Url="html/M_TouchScript_Gestures_Gesture_Cancel.htm" />
+            <HelpTOCNode Title="Cancel Method (Boolean, Boolean)" Url="html/M_TouchScript_Gestures_Gesture_Cancel_1.htm" />
+          </HelpTOCNode>
           <HelpTOCNode Title="CanPreventGesture Method " Url="html/M_TouchScript_Gestures_Gesture_CanPreventGesture.htm" />
-          <HelpTOCNode Id="c3b70a64-bc83-4c66-b7e9-b302557a411e" Title="GetTargetHitResult Method " Url="html/Overload_TouchScript_Gestures_Gesture_GetTargetHitResult.htm">
+          <HelpTOCNode Id="f5282095-fe7a-4e1d-9906-ebf91ae07822" Title="GetTargetHitResult Method " Url="html/Overload_TouchScript_Gestures_Gesture_GetTargetHitResult.htm">
             <HelpTOCNode Title="GetTargetHitResult Method " Url="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult.htm" />
             <HelpTOCNode Title="GetTargetHitResult Method (Vector2)" Url="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_2.htm" />
-            <HelpTOCNode Title="GetTargetHitResult Method (ITouchHit)" Url="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_1.htm" />
-            <HelpTOCNode Title="GetTargetHitResult Method (Vector2, ITouchHit)" Url="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_3.htm" />
+            <HelpTOCNode Title="GetTargetHitResult Method (TouchHit)" Url="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_1.htm" />
+            <HelpTOCNode Title="GetTargetHitResult Method (Vector2, TouchHit)" Url="html/M_TouchScript_Gestures_Gesture_GetTargetHitResult_3.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="HasTouch Method " Url="html/M_TouchScript_Gestures_Gesture_HasTouch.htm" />
           <HelpTOCNode Title="IsFriendly Method " Url="html/M_TouchScript_Gestures_Gesture_IsFriendly.htm" />
@@ -282,409 +352,315 @@
           <HelpTOCNode Title="ShouldBegin Method " Url="html/M_TouchScript_Gestures_Gesture_ShouldBegin.htm" />
           <HelpTOCNode Title="shouldCacheTouchPosition Method " Url="html/M_TouchScript_Gestures_Gesture_shouldCacheTouchPosition.htm" />
           <HelpTOCNode Title="ShouldReceiveTouch Method " Url="html/M_TouchScript_Gestures_Gesture_ShouldReceiveTouch.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_Gesture_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesCancelled Method " Url="html/M_TouchScript_Gestures_Gesture_touchesCancelled.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_Gesture_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_Gesture_touchesMoved.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_Gesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchCancelled Method " Url="html/M_TouchScript_Gestures_Gesture_touchCancelled.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_Gesture_touchEnded.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_Gesture_touchMoved.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2087e2f8-533e-47c7-b4bc-e5bac218f4da" Title="Gesture Properties" Url="html/Properties_T_TouchScript_Gestures_Gesture.htm">
-          <HelpTOCNode Title="ActiveTouches Property " Url="html/P_TouchScript_Gestures_Gesture_ActiveTouches.htm" />
-          <HelpTOCNode Title="CombineTouches Property " Url="html/P_TouchScript_Gestures_Gesture_CombineTouches.htm" />
-          <HelpTOCNode Title="CombineTouchesInterval Property " Url="html/P_TouchScript_Gestures_Gesture_CombineTouchesInterval.htm" />
-          <HelpTOCNode Title="Delegate Property " Url="html/P_TouchScript_Gestures_Gesture_Delegate.htm" />
-          <HelpTOCNode Title="gestureManager Property " Url="html/P_TouchScript_Gestures_Gesture_gestureManager.htm" />
-          <HelpTOCNode Title="NormalizedScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_NormalizedScreenPosition.htm" />
-          <HelpTOCNode Title="PreviousNormalizedScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_PreviousNormalizedScreenPosition.htm" />
-          <HelpTOCNode Title="PreviousScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_PreviousScreenPosition.htm" />
-          <HelpTOCNode Title="PreviousState Property " Url="html/P_TouchScript_Gestures_Gesture_PreviousState.htm" />
-          <HelpTOCNode Title="RequireGestureToFail Property " Url="html/P_TouchScript_Gestures_Gesture_RequireGestureToFail.htm" />
-          <HelpTOCNode Title="ScreenPosition Property " Url="html/P_TouchScript_Gestures_Gesture_ScreenPosition.htm" />
-          <HelpTOCNode Title="SendMessageTarget Property " Url="html/P_TouchScript_Gestures_Gesture_SendMessageTarget.htm" />
-          <HelpTOCNode Title="SendStateChangeMessages Property " Url="html/P_TouchScript_Gestures_Gesture_SendStateChangeMessages.htm" />
-          <HelpTOCNode Title="State Property " Url="html/P_TouchScript_Gestures_Gesture_State.htm" />
-          <HelpTOCNode Title="touchManager Property " Url="html/P_TouchScript_Gestures_Gesture_touchManager.htm" />
-          <HelpTOCNode Title="UseSendMessage Property " Url="html/P_TouchScript_Gestures_Gesture_UseSendMessage.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="594972a5-6c30-47ef-8b3c-62c9a3298082" Title="Gesture Events" Url="html/Events_T_TouchScript_Gestures_Gesture.htm">
+        <HelpTOCNode Id="a1f1038e-69c6-46f2-a1d3-ce061f8feaf8" Title="Gesture Events" Url="html/Events_T_TouchScript_Gestures_Gesture.htm">
+          <HelpTOCNode Title="Cancelled Event" Url="html/E_TouchScript_Gestures_Gesture_Cancelled.htm" />
           <HelpTOCNode Title="StateChanged Event" Url="html/E_TouchScript_Gestures_Gesture_StateChanged.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0e7d8c8e-7383-4cfe-bcb6-a15e3ebda871" Title="Gesture Fields" Url="html/Fields_T_TouchScript_Gestures_Gesture.htm">
+          <HelpTOCNode Title="activeTouches Field" Url="html/F_TouchScript_Gestures_Gesture_activeTouches.htm" />
+          <HelpTOCNode Title="cachedTransform Field" Url="html/F_TouchScript_Gestures_Gesture_cachedTransform.htm" />
+          <HelpTOCNode Title="CANCEL_MESSAGE Field" Url="html/F_TouchScript_Gestures_Gesture_CANCEL_MESSAGE.htm" />
+          <HelpTOCNode Title="STATE_CHANGE_MESSAGE Field" Url="html/F_TouchScript_Gestures_Gesture_STATE_CHANGE_MESSAGE.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="Gesture.GestureState Enumeration" Url="html/T_TouchScript_Gestures_Gesture_GestureState.htm" />
-      <HelpTOCNode Id="ce15d13a-03c4-4999-8304-f5dbc2717e1a" Title="GestureStateChangeEventArgs Class" Url="html/T_TouchScript_Gestures_GestureStateChangeEventArgs.htm">
+      <HelpTOCNode Title="Gesture.TouchesNumState Enumeration" Url="html/T_TouchScript_Gestures_Gesture_TouchesNumState.htm" />
+      <HelpTOCNode Id="c75d6f2c-c1fa-40a8-a4cf-a3cbfb573339" Title="GestureStateChangeEventArgs Class" Url="html/T_TouchScript_Gestures_GestureStateChangeEventArgs.htm">
         <HelpTOCNode Title="GestureStateChangeEventArgs Constructor " Url="html/M_TouchScript_Gestures_GestureStateChangeEventArgs__ctor.htm" />
-        <HelpTOCNode Id="149c0549-85fb-4001-8e81-4ac70ace70b4" Title="GestureStateChangeEventArgs Properties" Url="html/Properties_T_TouchScript_Gestures_GestureStateChangeEventArgs.htm">
+        <HelpTOCNode Id="2a53705d-85c8-4f13-ab6b-666633e5b482" Title="GestureStateChangeEventArgs Properties" Url="html/Properties_T_TouchScript_Gestures_GestureStateChangeEventArgs.htm">
           <HelpTOCNode Title="PreviousState Property " Url="html/P_TouchScript_Gestures_GestureStateChangeEventArgs_PreviousState.htm" />
           <HelpTOCNode Title="State Property " Url="html/P_TouchScript_Gestures_GestureStateChangeEventArgs_State.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ae285018-56fd-4fcf-82a5-5d19fcd5da1d" Title="LongPressGesture Class" Url="html/T_TouchScript_Gestures_LongPressGesture.htm">
-        <HelpTOCNode Title="LongPressGesture Constructor " Url="html/M_TouchScript_Gestures_LongPressGesture__ctor.htm" />
-        <HelpTOCNode Id="3fb449e1-ea0e-4bef-9f34-e75b1a663432" Title="LongPressGesture Fields" Url="html/Fields_T_TouchScript_Gestures_LongPressGesture.htm">
-          <HelpTOCNode Title="LONG_PRESS_MESSAGE Field" Url="html/F_TouchScript_Gestures_LongPressGesture_LONG_PRESS_MESSAGE.htm" />
+      <HelpTOCNode Id="7b08e966-47c5-4e4a-a62f-58636bfe4b56" Title="ITransformGesture Interface" Url="html/T_TouchScript_Gestures_ITransformGesture.htm">
+        <HelpTOCNode Id="29c19dbe-7dc0-4b8a-880a-73c49833ec9b" Title="ITransformGesture Methods" Url="html/Methods_T_TouchScript_Gestures_ITransformGesture.htm">
+          <HelpTOCNode Title="ApplyTransform Method " Url="html/M_TouchScript_Gestures_ITransformGesture_ApplyTransform.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="26504047-11b3-48ca-b45d-cd4a8aae9064" Title="LongPressGesture Methods" Url="html/Methods_T_TouchScript_Gestures_LongPressGesture.htm">
+        <HelpTOCNode Id="ce8d924a-a981-4323-953b-9ebdad58cfe8" Title="ITransformGesture Events" Url="html/Events_T_TouchScript_Gestures_ITransformGesture.htm">
+          <HelpTOCNode Title="TransformCompleted Event" Url="html/E_TouchScript_Gestures_ITransformGesture_TransformCompleted.htm" />
+          <HelpTOCNode Title="Transformed Event" Url="html/E_TouchScript_Gestures_ITransformGesture_Transformed.htm" />
+          <HelpTOCNode Title="TransformStarted Event" Url="html/E_TouchScript_Gestures_ITransformGesture_TransformStarted.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="38c15e15-cccc-46ed-938a-f99dd0a7ee8c" Title="LongPressGesture Class" Url="html/T_TouchScript_Gestures_LongPressGesture.htm">
+        <HelpTOCNode Title="LongPressGesture Constructor " Url="html/M_TouchScript_Gestures_LongPressGesture__ctor.htm" />
+        <HelpTOCNode Id="327cf6f4-b392-4017-a5df-5f4de2e1576c" Title="LongPressGesture Properties" Url="html/Properties_T_TouchScript_Gestures_LongPressGesture.htm">
+          <HelpTOCNode Title="DistanceLimit Property " Url="html/P_TouchScript_Gestures_LongPressGesture_DistanceLimit.htm" />
+          <HelpTOCNode Title="TimeToPress Property " Url="html/P_TouchScript_Gestures_LongPressGesture_TimeToPress.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4bc4777a-1e6a-4a24-8880-569c4fa79307" Title="LongPressGesture Methods" Url="html/Methods_T_TouchScript_Gestures_LongPressGesture.htm">
           <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_LongPressGesture_OnEnable.htm" />
           <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_LongPressGesture_onRecognized.htm" />
           <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_LongPressGesture_reset.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_LongPressGesture_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_LongPressGesture_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_LongPressGesture_touchesMoved.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_LongPressGesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_LongPressGesture_touchEnded.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_LongPressGesture_touchMoved.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9217c524-447b-4839-844e-bfd88ea8df72" Title="LongPressGesture Properties" Url="html/Properties_T_TouchScript_Gestures_LongPressGesture.htm">
-          <HelpTOCNode Title="DistanceLimit Property " Url="html/P_TouchScript_Gestures_LongPressGesture_DistanceLimit.htm" />
-          <HelpTOCNode Title="MaxTouches Property " Url="html/P_TouchScript_Gestures_LongPressGesture_MaxTouches.htm" />
-          <HelpTOCNode Title="TimeToPress Property " Url="html/P_TouchScript_Gestures_LongPressGesture_TimeToPress.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="958ae0d0-1740-4d45-b729-bfdf3365a119" Title="LongPressGesture Events" Url="html/Events_T_TouchScript_Gestures_LongPressGesture.htm">
+        <HelpTOCNode Id="d865ec3a-926c-4d1e-a683-e5b9cdb8cd32" Title="LongPressGesture Events" Url="html/Events_T_TouchScript_Gestures_LongPressGesture.htm">
           <HelpTOCNode Title="LongPressed Event" Url="html/E_TouchScript_Gestures_LongPressGesture_LongPressed.htm" />
         </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="24e94dc5-6814-44cf-bddd-832f6367c5de" Title="MetaGesture Class" Url="html/T_TouchScript_Gestures_MetaGesture.htm">
-        <HelpTOCNode Title="MetaGesture Constructor " Url="html/M_TouchScript_Gestures_MetaGesture__ctor.htm" />
-        <HelpTOCNode Id="86940014-b7dc-4686-a727-426bb721f4af" Title="MetaGesture Fields" Url="html/Fields_T_TouchScript_Gestures_MetaGesture.htm">
-          <HelpTOCNode Title="TOUCH_BEGAN_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_BEGAN_MESSAGE.htm" />
-          <HelpTOCNode Title="TOUCH_CANCELLED_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_CANCELLED_MESSAGE.htm" />
-          <HelpTOCNode Title="TOUCH_ENDED_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_ENDED_MESSAGE.htm" />
-          <HelpTOCNode Title="TOUCH_MOVED_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_MOVED_MESSAGE.htm" />
+        <HelpTOCNode Id="67f71ea0-bd61-4bd1-bb93-86c650eef006" Title="LongPressGesture Fields" Url="html/Fields_T_TouchScript_Gestures_LongPressGesture.htm">
+          <HelpTOCNode Title="LONG_PRESS_MESSAGE Field" Url="html/F_TouchScript_Gestures_LongPressGesture_LONG_PRESS_MESSAGE.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="42fb6a9f-a0d8-4df2-8131-0a7d72fa49eb" Title="MetaGesture Events" Url="html/Events_T_TouchScript_Gestures_MetaGesture.htm">
+      </HelpTOCNode>
+      <HelpTOCNode Id="0a5ca680-3ac0-4df8-a985-7bebb8858883" Title="MetaGesture Class" Url="html/T_TouchScript_Gestures_MetaGesture.htm">
+        <HelpTOCNode Title="MetaGesture Constructor " Url="html/M_TouchScript_Gestures_MetaGesture__ctor.htm" />
+        <HelpTOCNode Id="cec6c3b0-b3d9-45ea-bfa5-c2a486b4482b" Title="MetaGesture Events" Url="html/Events_T_TouchScript_Gestures_MetaGesture.htm">
           <HelpTOCNode Title="TouchBegan Event" Url="html/E_TouchScript_Gestures_MetaGesture_TouchBegan.htm" />
           <HelpTOCNode Title="TouchCancelled Event" Url="html/E_TouchScript_Gestures_MetaGesture_TouchCancelled.htm" />
           <HelpTOCNode Title="TouchEnded Event" Url="html/E_TouchScript_Gestures_MetaGesture_TouchEnded.htm" />
           <HelpTOCNode Title="TouchMoved Event" Url="html/E_TouchScript_Gestures_MetaGesture_TouchMoved.htm" />
         </HelpTOCNode>
+        <HelpTOCNode Id="2b5b1713-0bb9-4aa5-bf99-c655e76a0594" Title="MetaGesture Fields" Url="html/Fields_T_TouchScript_Gestures_MetaGesture.htm">
+          <HelpTOCNode Title="TOUCH_BEGAN_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_BEGAN_MESSAGE.htm" />
+          <HelpTOCNode Title="TOUCH_CANCELLED_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_CANCELLED_MESSAGE.htm" />
+          <HelpTOCNode Title="TOUCH_ENDED_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_ENDED_MESSAGE.htm" />
+          <HelpTOCNode Title="TOUCH_MOVED_MESSAGE Field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_MOVED_MESSAGE.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="80dcd3be-f5d3-47fc-ba69-1f3ff624bac3" Title="MetaGestureEventArgs Class" Url="html/T_TouchScript_Gestures_MetaGestureEventArgs.htm">
+      <HelpTOCNode Id="0b0ece3a-a895-4292-8be2-f8f6c8a67dff" Title="MetaGestureEventArgs Class" Url="html/T_TouchScript_Gestures_MetaGestureEventArgs.htm">
         <HelpTOCNode Title="MetaGestureEventArgs Constructor " Url="html/M_TouchScript_Gestures_MetaGestureEventArgs__ctor.htm" />
-        <HelpTOCNode Id="86635575-5249-4711-8d7c-ffe49ab52b5d" Title="MetaGestureEventArgs Properties" Url="html/Properties_T_TouchScript_Gestures_MetaGestureEventArgs.htm">
+        <HelpTOCNode Id="7b6d7bdb-84b1-4c4b-a8a2-198ab02021ca" Title="MetaGestureEventArgs Properties" Url="html/Properties_T_TouchScript_Gestures_MetaGestureEventArgs.htm">
           <HelpTOCNode Title="Touch Property " Url="html/P_TouchScript_Gestures_MetaGestureEventArgs_Touch.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="677c659c-e580-468a-9367-580760f5f564" Title="PanGesture Class" Url="html/T_TouchScript_Gestures_PanGesture.htm">
-        <HelpTOCNode Title="PanGesture Constructor " Url="html/M_TouchScript_Gestures_PanGesture__ctor.htm" />
-        <HelpTOCNode Id="086ec886-62f2-4546-8ae0-99671c5e93a1" Title="PanGesture Methods" Url="html/Methods_T_TouchScript_Gestures_PanGesture.htm">
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_PanGesture_reset.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_PanGesture_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_PanGesture_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_PanGesture_touchesMoved.htm" />
+      <HelpTOCNode Id="2eb9ea58-48f4-470f-adbe-aa1545747a86" Title="PinnedTransformGesture Class" Url="html/T_TouchScript_Gestures_PinnedTransformGesture.htm">
+        <HelpTOCNode Title="PinnedTransformGesture Constructor " Url="html/M_TouchScript_Gestures_PinnedTransformGesture__ctor.htm" />
+        <HelpTOCNode Id="87afc76d-abcd-4ff9-9665-15b68b76153a" Title="PinnedTransformGesture Properties" Url="html/Properties_T_TouchScript_Gestures_PinnedTransformGesture.htm">
+          <HelpTOCNode Title="Projection Property " Url="html/P_TouchScript_Gestures_PinnedTransformGesture_Projection.htm" />
+          <HelpTOCNode Title="ProjectionPlaneNormal Property " Url="html/P_TouchScript_Gestures_PinnedTransformGesture_ProjectionPlaneNormal.htm" />
+          <HelpTOCNode Title="RotationAxis Property " Url="html/P_TouchScript_Gestures_PinnedTransformGesture_RotationAxis.htm" />
+          <HelpTOCNode Title="TransformPlane Property " Url="html/P_TouchScript_Gestures_PinnedTransformGesture_TransformPlane.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5b79408c-68a5-4b50-83dd-c6c4b3a37bff" Title="PanGesture Properties" Url="html/Properties_T_TouchScript_Gestures_PanGesture.htm">
-          <HelpTOCNode Title="PreviousScreenPosition Property " Url="html/P_TouchScript_Gestures_PanGesture_PreviousScreenPosition.htm" />
-          <HelpTOCNode Title="ScreenPosition Property " Url="html/P_TouchScript_Gestures_PanGesture_ScreenPosition.htm" />
+        <HelpTOCNode Id="100d8ecb-3ae7-4dcb-aa3c-c9ace104d6ab" Title="PinnedTransformGesture Methods" Url="html/Methods_T_TouchScript_Gestures_PinnedTransformGesture.htm">
+          <HelpTOCNode Title="ApplyTransform Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_ApplyTransform.htm" />
+          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_Awake.htm" />
+          <HelpTOCNode Title="OnDisable Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_OnDisable.htm" />
+          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_OnEnable.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_touchMoved.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b2a86167-628c-4f0b-9c7a-146f16ed66d0" Title="PressGesture Class" Url="html/T_TouchScript_Gestures_PressGesture.htm">
+      <HelpTOCNode Title="PinnedTransformGesture.ProjectionType Enumeration" Url="html/T_TouchScript_Gestures_PinnedTransformGesture_ProjectionType.htm" />
+      <HelpTOCNode Id="edb2ad40-1a85-40ff-b656-aaaf6943a493" Title="PressGesture Class" Url="html/T_TouchScript_Gestures_PressGesture.htm">
         <HelpTOCNode Title="PressGesture Constructor " Url="html/M_TouchScript_Gestures_PressGesture__ctor.htm" />
-        <HelpTOCNode Id="29a4a36b-f1ea-49fe-819b-8d98e6e8188a" Title="PressGesture Fields" Url="html/Fields_T_TouchScript_Gestures_PressGesture.htm">
-          <HelpTOCNode Title="PRESS_MESSAGE Field" Url="html/F_TouchScript_Gestures_PressGesture_PRESS_MESSAGE.htm" />
+        <HelpTOCNode Id="55da01dd-f12e-4396-879c-4b42de337420" Title="PressGesture Properties" Url="html/Properties_T_TouchScript_Gestures_PressGesture.htm">
+          <HelpTOCNode Title="IgnoreChildren Property " Url="html/P_TouchScript_Gestures_PressGesture_IgnoreChildren.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="d5792c3b-4820-4247-af78-a18d7d5aed0b" Title="PressGesture Methods" Url="html/Methods_T_TouchScript_Gestures_PressGesture.htm">
+        <HelpTOCNode Id="98097721-3f26-4b56-9c6e-2bc66866d715" Title="PressGesture Methods" Url="html/Methods_T_TouchScript_Gestures_PressGesture.htm">
           <HelpTOCNode Title="CanBePreventedByGesture Method " Url="html/M_TouchScript_Gestures_PressGesture_CanBePreventedByGesture.htm" />
           <HelpTOCNode Title="CanPreventGesture Method " Url="html/M_TouchScript_Gestures_PressGesture_CanPreventGesture.htm" />
           <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_PressGesture_onRecognized.htm" />
           <HelpTOCNode Title="ShouldReceiveTouch Method " Url="html/M_TouchScript_Gestures_PressGesture_ShouldReceiveTouch.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_PressGesture_touchesBegan.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_PressGesture_touchBegan.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="4b5d98b8-b180-42b2-a385-3a6451e52b84" Title="PressGesture Properties" Url="html/Properties_T_TouchScript_Gestures_PressGesture.htm">
-          <HelpTOCNode Title="IgnoreChildren Property " Url="html/P_TouchScript_Gestures_PressGesture_IgnoreChildren.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="74ae550b-6702-4455-9cd9-db96e7a56565" Title="PressGesture Events" Url="html/Events_T_TouchScript_Gestures_PressGesture.htm">
+        <HelpTOCNode Id="49fd1312-f1f1-4292-a069-1d2925dac78e" Title="PressGesture Events" Url="html/Events_T_TouchScript_Gestures_PressGesture.htm">
           <HelpTOCNode Title="Pressed Event" Url="html/E_TouchScript_Gestures_PressGesture_Pressed.htm" />
         </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="2abce8b9-4ba1-4372-be73-35238d8a6902" Title="ReleaseGesture Class" Url="html/T_TouchScript_Gestures_ReleaseGesture.htm">
-        <HelpTOCNode Title="ReleaseGesture Constructor " Url="html/M_TouchScript_Gestures_ReleaseGesture__ctor.htm" />
-        <HelpTOCNode Id="a3992517-85d1-472d-b337-160f801f58c9" Title="ReleaseGesture Fields" Url="html/Fields_T_TouchScript_Gestures_ReleaseGesture.htm">
-          <HelpTOCNode Title="RELEASE_MESSAGE Field" Url="html/F_TouchScript_Gestures_ReleaseGesture_RELEASE_MESSAGE.htm" />
+        <HelpTOCNode Id="c5f7e75d-800f-46d5-b72e-4b9ab0c4780b" Title="PressGesture Fields" Url="html/Fields_T_TouchScript_Gestures_PressGesture.htm">
+          <HelpTOCNode Title="PRESS_MESSAGE Field" Url="html/F_TouchScript_Gestures_PressGesture_PRESS_MESSAGE.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="148daa2a-c4ed-4b14-9b61-f7301db6c11c" Title="ReleaseGesture Methods" Url="html/Methods_T_TouchScript_Gestures_ReleaseGesture.htm">
+      </HelpTOCNode>
+      <HelpTOCNode Id="e74d1cfa-b330-4101-8806-85330048825a" Title="ReleaseGesture Class" Url="html/T_TouchScript_Gestures_ReleaseGesture.htm">
+        <HelpTOCNode Title="ReleaseGesture Constructor " Url="html/M_TouchScript_Gestures_ReleaseGesture__ctor.htm" />
+        <HelpTOCNode Id="fb4559a7-8bca-4e7a-821a-10c0091b5777" Title="ReleaseGesture Properties" Url="html/Properties_T_TouchScript_Gestures_ReleaseGesture.htm">
+          <HelpTOCNode Title="IgnoreChildren Property " Url="html/P_TouchScript_Gestures_ReleaseGesture_IgnoreChildren.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="96d0862c-e5b7-47f0-ad74-88fcdb103129" Title="ReleaseGesture Methods" Url="html/Methods_T_TouchScript_Gestures_ReleaseGesture.htm">
           <HelpTOCNode Title="CanBePreventedByGesture Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_CanBePreventedByGesture.htm" />
           <HelpTOCNode Title="CanPreventGesture Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_CanPreventGesture.htm" />
           <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_onRecognized.htm" />
           <HelpTOCNode Title="ShouldReceiveTouch Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_ShouldReceiveTouch.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_touchesEnded.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_touchEnded.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3f626c4f-ee4a-4cd1-aa97-0a2d60d3ab66" Title="ReleaseGesture Properties" Url="html/Properties_T_TouchScript_Gestures_ReleaseGesture.htm">
-          <HelpTOCNode Title="IgnoreChildren Property " Url="html/P_TouchScript_Gestures_ReleaseGesture_IgnoreChildren.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="d5ad725f-c711-4c03-86b8-0e39e38011a3" Title="ReleaseGesture Events" Url="html/Events_T_TouchScript_Gestures_ReleaseGesture.htm">
+        <HelpTOCNode Id="eb30505d-ef28-4db0-9a83-87ad4becff29" Title="ReleaseGesture Events" Url="html/Events_T_TouchScript_Gestures_ReleaseGesture.htm">
           <HelpTOCNode Title="Released Event" Url="html/E_TouchScript_Gestures_ReleaseGesture_Released.htm" />
         </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="64ef35eb-ab0f-4107-bd1f-2d46c739435a" Title="RotateGesture Class" Url="html/T_TouchScript_Gestures_RotateGesture.htm">
-        <HelpTOCNode Title="RotateGesture Constructor " Url="html/M_TouchScript_Gestures_RotateGesture__ctor.htm" />
-        <HelpTOCNode Id="b5f68c47-1e3a-4fa9-8e8b-f7833155a27c" Title="RotateGesture Fields" Url="html/Fields_T_TouchScript_Gestures_RotateGesture.htm">
-          <HelpTOCNode Title="clusters Field" Url="html/F_TouchScript_Gestures_RotateGesture_clusters.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="378dec13-9649-4259-acc8-19c8d6fa8a68" Title="RotateGesture Methods" Url="html/Methods_T_TouchScript_Gestures_RotateGesture.htm">
-          <HelpTOCNode Title="getPointPreviousScreenPosition Method " Url="html/M_TouchScript_Gestures_RotateGesture_getPointPreviousScreenPosition.htm" />
-          <HelpTOCNode Title="getPointScreenPosition Method " Url="html/M_TouchScript_Gestures_RotateGesture_getPointScreenPosition.htm" />
-          <HelpTOCNode Title="gotEnoughTouches Method " Url="html/M_TouchScript_Gestures_RotateGesture_gotEnoughTouches.htm" />
-          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_RotateGesture_OnEnable.htm" />
-          <HelpTOCNode Title="relevantTouches Method " Url="html/M_TouchScript_Gestures_RotateGesture_relevantTouches.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_RotateGesture_reset.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_RotateGesture_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_RotateGesture_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_RotateGesture_touchesMoved.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="75224c2d-a420-4405-b24b-e0dcd61bbb98" Title="RotateGesture Properties" Url="html/Properties_T_TouchScript_Gestures_RotateGesture.htm">
-          <HelpTOCNode Title="MinPointsDistance Property " Url="html/P_TouchScript_Gestures_RotateGesture_MinPointsDistance.htm" />
+        <HelpTOCNode Id="fee33ce9-8abe-443a-8c84-6ff0304d5edd" Title="ReleaseGesture Fields" Url="html/Fields_T_TouchScript_Gestures_ReleaseGesture.htm">
+          <HelpTOCNode Title="RELEASE_MESSAGE Field" Url="html/F_TouchScript_Gestures_ReleaseGesture_RELEASE_MESSAGE.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="2864a310-4ac2-42f9-8938-b60944c7c3f1" Title="ScaleGesture Class" Url="html/T_TouchScript_Gestures_ScaleGesture.htm">
-        <HelpTOCNode Title="ScaleGesture Constructor " Url="html/M_TouchScript_Gestures_ScaleGesture__ctor.htm" />
-        <HelpTOCNode Id="33e60ef1-ad11-43b0-b8ac-c917d54f60f2" Title="ScaleGesture Fields" Url="html/Fields_T_TouchScript_Gestures_ScaleGesture.htm">
-          <HelpTOCNode Title="clusters Field" Url="html/F_TouchScript_Gestures_ScaleGesture_clusters.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="1284415c-d435-4b90-9236-a9e7d24e0613" Title="ScaleGesture Methods" Url="html/Methods_T_TouchScript_Gestures_ScaleGesture.htm">
-          <HelpTOCNode Title="getPointPreviousScreenPosition Method " Url="html/M_TouchScript_Gestures_ScaleGesture_getPointPreviousScreenPosition.htm" />
-          <HelpTOCNode Title="getPointScreenPosition Method " Url="html/M_TouchScript_Gestures_ScaleGesture_getPointScreenPosition.htm" />
-          <HelpTOCNode Title="gotEnoughTouches Method " Url="html/M_TouchScript_Gestures_ScaleGesture_gotEnoughTouches.htm" />
-          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_ScaleGesture_OnEnable.htm" />
-          <HelpTOCNode Title="relevantTouches Method " Url="html/M_TouchScript_Gestures_ScaleGesture_relevantTouches.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_ScaleGesture_reset.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_ScaleGesture_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_ScaleGesture_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_ScaleGesture_touchesMoved.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="7987091c-92f5-48cb-b0e9-108e16c44960" Title="ScaleGesture Properties" Url="html/Properties_T_TouchScript_Gestures_ScaleGesture.htm">
-          <HelpTOCNode Title="MinPointsDistance Property " Url="html/P_TouchScript_Gestures_ScaleGesture_MinPointsDistance.htm" />
+      <HelpTOCNode Id="e3e28bfa-3979-437a-a66b-42f4f583dfb1" Title="ScreenTransformGesture Class" Url="html/T_TouchScript_Gestures_ScreenTransformGesture.htm">
+        <HelpTOCNode Title="ScreenTransformGesture Constructor " Url="html/M_TouchScript_Gestures_ScreenTransformGesture__ctor.htm" />
+        <HelpTOCNode Id="00429c1a-f45b-4a4b-95ee-57b4146739a7" Title="ScreenTransformGesture Methods" Url="html/Methods_T_TouchScript_Gestures_ScreenTransformGesture.htm">
+          <HelpTOCNode Title="ApplyTransform Method " Url="html/M_TouchScript_Gestures_ScreenTransformGesture_ApplyTransform.htm" />
+          <HelpTOCNode Title="doOnePointTranslation Method " Url="html/M_TouchScript_Gestures_ScreenTransformGesture_doOnePointTranslation.htm" />
+          <HelpTOCNode Title="doRotation Method " Url="html/M_TouchScript_Gestures_ScreenTransformGesture_doRotation.htm" />
+          <HelpTOCNode Title="doScaling Method " Url="html/M_TouchScript_Gestures_ScreenTransformGesture_doScaling.htm" />
+          <HelpTOCNode Title="doTwoPointTranslation Method " Url="html/M_TouchScript_Gestures_ScreenTransformGesture_doTwoPointTranslation.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="c45426cd-d1fa-43fd-bb21-700715666b94" Title="TapGesture Class" Url="html/T_TouchScript_Gestures_TapGesture.htm">
+      <HelpTOCNode Id="f82424c3-b428-4254-ae6b-db8aa6d67722" Title="TapGesture Class" Url="html/T_TouchScript_Gestures_TapGesture.htm">
         <HelpTOCNode Title="TapGesture Constructor " Url="html/M_TouchScript_Gestures_TapGesture__ctor.htm" />
-        <HelpTOCNode Id="1cac1a87-b086-4630-a5a1-9b0bf989d707" Title="TapGesture Fields" Url="html/Fields_T_TouchScript_Gestures_TapGesture.htm">
-          <HelpTOCNode Title="TAP_MESSAGE Field" Url="html/F_TouchScript_Gestures_TapGesture_TAP_MESSAGE.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="b24334a7-81c6-4800-995c-72f578987aea" Title="TapGesture Methods" Url="html/Methods_T_TouchScript_Gestures_TapGesture.htm">
-          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_TapGesture_OnEnable.htm" />
-          <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_TapGesture_onRecognized.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_TapGesture_reset.htm" />
-          <HelpTOCNode Title="shouldCacheTouchPosition Method " Url="html/M_TouchScript_Gestures_TapGesture_shouldCacheTouchPosition.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_TapGesture_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesCancelled Method " Url="html/M_TouchScript_Gestures_TapGesture_touchesCancelled.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_TapGesture_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_TapGesture_touchesMoved.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="913dd555-004b-46f2-becb-bd2d624cce66" Title="TapGesture Properties" Url="html/Properties_T_TouchScript_Gestures_TapGesture.htm">
+        <HelpTOCNode Id="bf78bbaf-be77-4f6f-aa61-53e310b17f01" Title="TapGesture Properties" Url="html/Properties_T_TouchScript_Gestures_TapGesture.htm">
           <HelpTOCNode Title="DistanceLimit Property " Url="html/P_TouchScript_Gestures_TapGesture_DistanceLimit.htm" />
           <HelpTOCNode Title="NumberOfTapsRequired Property " Url="html/P_TouchScript_Gestures_TapGesture_NumberOfTapsRequired.htm" />
           <HelpTOCNode Title="TimeLimit Property " Url="html/P_TouchScript_Gestures_TapGesture_TimeLimit.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="2e276e3d-55a6-449b-9680-b198a96b3585" Title="TapGesture Events" Url="html/Events_T_TouchScript_Gestures_TapGesture.htm">
+        <HelpTOCNode Id="213c2cfd-0725-4bee-a4ba-2727e42e07ea" Title="TapGesture Methods" Url="html/Methods_T_TouchScript_Gestures_TapGesture.htm">
+          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_TapGesture_OnEnable.htm" />
+          <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_TapGesture_onRecognized.htm" />
+          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_TapGesture_reset.htm" />
+          <HelpTOCNode Title="shouldCacheTouchPosition Method " Url="html/M_TouchScript_Gestures_TapGesture_shouldCacheTouchPosition.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_TapGesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_TapGesture_touchEnded.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_TapGesture_touchMoved.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="92c93565-687f-4169-b8cc-95b6985c3b5a" Title="TapGesture Events" Url="html/Events_T_TouchScript_Gestures_TapGesture.htm">
           <HelpTOCNode Title="Tapped Event" Url="html/E_TouchScript_Gestures_TapGesture_Tapped.htm" />
         </HelpTOCNode>
+        <HelpTOCNode Id="5b7cffe5-ae84-48ad-a88f-106265b420a7" Title="TapGesture Fields" Url="html/Fields_T_TouchScript_Gestures_TapGesture.htm">
+          <HelpTOCNode Title="TAP_MESSAGE Field" Url="html/F_TouchScript_Gestures_TapGesture_TAP_MESSAGE.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
+      <HelpTOCNode Id="09174da6-5634-4a6d-8e0e-20fa3bfa5c35" Title="TransformGesture Class" Url="html/T_TouchScript_Gestures_TransformGesture.htm">
+        <HelpTOCNode Title="TransformGesture Constructor " Url="html/M_TouchScript_Gestures_TransformGesture__ctor.htm" />
+        <HelpTOCNode Id="25ea6292-9fa0-4ade-95d9-66f412fff9ec" Title="TransformGesture Properties" Url="html/Properties_T_TouchScript_Gestures_TransformGesture.htm">
+          <HelpTOCNode Title="LocalDeltaPosition Property " Url="html/P_TouchScript_Gestures_TransformGesture_LocalDeltaPosition.htm" />
+          <HelpTOCNode Title="Projection Property " Url="html/P_TouchScript_Gestures_TransformGesture_Projection.htm" />
+          <HelpTOCNode Title="ProjectionPlaneNormal Property " Url="html/P_TouchScript_Gestures_TransformGesture_ProjectionPlaneNormal.htm" />
+          <HelpTOCNode Title="RotationAxis Property " Url="html/P_TouchScript_Gestures_TransformGesture_RotationAxis.htm" />
+          <HelpTOCNode Title="TransformPlane Property " Url="html/P_TouchScript_Gestures_TransformGesture_TransformPlane.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fa19127d-c080-4307-8731-54d55e0d6232" Title="TransformGesture Methods" Url="html/Methods_T_TouchScript_Gestures_TransformGesture.htm">
+          <HelpTOCNode Title="ApplyTransform Method " Url="html/M_TouchScript_Gestures_TransformGesture_ApplyTransform.htm" />
+          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Gestures_TransformGesture_Awake.htm" />
+          <HelpTOCNode Title="doOnePointTranslation Method " Url="html/M_TouchScript_Gestures_TransformGesture_doOnePointTranslation.htm" />
+          <HelpTOCNode Title="doRotation Method " Url="html/M_TouchScript_Gestures_TransformGesture_doRotation.htm" />
+          <HelpTOCNode Title="doScaling Method " Url="html/M_TouchScript_Gestures_TransformGesture_doScaling.htm" />
+          <HelpTOCNode Title="doTwoPointTranslation Method " Url="html/M_TouchScript_Gestures_TransformGesture_doTwoPointTranslation.htm" />
+          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_TransformGesture_OnEnable.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_TransformGesture_touchBegan.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="TransformGesture.ProjectionType Enumeration" Url="html/T_TouchScript_Gestures_TransformGesture_ProjectionType.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="5efd567a-aaed-4123-b296-0d95773c3fbf" Title="TouchScript.Gestures.Simple" Url="html/N_TouchScript_Gestures_Simple.htm">
-      <HelpTOCNode Id="6f0974e7-5375-4221-b77d-9ed0134205d1" Title="SimplePanGesture Class" Url="html/T_TouchScript_Gestures_Simple_SimplePanGesture.htm">
-        <HelpTOCNode Title="SimplePanGesture Constructor " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture__ctor.htm" />
-        <HelpTOCNode Id="17d0a778-2aef-4cc1-a423-97da7fa0484f" Title="SimplePanGesture Fields" Url="html/Fields_T_TouchScript_Gestures_Simple_SimplePanGesture.htm">
-          <HelpTOCNode Title="PAN_COMPLETE_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_COMPLETE_MESSAGE.htm" />
-          <HelpTOCNode Title="PAN_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_MESSAGE.htm" />
-          <HelpTOCNode Title="PAN_START_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_START_MESSAGE.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="be2e955c-b495-42f8-a90b-83e3b1226ac6" Title="SimplePanGesture Methods" Url="html/Methods_T_TouchScript_Gestures_Simple_SimplePanGesture.htm">
-          <HelpTOCNode Title="onBegan Method " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onBegan.htm" />
-          <HelpTOCNode Title="onCancelled Method " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onCancelled.htm" />
-          <HelpTOCNode Title="onChanged Method " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onChanged.htm" />
-          <HelpTOCNode Title="onFailed Method " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onFailed.htm" />
-          <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture_onRecognized.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture_reset.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_Simple_SimplePanGesture_touchesMoved.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="8289f7c2-bde3-4c0e-81ac-2b7c45efa174" Title="SimplePanGesture Properties" Url="html/Properties_T_TouchScript_Gestures_Simple_SimplePanGesture.htm">
-          <HelpTOCNode Title="LocalDeltaPosition Property " Url="html/P_TouchScript_Gestures_Simple_SimplePanGesture_LocalDeltaPosition.htm" />
-          <HelpTOCNode Title="MovementThreshold Property " Url="html/P_TouchScript_Gestures_Simple_SimplePanGesture_MovementThreshold.htm" />
-          <HelpTOCNode Title="PreviousScreenPosition Property " Url="html/P_TouchScript_Gestures_Simple_SimplePanGesture_PreviousScreenPosition.htm" />
-          <HelpTOCNode Title="ScreenPosition Property " Url="html/P_TouchScript_Gestures_Simple_SimplePanGesture_ScreenPosition.htm" />
-          <HelpTOCNode Title="WorldDeltaPosition Property " Url="html/P_TouchScript_Gestures_Simple_SimplePanGesture_WorldDeltaPosition.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="6e45628e-07e3-43bb-863d-926e959aa280" Title="SimplePanGesture Events" Url="html/Events_T_TouchScript_Gestures_Simple_SimplePanGesture.htm">
-          <HelpTOCNode Title="PanCompleted Event" Url="html/E_TouchScript_Gestures_Simple_SimplePanGesture_PanCompleted.htm" />
-          <HelpTOCNode Title="Panned Event" Url="html/E_TouchScript_Gestures_Simple_SimplePanGesture_Panned.htm" />
-          <HelpTOCNode Title="PanStarted Event" Url="html/E_TouchScript_Gestures_Simple_SimplePanGesture_PanStarted.htm" />
+    <HelpTOCNode Id="4c31e3b9-15ae-4909-a6a9-0058886bff56" Title="TouchScript.Gestures.Clustered" Url="html/N_TouchScript_Gestures_Clustered.htm">
+      <HelpTOCNode Id="b8a9371b-2490-42af-bd7a-94b47031b2c1" Title="ClusteredPinnedTransformGesture Class" Url="html/T_TouchScript_Gestures_Clustered_ClusteredPinnedTransformGesture.htm">
+        <HelpTOCNode Title="ClusteredPinnedTransformGesture Constructor " Url="html/M_TouchScript_Gestures_Clustered_ClusteredPinnedTransformGesture__ctor.htm" />
+        <HelpTOCNode Id="d71af1c3-9fd8-4ce5-b62e-c8b7d2940064" Title="ClusteredPinnedTransformGesture Methods" Url="html/Methods_T_TouchScript_Gestures_Clustered_ClusteredPinnedTransformGesture.htm">
+          <HelpTOCNode Title="getPointPreviousScreenPosition Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredPinnedTransformGesture_getPointPreviousScreenPosition.htm" />
+          <HelpTOCNode Title="getPointScreenPosition Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredPinnedTransformGesture_getPointScreenPosition.htm" />
+          <HelpTOCNode Title="relevantTouches Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredPinnedTransformGesture_relevantTouches.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="da53de9f-5734-4327-881e-6bf69b27d533" Title="SimpleRotateGesture Class" Url="html/T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm">
-        <HelpTOCNode Title="SimpleRotateGesture Constructor " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture__ctor.htm" />
-        <HelpTOCNode Id="11281003-fe5b-4c94-81fa-17ed0dbba56e" Title="SimpleRotateGesture Fields" Url="html/Fields_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm">
-          <HelpTOCNode Title="ROTATE_COMPLETE_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimpleRotateGesture_ROTATE_COMPLETE_MESSAGE.htm" />
-          <HelpTOCNode Title="ROTATE_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimpleRotateGesture_ROTATE_MESSAGE.htm" />
-          <HelpTOCNode Title="ROTATE_START_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimpleRotateGesture_ROTATE_START_MESSAGE.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="77983fc0-2a22-4260-8a06-3c7b364d5c19" Title="SimpleRotateGesture Methods" Url="html/Methods_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm">
-          <HelpTOCNode Title="onBegan Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onBegan.htm" />
-          <HelpTOCNode Title="onCancelled Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onCancelled.htm" />
-          <HelpTOCNode Title="onChanged Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onChanged.htm" />
-          <HelpTOCNode Title="onFailed Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onFailed.htm" />
-          <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_onRecognized.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_reset.htm" />
-          <HelpTOCNode Title="restart Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_restart.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_Simple_SimpleRotateGesture_touchesMoved.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="fc4d0148-389e-4bcd-a9d0-9c139eb9caa7" Title="SimpleRotateGesture Properties" Url="html/Properties_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm">
-          <HelpTOCNode Title="DeltaRotation Property " Url="html/P_TouchScript_Gestures_Simple_SimpleRotateGesture_DeltaRotation.htm" />
-          <HelpTOCNode Title="RotationAxis Property " Url="html/P_TouchScript_Gestures_Simple_SimpleRotateGesture_RotationAxis.htm" />
-          <HelpTOCNode Title="RotationThreshold Property " Url="html/P_TouchScript_Gestures_Simple_SimpleRotateGesture_RotationThreshold.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="762740c5-21b9-4d6f-a24a-c2497f3c0a2b" Title="SimpleRotateGesture Events" Url="html/Events_T_TouchScript_Gestures_Simple_SimpleRotateGesture.htm">
-          <HelpTOCNode Title="RotateCompleted Event" Url="html/E_TouchScript_Gestures_Simple_SimpleRotateGesture_RotateCompleted.htm" />
-          <HelpTOCNode Title="Rotated Event" Url="html/E_TouchScript_Gestures_Simple_SimpleRotateGesture_Rotated.htm" />
-          <HelpTOCNode Title="RotateStarted Event" Url="html/E_TouchScript_Gestures_Simple_SimpleRotateGesture_RotateStarted.htm" />
+      <HelpTOCNode Id="01bfb4e9-e213-4afb-81fd-8153b30e425c" Title="ClusteredScreenTransformGesture Class" Url="html/T_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture.htm">
+        <HelpTOCNode Title="ClusteredScreenTransformGesture Constructor " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture__ctor.htm" />
+        <HelpTOCNode Id="accbc9c1-425e-49e3-8ad5-00769d90bacf" Title="ClusteredScreenTransformGesture Methods" Url="html/Methods_T_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture.htm">
+          <HelpTOCNode Title="getNumPoints Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_getNumPoints.htm" />
+          <HelpTOCNode Title="getPointPreviousScreenPosition Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_getPointPreviousScreenPosition.htm" />
+          <HelpTOCNode Title="getPointScreenPosition Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_getPointScreenPosition.htm" />
+          <HelpTOCNode Title="relevantTouches1 Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_relevantTouches1.htm" />
+          <HelpTOCNode Title="relevantTouches2 Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_relevantTouches2.htm" />
+          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_reset.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_touchEnded.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_touchMoved.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="3abf179a-1f8e-44ef-a812-59ec29830d29" Title="SimpleScaleGesture Class" Url="html/T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm">
-        <HelpTOCNode Title="SimpleScaleGesture Constructor " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture__ctor.htm" />
-        <HelpTOCNode Id="aa546937-ebe9-4d16-a693-1de3afc227e0" Title="SimpleScaleGesture Fields" Url="html/Fields_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm">
-          <HelpTOCNode Title="SCALE_COMPLETE_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimpleScaleGesture_SCALE_COMPLETE_MESSAGE.htm" />
-          <HelpTOCNode Title="SCALE_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimpleScaleGesture_SCALE_MESSAGE.htm" />
-          <HelpTOCNode Title="SCALE_START_MESSAGE Field" Url="html/F_TouchScript_Gestures_Simple_SimpleScaleGesture_SCALE_START_MESSAGE.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="1268c72f-c851-473c-90cf-db7441e18b80" Title="SimpleScaleGesture Methods" Url="html/Methods_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm">
-          <HelpTOCNode Title="onBegan Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onBegan.htm" />
-          <HelpTOCNode Title="onCancelled Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onCancelled.htm" />
-          <HelpTOCNode Title="onChanged Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onChanged.htm" />
-          <HelpTOCNode Title="onFailed Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onFailed.htm" />
-          <HelpTOCNode Title="onRecognized Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_onRecognized.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_reset.htm" />
-          <HelpTOCNode Title="restart Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_restart.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_touchesMoved.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="129a39f1-cd1b-42c2-a542-04e093dfb53e" Title="SimpleScaleGesture Properties" Url="html/Properties_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm">
-          <HelpTOCNode Title="LocalDeltaScale Property " Url="html/P_TouchScript_Gestures_Simple_SimpleScaleGesture_LocalDeltaScale.htm" />
-          <HelpTOCNode Title="ScalingThreshold Property " Url="html/P_TouchScript_Gestures_Simple_SimpleScaleGesture_ScalingThreshold.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="33b1ddbc-be8c-494c-bedd-cab130ec10a1" Title="SimpleScaleGesture Events" Url="html/Events_T_TouchScript_Gestures_Simple_SimpleScaleGesture.htm">
-          <HelpTOCNode Title="ScaleCompleted Event" Url="html/E_TouchScript_Gestures_Simple_SimpleScaleGesture_ScaleCompleted.htm" />
-          <HelpTOCNode Title="Scaled Event" Url="html/E_TouchScript_Gestures_Simple_SimpleScaleGesture_Scaled.htm" />
-          <HelpTOCNode Title="ScaleStarted Event" Url="html/E_TouchScript_Gestures_Simple_SimpleScaleGesture_ScaleStarted.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="345ddbd7-eef6-454a-92d0-eaf52cbcffef" Title="Transform2DGestureBase Class" Url="html/T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm">
-        <HelpTOCNode Title="Transform2DGestureBase Constructor " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase__ctor.htm" />
-        <HelpTOCNode Id="359b367e-d4c1-437e-b68a-eb2ac19c05e7" Title="Transform2DGestureBase Fields" Url="html/Fields_T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm">
-          <HelpTOCNode Title="projectionLayer Field" Url="html/F_TouchScript_Gestures_Simple_Transform2DGestureBase_projectionLayer.htm" />
-          <HelpTOCNode Title="worldTransformPlane Field" Url="html/F_TouchScript_Gestures_Simple_Transform2DGestureBase_worldTransformPlane.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="e2163aee-2a77-480c-a368-8db520d3ce77" Title="Transform2DGestureBase Methods" Url="html/Methods_T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm">
-          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_Awake.htm" />
-          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_OnEnable.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_reset.htm" />
-          <HelpTOCNode Title="touchesBegan Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesBegan.htm" />
-          <HelpTOCNode Title="touchesCancelled Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesCancelled.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesEnded.htm" />
-          <HelpTOCNode Title="touchesMoved Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_touchesMoved.htm" />
-          <HelpTOCNode Title="updateProjectionPlane Method " Url="html/M_TouchScript_Gestures_Simple_Transform2DGestureBase_updateProjectionPlane.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="2833c237-ba39-4515-98e1-cfc72e57cc01" Title="Transform2DGestureBase Properties" Url="html/Properties_T_TouchScript_Gestures_Simple_Transform2DGestureBase.htm">
-          <HelpTOCNode Title="PreviousWorldTransformCenter Property " Url="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_PreviousWorldTransformCenter.htm" />
-          <HelpTOCNode Title="Projection Property " Url="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_Projection.htm" />
-          <HelpTOCNode Title="ProjectionNormal Property " Url="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_ProjectionNormal.htm" />
-          <HelpTOCNode Title="WorldTransformCenter Property " Url="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_WorldTransformCenter.htm" />
-          <HelpTOCNode Title="WorldTransformPlane Property " Url="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_WorldTransformPlane.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Title="Transform2DGestureBase.ProjectionType Enumeration" Url="html/T_TouchScript_Gestures_Simple_Transform2DGestureBase_ProjectionType.htm" />
-      <HelpTOCNode Id="2333cc23-9082-4942-b8b2-7cbf380f0762" Title="TwoPointTransform2DGestureBase Class" Url="html/T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm">
-        <HelpTOCNode Title="TwoPointTransform2DGestureBase Constructor " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase__ctor.htm" />
-        <HelpTOCNode Id="3211deff-80ed-4ab4-aaa1-0a6765d5b33a" Title="TwoPointTransform2DGestureBase Fields" Url="html/Fields_T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm">
-          <HelpTOCNode Title="minPixelDistance Field" Url="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_minPixelDistance.htm" />
-          <HelpTOCNode Title="minPixelDistanceSquared Field" Url="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_minPixelDistanceSquared.htm" />
-          <HelpTOCNode Title="previousScreenPosition Field" Url="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_previousScreenPosition.htm" />
-          <HelpTOCNode Title="screenPosition Field" Url="html/F_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_screenPosition.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="b4531123-cdc2-4f00-b37b-74b25d796dba" Title="TwoPointTransform2DGestureBase Methods" Url="html/Methods_T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm">
-          <HelpTOCNode Title="getPointPreviousScreenPosition Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_getPointPreviousScreenPosition.htm" />
-          <HelpTOCNode Title="getPointScreenPosition Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_getPointScreenPosition.htm" />
-          <HelpTOCNode Title="gotEnoughTouches Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_gotEnoughTouches.htm" />
-          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_OnEnable.htm" />
-          <HelpTOCNode Title="relevantTouches Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_relevantTouches.htm" />
-          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_reset.htm" />
-          <HelpTOCNode Title="restart Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_restart.htm" />
-          <HelpTOCNode Title="touchesEnded Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_touchesEnded.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="4d4278b7-5266-44b1-8b52-b765e278ae3d" Title="TwoPointTransform2DGestureBase Properties" Url="html/Properties_T_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase.htm">
-          <HelpTOCNode Title="MinPointsDistance Property " Url="html/P_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_MinPointsDistance.htm" />
-          <HelpTOCNode Title="PreviousScreenPosition Property " Url="html/P_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_PreviousScreenPosition.htm" />
-          <HelpTOCNode Title="ScreenPosition Property " Url="html/P_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_ScreenPosition.htm" />
+      <HelpTOCNode Id="b172f7eb-6237-4f7e-8101-967872ec1718" Title="ClusteredTransformGesture Class" Url="html/T_TouchScript_Gestures_Clustered_ClusteredTransformGesture.htm">
+        <HelpTOCNode Title="ClusteredTransformGesture Constructor " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture__ctor.htm" />
+        <HelpTOCNode Id="6928671f-788a-4b03-b875-d3264cced5ad" Title="ClusteredTransformGesture Methods" Url="html/Methods_T_TouchScript_Gestures_Clustered_ClusteredTransformGesture.htm">
+          <HelpTOCNode Title="getNumPoints Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_getNumPoints.htm" />
+          <HelpTOCNode Title="getPointPreviousScreenPosition Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_getPointPreviousScreenPosition.htm" />
+          <HelpTOCNode Title="getPointScreenPosition Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_getPointScreenPosition.htm" />
+          <HelpTOCNode Title="relevantTouches1 Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_relevantTouches1.htm" />
+          <HelpTOCNode Title="relevantTouches2 Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_relevantTouches2.htm" />
+          <HelpTOCNode Title="reset Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_reset.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_touchEnded.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredTransformGesture_touchMoved.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="aadc6bdb-9513-4447-b159-47a9ddd5081a" Title="TouchScript.Hit" Url="html/N_TouchScript_Hit.htm">
-      <HelpTOCNode Id="c390d53f-1fe8-4837-a705-635f6bb9cf25" Title="HitTest Class" Url="html/T_TouchScript_Hit_HitTest.htm">
+    <HelpTOCNode Id="d737de9d-b0ae-41ab-b8ae-59179346943b" Title="TouchScript.Gestures.UI" Url="html/N_TouchScript_Gestures_UI.htm">
+      <HelpTOCNode Id="54c3c537-eb7b-48f2-a5c8-8d0377ebdf31" Title="UIGesture Class" Url="html/T_TouchScript_Gestures_UI_UIGesture.htm">
+        <HelpTOCNode Title="UIGesture Constructor " Url="html/M_TouchScript_Gestures_UI_UIGesture__ctor.htm" />
+        <HelpTOCNode Id="9f4e3b1e-46b6-4f8f-9afe-39c35d448e2c" Title="UIGesture Methods" Url="html/Methods_T_TouchScript_Gestures_UI_UIGesture.htm">
+          <HelpTOCNode Title="CanBePreventedByGesture Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_CanBePreventedByGesture.htm" />
+          <HelpTOCNode Title="CanPreventGesture Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_CanPreventGesture.htm" />
+          <HelpTOCNode Title="getPointerData Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_getPointerData.htm" />
+          <HelpTOCNode Title="removePointerData Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_removePointerData.htm" />
+          <HelpTOCNode Title="setPointerData Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_setPointerData.htm" />
+          <HelpTOCNode Title="touchBegan Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_touchBegan.htm" />
+          <HelpTOCNode Title="touchCancelled Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_touchCancelled.htm" />
+          <HelpTOCNode Title="touchEnded Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_touchEnded.htm" />
+          <HelpTOCNode Title="touchMoved Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_touchMoved.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="588470d7-e146-4bf6-af3f-186d54d09fc9" Title="UIGesture Fields" Url="html/Fields_T_TouchScript_Gestures_UI_UIGesture.htm">
+          <HelpTOCNode Title="pointerData Field" Url="html/F_TouchScript_Gestures_UI_UIGesture_pointerData.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7a5e24f3-fba9-45b1-8cf6-6c3ff9d320be" Title="UIGesture.TouchData Structure" Url="html/T_TouchScript_Gestures_UI_UIGesture_TouchData.htm">
+        <HelpTOCNode Title="UIGesture.TouchData Constructor " Url="html/M_TouchScript_Gestures_UI_UIGesture_TouchData__ctor.htm" />
+        <HelpTOCNode Id="b479c72f-d5cb-412d-a0f3-b7b04ea97b65" Title="TouchData Fields" Url="html/Fields_T_TouchScript_Gestures_UI_UIGesture_TouchData.htm">
+          <HelpTOCNode Title="Data Field" Url="html/F_TouchScript_Gestures_UI_UIGesture_TouchData_Data.htm" />
+          <HelpTOCNode Title="OnTarget Field" Url="html/F_TouchScript_Gestures_UI_UIGesture_TouchData_OnTarget.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6f92747f-e220-4ee2-a292-245b60784298" Title="TouchScript.Hit" Url="html/N_TouchScript_Hit.htm">
+      <HelpTOCNode Id="e3430d62-2092-4704-85fc-cc7c5b03b746" Title="HitTest Class" Url="html/T_TouchScript_Hit_HitTest.htm">
         <HelpTOCNode Title="HitTest Constructor " Url="html/M_TouchScript_Hit_HitTest__ctor.htm" />
-        <HelpTOCNode Id="0c97f857-7b7e-4cb0-9a97-8353ff39a35e" Title="HitTest Methods" Url="html/Methods_T_TouchScript_Hit_HitTest.htm">
+        <HelpTOCNode Id="049ff1c3-1eb3-4582-b12d-190a8aa31bfe" Title="HitTest Methods" Url="html/Methods_T_TouchScript_Hit_HitTest.htm">
           <HelpTOCNode Title="IsHit Method " Url="html/M_TouchScript_Hit_HitTest_IsHit.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="HitTest.ObjectHitResult Enumeration" Url="html/T_TouchScript_Hit_HitTest_ObjectHitResult.htm" />
-      <HelpTOCNode Id="43a2d468-2683-4794-b646-e5cf95bd9ce8" Title="ITouchHit Interface" Url="html/T_TouchScript_Hit_ITouchHit.htm">
-        <HelpTOCNode Id="92d440bd-187f-472e-a792-1aa4ce8bd34e" Title="ITouchHit Properties" Url="html/Properties_T_TouchScript_Hit_ITouchHit.htm">
-          <HelpTOCNode Title="Transform Property " Url="html/P_TouchScript_Hit_ITouchHit_Transform.htm" />
+      <HelpTOCNode Id="6559b412-d4aa-471b-8641-0147ef545d32" Title="TouchHit Structure" Url="html/T_TouchScript_Hit_TouchHit.htm">
+        <HelpTOCNode Id="e34aaea7-fb6b-46a9-aaea-dbfe138a1849" Title="TouchHit Constructor " Url="html/Overload_TouchScript_Hit_TouchHit__ctor.htm">
+          <HelpTOCNode Title="TouchHit Constructor (RaycastResult)" Url="html/M_TouchScript_Hit_TouchHit__ctor.htm" />
+          <HelpTOCNode Title="TouchHit Constructor (RaycastHit)" Url="html/M_TouchScript_Hit_TouchHit__ctor_1.htm" />
+          <HelpTOCNode Title="TouchHit Constructor (RaycastHit2D)" Url="html/M_TouchScript_Hit_TouchHit__ctor_2.htm" />
+          <HelpTOCNode Title="TouchHit Constructor (Transform)" Url="html/M_TouchScript_Hit_TouchHit__ctor_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6cce31ff-3edf-445a-8608-e85c396063bc" Title="TouchHit Properties" Url="html/Properties_T_TouchScript_Hit_TouchHit.htm">
+          <HelpTOCNode Title="Normal Property " Url="html/P_TouchScript_Hit_TouchHit_Normal.htm" />
+          <HelpTOCNode Title="Point Property " Url="html/P_TouchScript_Hit_TouchHit_Point.htm" />
+          <HelpTOCNode Title="RaycastHit Property " Url="html/P_TouchScript_Hit_TouchHit_RaycastHit.htm" />
+          <HelpTOCNode Title="RaycastHit2D Property " Url="html/P_TouchScript_Hit_TouchHit_RaycastHit2D.htm" />
+          <HelpTOCNode Title="RaycastResult Property " Url="html/P_TouchScript_Hit_TouchHit_RaycastResult.htm" />
+          <HelpTOCNode Title="Transform Property " Url="html/P_TouchScript_Hit_TouchHit_Transform.htm" />
+          <HelpTOCNode Title="Type Property " Url="html/P_TouchScript_Hit_TouchHit_Type.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d7c38b49-ba81-4eaa-85e4-ff07f2881ac9" Title="ITouchHit2D Interface" Url="html/T_TouchScript_Hit_ITouchHit2D.htm">
-        <HelpTOCNode Id="6d5b1b51-8f59-4009-9952-24c4a1df1765" Title="ITouchHit2D Properties" Url="html/Properties_T_TouchScript_Hit_ITouchHit2D.htm">
-          <HelpTOCNode Title="Collider2D Property " Url="html/P_TouchScript_Hit_ITouchHit2D_Collider2D.htm" />
-          <HelpTOCNode Title="Point Property " Url="html/P_TouchScript_Hit_ITouchHit2D_Point.htm" />
-          <HelpTOCNode Title="Rigidbody2D Property " Url="html/P_TouchScript_Hit_ITouchHit2D_Rigidbody2D.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="d5ebe905-656f-4fab-b33a-0bcd522d1851" Title="ITouchHit3D Interface" Url="html/T_TouchScript_Hit_ITouchHit3D.htm">
-        <HelpTOCNode Id="dd1460ac-18be-44cd-9fe4-82e7dd2979ba" Title="ITouchHit3D Properties" Url="html/Properties_T_TouchScript_Hit_ITouchHit3D.htm">
-          <HelpTOCNode Title="Collider Property " Url="html/P_TouchScript_Hit_ITouchHit3D_Collider.htm" />
-          <HelpTOCNode Title="Normal Property " Url="html/P_TouchScript_Hit_ITouchHit3D_Normal.htm" />
-          <HelpTOCNode Title="Point Property " Url="html/P_TouchScript_Hit_ITouchHit3D_Point.htm" />
-          <HelpTOCNode Title="Rigidbody Property " Url="html/P_TouchScript_Hit_ITouchHit3D_Rigidbody.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="aaba56b4-1f0b-4186-9a5a-f858fad5ec58" Title="ITouchHitFactory Interface" Url="html/T_TouchScript_Hit_ITouchHitFactory.htm">
-        <HelpTOCNode Id="cf660874-4a59-4a23-80eb-0140b5e74684" Title="ITouchHitFactory Methods" Url="html/Methods_T_TouchScript_Hit_ITouchHitFactory.htm">
-          <HelpTOCNode Id="d28ceb42-6707-4331-ae15-8979bf244445" Title="GetTouchHit Method " Url="html/Overload_TouchScript_Hit_ITouchHitFactory_GetTouchHit.htm">
-            <HelpTOCNode Title="GetTouchHit Method (RaycastHit)" Url="html/M_TouchScript_Hit_ITouchHitFactory_GetTouchHit.htm" />
-            <HelpTOCNode Title="GetTouchHit Method (RaycastHit2D)" Url="html/M_TouchScript_Hit_ITouchHitFactory_GetTouchHit_1.htm" />
-            <HelpTOCNode Title="GetTouchHit Method (Transform)" Url="html/M_TouchScript_Hit_ITouchHitFactory_GetTouchHit_2.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="cdecf846-8c50-48ef-b64c-714067b710e9" Title="TouchHitFactory Class" Url="html/T_TouchScript_Hit_TouchHitFactory.htm">
-        <HelpTOCNode Id="d18d7d10-462d-4f4e-b77e-c97372977b0c" Title="TouchHitFactory Methods" Url="html/Methods_T_TouchScript_Hit_TouchHitFactory.htm">
-          <HelpTOCNode Id="bee757bf-c804-4a8a-a22a-c259422b6d7c" Title="GetTouchHit Method " Url="html/Overload_TouchScript_Hit_TouchHitFactory_GetTouchHit.htm">
-            <HelpTOCNode Title="GetTouchHit Method (RaycastHit)" Url="html/M_TouchScript_Hit_TouchHitFactory_GetTouchHit.htm" />
-            <HelpTOCNode Title="GetTouchHit Method (RaycastHit2D)" Url="html/M_TouchScript_Hit_TouchHitFactory_GetTouchHit_1.htm" />
-            <HelpTOCNode Title="GetTouchHit Method (Transform)" Url="html/M_TouchScript_Hit_TouchHitFactory_GetTouchHit_2.htm" />
-          </HelpTOCNode>
-        </HelpTOCNode>
-        <HelpTOCNode Id="c962cc1e-c9c5-40d9-bfd2-250da062e611" Title="TouchHitFactory Properties" Url="html/Properties_T_TouchScript_Hit_TouchHitFactory.htm">
-          <HelpTOCNode Title="Instance Property " Url="html/P_TouchScript_Hit_TouchHitFactory_Instance.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="8f766599-bf26-481d-982a-2b935d225dae" Title="Untouchable Class" Url="html/T_TouchScript_Hit_Untouchable.htm">
+      <HelpTOCNode Title="TouchHit.TouchHitType Enumeration" Url="html/T_TouchScript_Hit_TouchHit_TouchHitType.htm" />
+      <HelpTOCNode Id="4680a0cd-c6fe-4d08-ac39-ea3ce3f3f161" Title="Untouchable Class" Url="html/T_TouchScript_Hit_Untouchable.htm">
         <HelpTOCNode Title="Untouchable Constructor " Url="html/M_TouchScript_Hit_Untouchable__ctor.htm" />
-        <HelpTOCNode Id="0c30cded-8d89-4e13-9902-4683db5ca7b4" Title="Untouchable Fields" Url="html/Fields_T_TouchScript_Hit_Untouchable.htm">
-          <HelpTOCNode Title="DiscardTouch Field" Url="html/F_TouchScript_Hit_Untouchable_DiscardTouch.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="0151496d-3870-425f-a6f4-aa6ac2b4402b" Title="Untouchable Methods" Url="html/Methods_T_TouchScript_Hit_Untouchable.htm">
+        <HelpTOCNode Id="cce94c2b-c04d-4068-aab0-92d792b766fd" Title="Untouchable Methods" Url="html/Methods_T_TouchScript_Hit_Untouchable.htm">
           <HelpTOCNode Title="IsHit Method " Url="html/M_TouchScript_Hit_Untouchable_IsHit.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="247ead76-b765-4cb2-ba9b-5ed8478157e5" Title="Untouchable Fields" Url="html/Fields_T_TouchScript_Hit_Untouchable.htm">
+          <HelpTOCNode Title="DiscardTouch Field" Url="html/F_TouchScript_Hit_Untouchable_DiscardTouch.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1b9377b7-02c1-442a-8cb8-9267f6b5009e" Title="TouchScript.InputSources" Url="html/N_TouchScript_InputSources.htm">
-      <HelpTOCNode Id="26dd6b2c-1e13-4915-8c7d-fb3abce503e3" Title="ICoordinatesRemapper Interface" Url="html/T_TouchScript_InputSources_ICoordinatesRemapper.htm">
-        <HelpTOCNode Id="4de2672e-4952-43ef-a530-8cfdc34b4809" Title="ICoordinatesRemapper Methods" Url="html/Methods_T_TouchScript_InputSources_ICoordinatesRemapper.htm">
+    <HelpTOCNode Id="8ae4b486-97c1-4693-85f5-5ce69925a193" Title="TouchScript.InputSources" Url="html/N_TouchScript_InputSources.htm">
+      <HelpTOCNode Id="82a1525a-1ee4-412d-b716-0c9ca8e2f7e7" Title="ICoordinatesRemapper Interface" Url="html/T_TouchScript_InputSources_ICoordinatesRemapper.htm">
+        <HelpTOCNode Id="182cedd6-af8a-44ba-93bd-e4cf41db96e9" Title="ICoordinatesRemapper Methods" Url="html/Methods_T_TouchScript_InputSources_ICoordinatesRemapper.htm">
           <HelpTOCNode Title="Remap Method " Url="html/M_TouchScript_InputSources_ICoordinatesRemapper_Remap.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="550c2a45-d2b0-4b69-ade8-b11fc290c769" Title="IInputSource Interface" Url="html/T_TouchScript_InputSources_IInputSource.htm">
-        <HelpTOCNode Id="523c4c74-f34a-4698-bc95-8cae91f92ed6" Title="IInputSource Properties" Url="html/Properties_T_TouchScript_InputSources_IInputSource.htm">
+      <HelpTOCNode Id="87b46d58-bee8-4beb-a0d8-485454c5087b" Title="IInputSource Interface" Url="html/T_TouchScript_InputSources_IInputSource.htm">
+        <HelpTOCNode Id="3a641a6d-b17e-4ddd-9707-38542691559c" Title="IInputSource Properties" Url="html/Properties_T_TouchScript_InputSources_IInputSource.htm">
           <HelpTOCNode Title="CoordinatesRemapper Property " Url="html/P_TouchScript_InputSources_IInputSource_CoordinatesRemapper.htm" />
         </HelpTOCNode>
+        <HelpTOCNode Id="bf8c0458-d402-4c75-98e0-f61711f4e922" Title="IInputSource Methods" Url="html/Methods_T_TouchScript_InputSources_IInputSource.htm">
+          <HelpTOCNode Title="UpdateInput Method " Url="html/M_TouchScript_InputSources_IInputSource_UpdateInput.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="6de076e5-fe85-406c-8bbc-ee6120860bb1" Title="InputSource Class" Url="html/T_TouchScript_InputSources_InputSource.htm">
+      <HelpTOCNode Id="9e9d2794-3074-4465-97a4-66b4314df510" Title="InputSource Class" Url="html/T_TouchScript_InputSources_InputSource.htm">
         <HelpTOCNode Title="InputSource Constructor " Url="html/M_TouchScript_InputSources_InputSource__ctor.htm" />
-        <HelpTOCNode Id="28796f63-5086-4384-b310-8735bd1295c4" Title="InputSource Methods" Url="html/Methods_T_TouchScript_InputSources_InputSource.htm">
-          <HelpTOCNode Id="a0e18bdc-7565-431b-9758-1e023d0b9cbd" Title="beginTouch Method " Url="html/Overload_TouchScript_InputSources_InputSource_beginTouch.htm">
+        <HelpTOCNode Id="f61c1d95-e5d6-40eb-a649-b9387b62f240" Title="InputSource Properties" Url="html/Properties_T_TouchScript_InputSources_InputSource.htm">
+          <HelpTOCNode Title="CoordinatesRemapper Property " Url="html/P_TouchScript_InputSources_InputSource_CoordinatesRemapper.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="69674904-cf38-450b-ac8b-043d27b25951" Title="InputSource Methods" Url="html/Methods_T_TouchScript_InputSources_InputSource.htm">
+          <HelpTOCNode Id="0a03b730-353d-49fe-8b68-da9f6ae569d0" Title="beginTouch Method " Url="html/Overload_TouchScript_InputSources_InputSource_beginTouch.htm">
             <HelpTOCNode Title="beginTouch Method (Vector2)" Url="html/M_TouchScript_InputSources_InputSource_beginTouch.htm" />
             <HelpTOCNode Title="beginTouch Method (Vector2, Tags)" Url="html/M_TouchScript_InputSources_InputSource_beginTouch_1.htm" />
           </HelpTOCNode>
@@ -693,30 +669,53 @@
           <HelpTOCNode Title="moveTouch Method " Url="html/M_TouchScript_InputSources_InputSource_moveTouch.htm" />
           <HelpTOCNode Title="OnDisable Method " Url="html/M_TouchScript_InputSources_InputSource_OnDisable.htm" />
           <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_InputSources_InputSource_OnEnable.htm" />
-          <HelpTOCNode Title="Update Method " Url="html/M_TouchScript_InputSources_InputSource_Update.htm" />
+          <HelpTOCNode Title="UpdateInput Method " Url="html/M_TouchScript_InputSources_InputSource_UpdateInput.htm" />
           <HelpTOCNode Title="updateTouch Method " Url="html/M_TouchScript_InputSources_InputSource_updateTouch.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0b385889-0b22-44f5-938a-1a2b856ed87f" Title="InputSource Properties" Url="html/Properties_T_TouchScript_InputSources_InputSource.htm">
-          <HelpTOCNode Title="CoordinatesRemapper Property " Url="html/P_TouchScript_InputSources_InputSource_CoordinatesRemapper.htm" />
-        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="2d691dda-2397-4dea-b036-309592625918" Title="MobileInput Class" Url="html/T_TouchScript_InputSources_MobileInput.htm">
+      <HelpTOCNode Id="2c08d82c-025f-4840-ad78-b58147a61480" Title="MobileInput Class" Url="html/T_TouchScript_InputSources_MobileInput.htm">
         <HelpTOCNode Title="MobileInput Constructor " Url="html/M_TouchScript_InputSources_MobileInput__ctor.htm" />
-        <HelpTOCNode Id="faea2d35-e489-47fa-b053-dc766644c90f" Title="MobileInput Fields" Url="html/Fields_T_TouchScript_InputSources_MobileInput.htm">
+        <HelpTOCNode Id="9283c39e-a939-40c5-ac39-729c2cbcf624" Title="MobileInput Methods" Url="html/Methods_T_TouchScript_InputSources_MobileInput.htm">
+          <HelpTOCNode Title="UpdateInput Method " Url="html/M_TouchScript_InputSources_MobileInput_UpdateInput.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="47b15c21-2ffe-486a-8262-a3342aa66edc" Title="MobileInput Fields" Url="html/Fields_T_TouchScript_InputSources_MobileInput.htm">
           <HelpTOCNode Title="DisableOnNonTouchPlatforms Field" Url="html/F_TouchScript_InputSources_MobileInput_DisableOnNonTouchPlatforms.htm" />
           <HelpTOCNode Title="Tags Field" Url="html/F_TouchScript_InputSources_MobileInput_Tags.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="28845679-c6de-401b-a80c-dea118ce92b6" Title="MouseInput Class" Url="html/T_TouchScript_InputSources_MouseInput.htm">
+      <HelpTOCNode Id="f6b6081c-c9d3-467b-8347-f7ee4a106bdd" Title="MouseInput Class" Url="html/T_TouchScript_InputSources_MouseInput.htm">
         <HelpTOCNode Title="MouseInput Constructor " Url="html/M_TouchScript_InputSources_MouseInput__ctor.htm" />
-        <HelpTOCNode Id="030f27a0-66ea-4270-a337-7c232516b96c" Title="MouseInput Fields" Url="html/Fields_T_TouchScript_InputSources_MouseInput.htm">
+        <HelpTOCNode Id="830d9bf0-ba60-4f5b-a93d-ecd7365165d4" Title="MouseInput Methods" Url="html/Methods_T_TouchScript_InputSources_MouseInput.htm">
+          <HelpTOCNode Title="UpdateInput Method " Url="html/M_TouchScript_InputSources_MouseInput_UpdateInput.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2ccd141f-3f7f-4e97-8a64-d287b9dfaf14" Title="MouseInput Fields" Url="html/Fields_T_TouchScript_InputSources_MouseInput.htm">
           <HelpTOCNode Title="DisableOnMobilePlatforms Field" Url="html/F_TouchScript_InputSources_MouseInput_DisableOnMobilePlatforms.htm" />
           <HelpTOCNode Title="Tags Field" Url="html/F_TouchScript_InputSources_MouseInput_Tags.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e0901808-972e-4583-863c-394b658ecf21" Title="TuioInput Class" Url="html/T_TouchScript_InputSources_TuioInput.htm">
+      <HelpTOCNode Id="d74200a3-9f3e-489f-aa35-31a9456fa012" Title="StandardInput Class" Url="html/T_TouchScript_InputSources_StandardInput.htm">
+        <HelpTOCNode Title="StandardInput Constructor " Url="html/M_TouchScript_InputSources_StandardInput__ctor.htm" />
+        <HelpTOCNode Id="ef5467d4-adb3-41a6-8746-360139773027" Title="StandardInput Methods" Url="html/Methods_T_TouchScript_InputSources_StandardInput.htm">
+          <HelpTOCNode Title="UpdateInput Method " Url="html/M_TouchScript_InputSources_StandardInput_UpdateInput.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e236a984-345a-4651-8617-685146a432fb" Title="StandardInput Fields" Url="html/Fields_T_TouchScript_InputSources_StandardInput.htm">
+          <HelpTOCNode Title="MouseTags Field" Url="html/F_TouchScript_InputSources_StandardInput_MouseTags.htm" />
+          <HelpTOCNode Title="PenTags Field" Url="html/F_TouchScript_InputSources_StandardInput_PenTags.htm" />
+          <HelpTOCNode Title="TouchTags Field" Url="html/F_TouchScript_InputSources_StandardInput_TouchTags.htm" />
+          <HelpTOCNode Title="UniversalWindowsMouse Field" Url="html/F_TouchScript_InputSources_StandardInput_UniversalWindowsMouse.htm" />
+          <HelpTOCNode Title="WebGLTouch Field" Url="html/F_TouchScript_InputSources_StandardInput_WebGLTouch.htm" />
+          <HelpTOCNode Title="WebPlayerTouch Field" Url="html/F_TouchScript_InputSources_StandardInput_WebPlayerTouch.htm" />
+          <HelpTOCNode Title="Windows7Mouse Field" Url="html/F_TouchScript_InputSources_StandardInput_Windows7Mouse.htm" />
+          <HelpTOCNode Title="Windows7Touch Field" Url="html/F_TouchScript_InputSources_StandardInput_Windows7Touch.htm" />
+          <HelpTOCNode Title="Windows8Mouse Field" Url="html/F_TouchScript_InputSources_StandardInput_Windows8Mouse.htm" />
+          <HelpTOCNode Title="Windows8Touch Field" Url="html/F_TouchScript_InputSources_StandardInput_Windows8Touch.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="StandardInput.Windows7TouchAPIType Enumeration" Url="html/T_TouchScript_InputSources_StandardInput_Windows7TouchAPIType.htm" />
+      <HelpTOCNode Title="StandardInput.Windows8TouchAPIType Enumeration" Url="html/T_TouchScript_InputSources_StandardInput_Windows8TouchAPIType.htm" />
+      <HelpTOCNode Id="99098ce5-cf8a-4ef3-be01-6c832600340f" Title="TuioInput Class" Url="html/T_TouchScript_InputSources_TuioInput.htm">
         <HelpTOCNode Title="TuioInput Constructor " Url="html/M_TouchScript_InputSources_TuioInput__ctor.htm" />
-        <HelpTOCNode Id="063bb54d-7601-409b-b076-489a9adf84a8" Title="TuioInput Properties" Url="html/Properties_T_TouchScript_InputSources_TuioInput.htm">
+        <HelpTOCNode Id="ccb8fa3e-4b93-434f-abda-8f2515ad9129" Title="TuioInput Properties" Url="html/Properties_T_TouchScript_InputSources_TuioInput.htm">
           <HelpTOCNode Title="BlobTags Property " Url="html/P_TouchScript_InputSources_TuioInput_BlobTags.htm" />
           <HelpTOCNode Title="CursorTags Property " Url="html/P_TouchScript_InputSources_TuioInput_CursorTags.htm" />
           <HelpTOCNode Title="ObjectTags Property " Url="html/P_TouchScript_InputSources_TuioInput_ObjectTags.htm" />
@@ -724,126 +723,161 @@
           <HelpTOCNode Title="TuioObjectMappings Property " Url="html/P_TouchScript_InputSources_TuioInput_TuioObjectMappings.htm" />
           <HelpTOCNode Title="TuioPort Property " Url="html/P_TouchScript_InputSources_TuioInput_TuioPort.htm" />
         </HelpTOCNode>
+        <HelpTOCNode Id="68b5b99a-85c5-4ba2-a4b4-c9a6c1ed54f5" Title="TuioInput Methods" Url="html/Methods_T_TouchScript_InputSources_TuioInput.htm">
+          <HelpTOCNode Title="UpdateInput Method " Url="html/M_TouchScript_InputSources_TuioInput_UpdateInput.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6ea55ed9-17ac-48af-8f2b-6f9a72b30de2" Title="TuioInput Fields" Url="html/Fields_T_TouchScript_InputSources_TuioInput.htm">
+          <HelpTOCNode Title="SOURCE_TUIO Field" Url="html/F_TouchScript_InputSources_TuioInput_SOURCE_TUIO.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="TuioInput.InputType Enumeration" Url="html/T_TouchScript_InputSources_TuioInput_InputType.htm" />
-      <HelpTOCNode Id="a9ec35b1-e73e-453c-98e9-c7330f3eb2e7" Title="TuioObjectMapping Class" Url="html/T_TouchScript_InputSources_TuioObjectMapping.htm">
+      <HelpTOCNode Id="09498953-c3e7-42a4-b2aa-6cf971cd2c03" Title="TuioObjectMapping Class" Url="html/T_TouchScript_InputSources_TuioObjectMapping.htm">
         <HelpTOCNode Title="TuioObjectMapping Constructor " Url="html/M_TouchScript_InputSources_TuioObjectMapping__ctor.htm" />
-        <HelpTOCNode Id="19df74d4-d9f2-4460-85cf-7314cfda38e3" Title="TuioObjectMapping Fields" Url="html/Fields_T_TouchScript_InputSources_TuioObjectMapping.htm">
+        <HelpTOCNode Id="295a5019-c9aa-4804-bd61-e59496e482d0" Title="TuioObjectMapping Fields" Url="html/Fields_T_TouchScript_InputSources_TuioObjectMapping.htm">
           <HelpTOCNode Title="Id Field" Url="html/F_TouchScript_InputSources_TuioObjectMapping_Id.htm" />
           <HelpTOCNode Title="Tag Field" Url="html/F_TouchScript_InputSources_TuioObjectMapping_Tag.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="457f6038-d3e4-4eb8-a3d8-63849d4324c9" Title="Win7TouchInput Class" Url="html/T_TouchScript_InputSources_Win7TouchInput.htm">
-        <HelpTOCNode Title="Win7TouchInput Constructor " Url="html/M_TouchScript_InputSources_Win7TouchInput__ctor.htm" />
-        <HelpTOCNode Id="56f26786-3edf-4c60-80d4-2a719f165144" Title="Win7TouchInput Fields" Url="html/Fields_T_TouchScript_InputSources_Win7TouchInput.htm">
-          <HelpTOCNode Title="DisableMouseInputInBuilds Field" Url="html/F_TouchScript_InputSources_Win7TouchInput_DisableMouseInputInBuilds.htm" />
-          <HelpTOCNode Title="Tags Field" Url="html/F_TouchScript_InputSources_Win7TouchInput_Tags.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d7cdbac7-fe88-4363-b446-cc390980fa63" Title="TouchScript.InputSources.InputHandlers" Url="html/N_TouchScript_InputSources_InputHandlers.htm">
+      <HelpTOCNode Id="91e1de04-5980-47a5-8559-cd8d2ba7a265" Title="MouseHandler Class" Url="html/T_TouchScript_InputSources_InputHandlers_MouseHandler.htm">
+        <HelpTOCNode Title="MouseHandler Constructor " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler__ctor.htm" />
+        <HelpTOCNode Id="a0742ca2-4799-4777-b04c-7d257b4fc6c7" Title="MouseHandler Methods" Url="html/Methods_T_TouchScript_InputSources_InputHandlers_MouseHandler.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler_Dispose.htm" />
+          <HelpTOCNode Title="EndTouches Method " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler_EndTouches.htm" />
+          <HelpTOCNode Title="Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler_Update.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="bde78f31-f1f4-4820-b8f2-ab25a9edf004" Title="Win8TouchInput Class" Url="html/T_TouchScript_InputSources_Win8TouchInput.htm">
-        <HelpTOCNode Title="Win8TouchInput Constructor " Url="html/M_TouchScript_InputSources_Win8TouchInput__ctor.htm" />
-        <HelpTOCNode Id="31cf9340-988b-4fef-9bb4-07ae2a840769" Title="Win8TouchInput Fields" Url="html/Fields_T_TouchScript_InputSources_Win8TouchInput.htm">
-          <HelpTOCNode Title="MouseTags Field" Url="html/F_TouchScript_InputSources_Win8TouchInput_MouseTags.htm" />
-          <HelpTOCNode Title="PenTags Field" Url="html/F_TouchScript_InputSources_Win8TouchInput_PenTags.htm" />
-          <HelpTOCNode Title="TouchTags Field" Url="html/F_TouchScript_InputSources_Win8TouchInput_TouchTags.htm" />
+      <HelpTOCNode Id="0be05a69-aa7b-49ba-8c7d-c1f6743b3e55" Title="TouchHandler Class" Url="html/T_TouchScript_InputSources_InputHandlers_TouchHandler.htm">
+        <HelpTOCNode Title="TouchHandler Constructor " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler__ctor.htm" />
+        <HelpTOCNode Id="dc441c67-eb13-4d87-8b89-92ea791229d0" Title="TouchHandler Properties" Url="html/Properties_T_TouchScript_InputSources_InputHandlers_TouchHandler.htm">
+          <HelpTOCNode Title="HasTouches Property " Url="html/P_TouchScript_InputSources_InputHandlers_TouchHandler_HasTouches.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f9689530-2eb6-4bf3-9401-52e5badf0a39" Title="TouchHandler Methods" Url="html/Methods_T_TouchScript_InputSources_InputHandlers_TouchHandler.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler_Dispose.htm" />
+          <HelpTOCNode Title="Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler_Update.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="98e90d88-61b9-4e92-acd7-c2bcdf4b6963" Title="TouchScript.Layers" Url="html/N_TouchScript_Layers.htm">
-      <HelpTOCNode Id="2cc3c9d1-dfe9-4cbc-9924-57f944e83bec" Title="CameraLayer Class" Url="html/T_TouchScript_Layers_CameraLayer.htm">
+    <HelpTOCNode Id="0799ffa3-a53b-4c80-887f-a241c04b2dbb" Title="TouchScript.Layers" Url="html/N_TouchScript_Layers.htm">
+      <HelpTOCNode Id="0d8c9449-8da2-4d44-a0ad-2949622983af" Title="CameraLayer Class" Url="html/T_TouchScript_Layers_CameraLayer.htm">
         <HelpTOCNode Title="CameraLayer Constructor " Url="html/M_TouchScript_Layers_CameraLayer__ctor.htm" />
+        <HelpTOCNode Id="1a64caef-2f02-4954-bccd-51d91f4dae6d" Title="CameraLayer Methods" Url="html/Methods_T_TouchScript_Layers_CameraLayer.htm">
+          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Layers_CameraLayer_Awake.htm" />
+          <HelpTOCNode Title="castRay Method " Url="html/M_TouchScript_Layers_CameraLayer_castRay.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cbe5fb0b-79c1-458c-a4df-c3c93170753a" Title="CameraLayer2D Class" Url="html/T_TouchScript_Layers_CameraLayer2D.htm">
+      <HelpTOCNode Id="d7a54bd2-fc19-40fd-a038-4eda9e7f2599" Title="CameraLayer2D Class" Url="html/T_TouchScript_Layers_CameraLayer2D.htm">
         <HelpTOCNode Title="CameraLayer2D Constructor " Url="html/M_TouchScript_Layers_CameraLayer2D__ctor.htm" />
+        <HelpTOCNode Id="1c52245a-8437-4d74-a802-e8da64ed0345" Title="CameraLayer2D Methods" Url="html/Methods_T_TouchScript_Layers_CameraLayer2D.htm">
+          <HelpTOCNode Title="castRay Method " Url="html/M_TouchScript_Layers_CameraLayer2D_castRay.htm" />
+          <HelpTOCNode Title="OnEnable Method " Url="html/M_TouchScript_Layers_CameraLayer2D_OnEnable.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="d55f1b1c-c1e0-42d3-bb02-f0b82e8a94fc" Title="CameraLayerBase Class" Url="html/T_TouchScript_Layers_CameraLayerBase.htm">
+      <HelpTOCNode Id="d5579b53-fae0-4a2b-99b1-a25f35d65dd7" Title="CameraLayerBase Class" Url="html/T_TouchScript_Layers_CameraLayerBase.htm">
         <HelpTOCNode Title="CameraLayerBase Constructor " Url="html/M_TouchScript_Layers_CameraLayerBase__ctor.htm" />
-        <HelpTOCNode Id="13bc18c7-0ff5-4148-aafa-e964c13ec2dd" Title="CameraLayerBase Fields" Url="html/Fields_T_TouchScript_Layers_CameraLayerBase.htm">
-          <HelpTOCNode Title="_camera Field" Url="html/F_TouchScript_Layers_CameraLayerBase__camera.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="2256df9f-a807-4fa1-85ea-e01acbd32d81" Title="CameraLayerBase Methods" Url="html/Methods_T_TouchScript_Layers_CameraLayerBase.htm">
-          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Layers_CameraLayerBase_Awake.htm" />
-          <HelpTOCNode Title="castRay Method " Url="html/M_TouchScript_Layers_CameraLayerBase_castRay.htm" />
-          <HelpTOCNode Title="Hit Method " Url="html/M_TouchScript_Layers_CameraLayerBase_Hit.htm" />
-          <HelpTOCNode Title="ProjectTo Method " Url="html/M_TouchScript_Layers_CameraLayerBase_ProjectTo.htm" />
-          <HelpTOCNode Title="setName Method " Url="html/M_TouchScript_Layers_CameraLayerBase_setName.htm" />
-          <HelpTOCNode Title="updateCamera Method " Url="html/M_TouchScript_Layers_CameraLayerBase_updateCamera.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="a510e147-e0ec-4321-b50f-71d04b1fae4b" Title="CameraLayerBase Properties" Url="html/Properties_T_TouchScript_Layers_CameraLayerBase.htm">
+        <HelpTOCNode Id="ef310c06-dfdb-49ce-b268-f88afb8f990f" Title="CameraLayerBase Properties" Url="html/Properties_T_TouchScript_Layers_CameraLayerBase.htm">
           <HelpTOCNode Title="LayerMask Property " Url="html/P_TouchScript_Layers_CameraLayerBase_LayerMask.htm" />
           <HelpTOCNode Title="WorldProjectionNormal Property " Url="html/P_TouchScript_Layers_CameraLayerBase_WorldProjectionNormal.htm" />
         </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="63565754-489d-443e-a423-a0f0b245732f" Title="FullscreenLayer Class" Url="html/T_TouchScript_Layers_FullscreenLayer.htm">
-        <HelpTOCNode Title="FullscreenLayer Constructor " Url="html/M_TouchScript_Layers_FullscreenLayer__ctor.htm" />
-        <HelpTOCNode Id="d76eafd9-5bc1-43df-ba3a-1f8cc97139b5" Title="FullscreenLayer Methods" Url="html/Methods_T_TouchScript_Layers_FullscreenLayer.htm">
-          <HelpTOCNode Title="Hit Method " Url="html/M_TouchScript_Layers_FullscreenLayer_Hit.htm" />
-          <HelpTOCNode Title="ProjectTo Method " Url="html/M_TouchScript_Layers_FullscreenLayer_ProjectTo.htm" />
+        <HelpTOCNode Id="a62df412-bab6-4534-a25d-0e1a4b2a862a" Title="CameraLayerBase Methods" Url="html/Methods_T_TouchScript_Layers_CameraLayerBase.htm">
+          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Layers_CameraLayerBase_Awake.htm" />
+          <HelpTOCNode Title="castRay Method " Url="html/M_TouchScript_Layers_CameraLayerBase_castRay.htm" />
+          <HelpTOCNode Title="createProjectionParams Method " Url="html/M_TouchScript_Layers_CameraLayerBase_createProjectionParams.htm" />
+          <HelpTOCNode Title="Hit Method " Url="html/M_TouchScript_Layers_CameraLayerBase_Hit.htm" />
+          <HelpTOCNode Title="setName Method " Url="html/M_TouchScript_Layers_CameraLayerBase_setName.htm" />
+          <HelpTOCNode Title="updateCamera Method " Url="html/M_TouchScript_Layers_CameraLayerBase_updateCamera.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9cf6044e-3d5d-4464-b664-511d2fa6db43" Title="FullscreenLayer Properties" Url="html/Properties_T_TouchScript_Layers_FullscreenLayer.htm">
+        <HelpTOCNode Id="4e7ab400-c710-4a09-93b8-6b229f0c3648" Title="CameraLayerBase Fields" Url="html/Fields_T_TouchScript_Layers_CameraLayerBase.htm">
+          <HelpTOCNode Title="_camera Field" Url="html/F_TouchScript_Layers_CameraLayerBase__camera.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ee691770-021e-475b-bb79-5b1a8ae1fa28" Title="CameraProjectionParams Class" Url="html/T_TouchScript_Layers_CameraProjectionParams.htm">
+        <HelpTOCNode Title="CameraProjectionParams Constructor " Url="html/M_TouchScript_Layers_CameraProjectionParams__ctor.htm" />
+        <HelpTOCNode Id="b89af392-85ed-4d9d-98f7-8b4aa0717483" Title="CameraProjectionParams Methods" Url="html/Methods_T_TouchScript_Layers_CameraProjectionParams.htm">
+          <HelpTOCNode Title="ProjectFrom Method " Url="html/M_TouchScript_Layers_CameraProjectionParams_ProjectFrom.htm" />
+          <HelpTOCNode Title="ProjectTo Method " Url="html/M_TouchScript_Layers_CameraProjectionParams_ProjectTo.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e7bbd406-2657-4f57-bcf9-2c85e61cebe7" Title="CameraProjectionParams Fields" Url="html/Fields_T_TouchScript_Layers_CameraProjectionParams.htm">
+          <HelpTOCNode Title="camera Field" Url="html/F_TouchScript_Layers_CameraProjectionParams_camera.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1333a99f-b122-4614-ac2c-d20a2bb59bf5" Title="CanvasProjectionParams Class" Url="html/T_TouchScript_Layers_CanvasProjectionParams.htm">
+        <HelpTOCNode Title="CanvasProjectionParams Constructor " Url="html/M_TouchScript_Layers_CanvasProjectionParams__ctor.htm" />
+        <HelpTOCNode Id="55180fab-56e7-465a-818e-88dc1d49eaaf" Title="CanvasProjectionParams Methods" Url="html/Methods_T_TouchScript_Layers_CanvasProjectionParams.htm">
+          <HelpTOCNode Title="ProjectFrom Method " Url="html/M_TouchScript_Layers_CanvasProjectionParams_ProjectFrom.htm" />
+          <HelpTOCNode Title="ProjectTo Method " Url="html/M_TouchScript_Layers_CanvasProjectionParams_ProjectTo.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="892fe565-077f-4f44-934d-61243c8ff74f" Title="CanvasProjectionParams Fields" Url="html/Fields_T_TouchScript_Layers_CanvasProjectionParams.htm">
+          <HelpTOCNode Title="camera Field" Url="html/F_TouchScript_Layers_CanvasProjectionParams_camera.htm" />
+          <HelpTOCNode Title="canvas Field" Url="html/F_TouchScript_Layers_CanvasProjectionParams_canvas.htm" />
+          <HelpTOCNode Title="mode Field" Url="html/F_TouchScript_Layers_CanvasProjectionParams_mode.htm" />
+          <HelpTOCNode Title="rect Field" Url="html/F_TouchScript_Layers_CanvasProjectionParams_rect.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="ec6b0d02-c64c-4b11-8d97-85100d902a5f" Title="FullscreenLayer Class" Url="html/T_TouchScript_Layers_FullscreenLayer.htm">
+        <HelpTOCNode Title="FullscreenLayer Constructor " Url="html/M_TouchScript_Layers_FullscreenLayer__ctor.htm" />
+        <HelpTOCNode Id="7a936510-213c-41f8-a471-a08d55550630" Title="FullscreenLayer Properties" Url="html/Properties_T_TouchScript_Layers_FullscreenLayer.htm">
           <HelpTOCNode Title="Camera Property " Url="html/P_TouchScript_Layers_FullscreenLayer_Camera.htm" />
           <HelpTOCNode Title="Type Property " Url="html/P_TouchScript_Layers_FullscreenLayer_Type.htm" />
           <HelpTOCNode Title="WorldProjectionNormal Property " Url="html/P_TouchScript_Layers_FullscreenLayer_WorldProjectionNormal.htm" />
         </HelpTOCNode>
+        <HelpTOCNode Id="5e6147a9-3812-4160-ba26-df08e4b7be22" Title="FullscreenLayer Methods" Url="html/Methods_T_TouchScript_Layers_FullscreenLayer.htm">
+          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Layers_FullscreenLayer_Awake.htm" />
+          <HelpTOCNode Title="createProjectionParams Method " Url="html/M_TouchScript_Layers_FullscreenLayer_createProjectionParams.htm" />
+          <HelpTOCNode Title="Hit Method " Url="html/M_TouchScript_Layers_FullscreenLayer_Hit.htm" />
+          <HelpTOCNode Title="setName Method " Url="html/M_TouchScript_Layers_FullscreenLayer_setName.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="FullscreenLayer.LayerType Enumeration" Url="html/T_TouchScript_Layers_FullscreenLayer_LayerType.htm" />
-      <HelpTOCNode Id="8f67663c-ae06-4f14-8268-6732c1fe08cc" Title="TouchLayer Class" Url="html/T_TouchScript_Layers_TouchLayer.htm">
-        <HelpTOCNode Title="TouchLayer Constructor " Url="html/M_TouchScript_Layers_TouchLayer__ctor.htm" />
-        <HelpTOCNode Id="e0f0d4af-309f-4b77-8444-89708990db7a" Title="TouchLayer Fields" Url="html/Fields_T_TouchScript_Layers_TouchLayer.htm">
-          <HelpTOCNode Title="Name Field" Url="html/F_TouchScript_Layers_TouchLayer_Name.htm" />
+      <HelpTOCNode Id="fe59cdc4-2dab-4722-9c93-6fbe13a66238" Title="ProjectionParams Class" Url="html/T_TouchScript_Layers_ProjectionParams.htm">
+        <HelpTOCNode Title="ProjectionParams Constructor " Url="html/M_TouchScript_Layers_ProjectionParams__ctor.htm" />
+        <HelpTOCNode Id="58abeb58-b35d-435f-b919-fd703ff91850" Title="ProjectionParams Methods" Url="html/Methods_T_TouchScript_Layers_ProjectionParams.htm">
+          <HelpTOCNode Title="ProjectFrom Method " Url="html/M_TouchScript_Layers_ProjectionParams_ProjectFrom.htm" />
+          <HelpTOCNode Title="ProjectTo Method " Url="html/M_TouchScript_Layers_ProjectionParams_ProjectTo.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6c120457-4ab3-412c-934c-6649abc813ff" Title="TouchLayer Methods" Url="html/Methods_T_TouchScript_Layers_TouchLayer.htm">
+      </HelpTOCNode>
+      <HelpTOCNode Id="afa31cb5-d630-4c58-a60c-3b083f2da752" Title="TouchLayer Class" Url="html/T_TouchScript_Layers_TouchLayer.htm">
+        <HelpTOCNode Title="TouchLayer Constructor " Url="html/M_TouchScript_Layers_TouchLayer__ctor.htm" />
+        <HelpTOCNode Id="a68a3b07-2e58-4ea6-9d2e-31ab50358304" Title="TouchLayer Properties" Url="html/Properties_T_TouchScript_Layers_TouchLayer.htm">
+          <HelpTOCNode Title="WorldProjectionNormal Property " Url="html/P_TouchScript_Layers_TouchLayer_WorldProjectionNormal.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="22f024fa-c06f-482d-87c7-8ed3661286e6" Title="TouchLayer Methods" Url="html/Methods_T_TouchScript_Layers_TouchLayer.htm">
           <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Layers_TouchLayer_Awake.htm" />
           <HelpTOCNode Title="beginTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_beginTouch.htm" />
           <HelpTOCNode Title="cancelTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_cancelTouch.htm" />
+          <HelpTOCNode Title="createProjectionParams Method " Url="html/M_TouchScript_Layers_TouchLayer_createProjectionParams.htm" />
           <HelpTOCNode Title="endTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_endTouch.htm" />
+          <HelpTOCNode Title="GetProjectionParams Method " Url="html/M_TouchScript_Layers_TouchLayer_GetProjectionParams.htm" />
           <HelpTOCNode Title="Hit Method " Url="html/M_TouchScript_Layers_TouchLayer_Hit.htm" />
           <HelpTOCNode Title="OnDestroy Method " Url="html/M_TouchScript_Layers_TouchLayer_OnDestroy.htm" />
-          <HelpTOCNode Title="ProjectTo Method " Url="html/M_TouchScript_Layers_TouchLayer_ProjectTo.htm" />
           <HelpTOCNode Title="setName Method " Url="html/M_TouchScript_Layers_TouchLayer_setName.htm" />
           <HelpTOCNode Title="updateTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_updateTouch.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="71672bcf-1b88-42dd-aa26-486f76e3ff5b" Title="TouchLayer Properties" Url="html/Properties_T_TouchScript_Layers_TouchLayer.htm">
-          <HelpTOCNode Title="WorldProjectionNormal Property " Url="html/P_TouchScript_Layers_TouchLayer_WorldProjectionNormal.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="999e863c-251f-423d-ab43-1e980037202f" Title="TouchLayer Events" Url="html/Events_T_TouchScript_Layers_TouchLayer.htm">
+        <HelpTOCNode Id="00eac722-916b-4446-888e-54ee1942fd64" Title="TouchLayer Events" Url="html/Events_T_TouchScript_Layers_TouchLayer.htm">
           <HelpTOCNode Title="TouchBegan Event" Url="html/E_TouchScript_Layers_TouchLayer_TouchBegan.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="096a05a6-2dfc-47d4-8c8e-73d060ad21e1" Title="TouchLayer Fields" Url="html/Fields_T_TouchScript_Layers_TouchLayer.htm">
+          <HelpTOCNode Title="layerProjectionParams Field" Url="html/F_TouchScript_Layers_TouchLayer_layerProjectionParams.htm" />
+          <HelpTOCNode Title="Name Field" Url="html/F_TouchScript_Layers_TouchLayer_Name.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="TouchLayer.LayerHitResult Enumeration" Url="html/T_TouchScript_Layers_TouchLayer_LayerHitResult.htm" />
-      <HelpTOCNode Id="49ffffaa-f151-4bd2-9d30-b18916842765" Title="TouchLayerEventArgs Class" Url="html/T_TouchScript_Layers_TouchLayerEventArgs.htm">
+      <HelpTOCNode Id="0d038542-c8ee-4ac5-80a0-0fa2c241f493" Title="TouchLayerEventArgs Class" Url="html/T_TouchScript_Layers_TouchLayerEventArgs.htm">
         <HelpTOCNode Title="TouchLayerEventArgs Constructor " Url="html/M_TouchScript_Layers_TouchLayerEventArgs__ctor.htm" />
-        <HelpTOCNode Id="5958f786-7d76-42db-9042-6e46ddd36db6" Title="TouchLayerEventArgs Properties" Url="html/Properties_T_TouchScript_Layers_TouchLayerEventArgs.htm">
+        <HelpTOCNode Id="1521b1bc-7003-4edc-b2bb-8ad1703421d2" Title="TouchLayerEventArgs Properties" Url="html/Properties_T_TouchScript_Layers_TouchLayerEventArgs.htm">
           <HelpTOCNode Title="Touch Property " Url="html/P_TouchScript_Layers_TouchLayerEventArgs_Touch.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="94165ad7-c372-4de0-b06e-e406c701bc37" Title="TouchScript.Utils" Url="html/N_TouchScript_Utils.htm">
-      <HelpTOCNode Id="9fd4c7fd-4085-48b1-befa-eceab4f270a1" Title="ClusterUtils Class" Url="html/T_TouchScript_Utils_ClusterUtils.htm">
-        <HelpTOCNode Id="910df135-aaca-4781-a15a-18f64a2396b2" Title="ClusterUtils Methods" Url="html/Methods_T_TouchScript_Utils_ClusterUtils.htm">
-          <HelpTOCNode Title="Get2DCenterPosition Method " Url="html/M_TouchScript_Utils_ClusterUtils_Get2DCenterPosition.htm" />
-          <HelpTOCNode Title="GetPointsHash Method " Url="html/M_TouchScript_Utils_ClusterUtils_GetPointsHash.htm" />
-          <HelpTOCNode Title="GetPrevious2DCenterPosition Method " Url="html/M_TouchScript_Utils_ClusterUtils_GetPrevious2DCenterPosition.htm" />
+      <HelpTOCNode Id="fc164cb9-5e28-4bcf-b1e0-f5373d0dae96" Title="UILayer Class" Url="html/T_TouchScript_Layers_UILayer.htm">
+        <HelpTOCNode Title="UILayer Constructor " Url="html/M_TouchScript_Layers_UILayer__ctor.htm" />
+        <HelpTOCNode Id="f1a16dca-a5f9-465d-bcb8-c5f96bd4c42a" Title="UILayer Methods" Url="html/Methods_T_TouchScript_Layers_UILayer.htm">
+          <HelpTOCNode Title="Awake Method " Url="html/M_TouchScript_Layers_UILayer_Awake.htm" />
+          <HelpTOCNode Title="GetProjectionParams Method " Url="html/M_TouchScript_Layers_UILayer_GetProjectionParams.htm" />
+          <HelpTOCNode Title="Hit Method " Url="html/M_TouchScript_Layers_UILayer_Hit.htm" />
+          <HelpTOCNode Title="lateAwake Method " Url="html/M_TouchScript_Layers_UILayer_lateAwake.htm" />
+          <HelpTOCNode Title="setName Method " Url="html/M_TouchScript_Layers_UILayer_setName.htm" />
         </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="24492bda-52a6-4819-939a-94f4be570845" Title="ProjectionUtils Class" Url="html/T_TouchScript_Utils_ProjectionUtils.htm">
-        <HelpTOCNode Id="6d91ac02-a637-4919-a44a-52b0cbf0c719" Title="ProjectionUtils Methods" Url="html/Methods_T_TouchScript_Utils_ProjectionUtils.htm">
-          <HelpTOCNode Title="CameraToPlaneProjection Method " Url="html/M_TouchScript_Utils_ProjectionUtils_CameraToPlaneProjection.htm" />
-          <HelpTOCNode Title="ScreenToPlaneProjection Method " Url="html/M_TouchScript_Utils_ProjectionUtils_ScreenToPlaneProjection.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="e0d2a7a8-6866-4ace-a118-50b0993f3caf" Title="TouchScript.Utils.Attributes" Url="html/N_TouchScript_Utils_Attributes.htm">
-      <HelpTOCNode Id="397cc049-4e85-4fce-95a6-07a16ad75744" Title="NullToggleAttribute Class" Url="html/T_TouchScript_Utils_Attributes_NullToggleAttribute.htm">
-        <HelpTOCNode Title="NullToggleAttribute Constructor " Url="html/M_TouchScript_Utils_Attributes_NullToggleAttribute__ctor.htm" />
-        <HelpTOCNode Id="0d16f1ff-e5d0-424a-be6d-4a5c46884d0b" Title="NullToggleAttribute Fields" Url="html/Fields_T_TouchScript_Utils_Attributes_NullToggleAttribute.htm">
-          <HelpTOCNode Title="NullFloatValue Field" Url="html/F_TouchScript_Utils_Attributes_NullToggleAttribute_NullFloatValue.htm" />
-          <HelpTOCNode Title="NullIntValue Field" Url="html/F_TouchScript_Utils_Attributes_NullToggleAttribute_NullIntValue.htm" />
-          <HelpTOCNode Title="NullObjectValue Field" Url="html/F_TouchScript_Utils_Attributes_NullToggleAttribute_NullObjectValue.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="cd0b5cd8-916b-461c-8f8e-e80f60f2a710" Title="ToggleLeftAttribute Class" Url="html/T_TouchScript_Utils_Attributes_ToggleLeftAttribute.htm">
-        <HelpTOCNode Title="ToggleLeftAttribute Constructor " Url="html/M_TouchScript_Utils_Attributes_ToggleLeftAttribute__ctor.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>

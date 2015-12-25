@@ -7,11 +7,19 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_CombineTouchesInterval.htm">CombineTouchesInterval</a></td><td><div class="summary">
             Gets or sets time interval before gesture is recognized to combine all lifted touch points into a cluster to use its center as <a href="P_TouchScript_Gestures_Gesture_ScreenPosition.htm">ScreenPosition</a>.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_Delegate.htm">Delegate</a></td><td><div class="summary">
-            An object implementing <a href="T_TouchScript_IGestureDelegate.htm">IGestureDelegate</a> to be asked for gesture specific actions.
+            Gets or sets an object implementing <a href="T_TouchScript_IGestureDelegate.htm">IGestureDelegate</a> to be asked for gesture specific actions.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_TouchScript_Gestures_Gesture_gestureManager.htm">gestureManager</a></td><td><div class="summary">
             Reference to global GestureManager.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_MaxTouches.htm">MaxTouches</a></td><td><div class="summary">
+            Gets or sets maximum number of touches this gesture reacts to.
+            The gesture will not be recognized if it has more than <a href="P_TouchScript_Gestures_Gesture_MaxTouches.htm">MaxTouches</a> touches.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_MinTouches.htm">MinTouches</a></td><td><div class="summary">
+            Gets or sets minimum number of touches this gesture reacts to.
+            The gesture will not be recognized if it has less than <a href="P_TouchScript_Gestures_Gesture_MinTouches.htm">MinTouches</a> touches.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_NormalizedScreenPosition.htm">NormalizedScreenPosition</a></td><td><div class="summary">
             Gets normalized screen position.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_NumTouches.htm">NumTouches</a></td><td><div class="summary">
+            Gets the number of active touch points.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_PreviousNormalizedScreenPosition.htm">PreviousNormalizedScreenPosition</a></td><td><div class="summary">
             Gets previous screen position.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_PreviousScreenPosition.htm">PreviousScreenPosition</a></td><td><div class="summary">
@@ -28,6 +36,8 @@
             Gets or sets a value indicating whether state change events are broadcasted if <a href="P_TouchScript_Gestures_Gesture_UseSendMessage.htm">UseSendMessage</a> is true..
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_State.htm">State</a></td><td><div class="summary">
             Gets current gesture state.
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_TouchScript_Gestures_Gesture_touchesNumState.htm">touchesNumState</a></td><td><div class="summary">
+            The state of min/max number of touches.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_TouchScript_Gestures_Gesture_touchManager.htm">touchManager</a></td><td><div class="summary">
             Reference to global TouchManager.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_TouchScript_Gestures_Gesture_UseSendMessage.htm">UseSendMessage</a></td><td><div class="summary">
