@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="Z:\Work\TouchScript\TouchScript\Docs\docs.shfbproj" started="12/25/2015 18:39:58">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="Z:\Work\TouchScript\TouchScript\Docs\docs.shfbproj" started="12/27/2015 00:36:59">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -30,16 +30,16 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0157
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/25/2015 18:40:00.
+Build started 12/27/2015 00:37:02.
 Project &quot;Z:\Work\TouchScript\TouchScript\Docs\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 PrepareForBuild:
@@ -49,7 +49,7 @@ GenerateRefInfo:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Loaded 1 assemblies for reflection and 6 dependency assemblies.
-  Wrote information on 12 namespaces, 74 types, and 533 members
+  Wrote information on 13 namespaces, 79 types, and 560 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.10.10.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -59,13 +59,13 @@ Done Building Project &quot;Z:\Work\TouchScript\TouchScript\Docs\Help\Working\Ge
 
 Build succeeded.
 
-Time Elapsed 00:00:00.71
-    Last step completed in 00:00:00.8281
+Time Elapsed 00:00:00.89
+    Last step completed in 00:00:01.0155
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 12/25/2015 18:40:01.
+Build started 12/27/2015 00:37:03.
 Project &quot;Z:\Work\TouchScript\TouchScript\Docs\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
@@ -88,6 +88,7 @@ TransformManifest:
     Unique name M_TouchScript_Tags__ctor_4 generated for M:TouchScript.Tags.#ctor(TouchScript.Tags)
     Unique name M_TouchScript_Tags__ctor_5 generated for M:TouchScript.Tags.#ctor(TouchScript.Tags,System.Collections.Generic.IEnumerable{System.String})
     Unique name M_TouchScript_Tags__ctor_6 generated for M:TouchScript.Tags.#ctor(TouchScript.Tags,System.String)
+    Unique name M_TouchScript_TouchPoint_Equals_1 generated for M:TouchScript.TouchPoint.Equals(TouchScript.TouchPoint)
     Unique name M_TouchScript_Gestures_Gesture_Cancel_1 generated for M:TouchScript.Gestures.Gesture.Cancel(System.Boolean,System.Boolean)
     Unique name M_TouchScript_Gestures_Gesture_GetTargetHitResult_1 generated for M:TouchScript.Gestures.Gesture.GetTargetHitResult(TouchScript.Hit.TouchHit@)
     Unique name M_TouchScript_Gestures_Gesture_GetTargetHitResult_2 generated for M:TouchScript.Gestures.Gesture.GetTargetHitResult(UnityEngine.Vector2)
@@ -95,7 +96,6 @@ TransformManifest:
     Unique name M_TouchScript_Hit_TouchHit__ctor_1 generated for M:TouchScript.Hit.TouchHit.#ctor(UnityEngine.RaycastHit)
     Unique name M_TouchScript_Hit_TouchHit__ctor_2 generated for M:TouchScript.Hit.TouchHit.#ctor(UnityEngine.RaycastHit2D)
     Unique name M_TouchScript_Hit_TouchHit__ctor_3 generated for M:TouchScript.Hit.TouchHit.#ctor(UnityEngine.Transform)
-    Unique name M_TouchScript_InputSources_InputSource_beginTouch_1 generated for M:TouchScript.InputSources.InputSource.beginTouch(UnityEngine.Vector2,TouchScript.Tags)
   XslTransform (v2015.10.10.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
@@ -104,12 +104,12 @@ Done Building Project &quot;Z:\Work\TouchScript\TouchScript\Docs\Help\Working\Tr
 
 Build succeeded.
 
-Time Elapsed 00:00:00.51
+Time Elapsed 00:00:00.50
     Last step completed in 00:00:00.6094
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0312
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -125,9 +125,11 @@ Indexing C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\en\*.xml
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.0\en\*.xml
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\*.xml
 Indexing Z:\Work\TouchScript\TouchScript\Docs\Help\Working\Assembly-CSharp.XML
-Indexed 130764 members in 112 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 130768 members in 112 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
+SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.InputSources.InputHandlers.MouseHandler.CancelTouch(TouchScript.TouchPoint,System.Boolean)&#39;
+SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.InputSources.InputHandlers.TouchHandler.CancelTouch(TouchScript.TouchPoint,System.Boolean)&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Behaviors.TouchScriptInputModule.IsModuleSupported&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Behaviors.TouchScriptInputModule.ShouldActivateModule&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Behaviors.TouchScriptInputModule.IsPointerOverGameObject(System.Int32)&#39;
@@ -135,16 +137,24 @@ SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Behaviors
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Behaviors.TouchScriptInputModule.DeactivateModule&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Behaviors.TouchScriptInputModule.Process&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Behaviors.TouchScriptInputModule.ToString&#39;
+SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture.touchBegan(TouchScript.TouchPoint)&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
+SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture.touchMoved(TouchScript.TouchPoint)&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
+SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture.touchEnded(TouchScript.TouchPoint)&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
 SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture.reset&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
+SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.TransformGesture.touchBegan(TouchScript.TouchPoint)&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
+SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.Clustered.ClusteredTransformGesture.touchMoved(TouchScript.TouchPoint)&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
+SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.Clustered.ClusteredTransformGesture.touchEnded(TouchScript.TouchPoint)&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
 SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.Clustered.ClusteredTransformGesture.reset&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Gestures.FlickGesture.LateUpdate&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Gestures.Gesture.Awake&#39;
 SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.PinnedTransformGesture.OnEnable&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
+SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.PinnedTransformGesture.touchBegan(TouchScript.TouchPoint)&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
 SHFB: Warning GID0006: No comments found for member &#39;M:TouchScript.Gestures.TransformGesture.OnEnable&#39; in &#39;[Base member from reference assembly not included for documentation]&#39;
 SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.Layers.UILayer.lateAwake&#39;
+SHFB: Warning GID0004: No comments found for member &#39;M:TouchScript.TouchPoint.Equals(TouchScript.TouchPoint)&#39;
 
 Documentation merged successfully
-    Last step completed in 00:00:01.3906
+    Last step completed in 00:00:01.9063
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -158,7 +168,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/25/2015 18:40:03.
+Build started 12/27/2015 00:37:06.
 Project &quot;Z:\Work\TouchScript\TouchScript\Docs\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
@@ -177,7 +187,7 @@ Generating conceptual content intermediate TOC file...
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0938
+    Last step completed in 00:00:00.1250
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -187,7 +197,7 @@ Z:\Work\TouchScript\TouchScript\Docs\Help\Working\sandcastle.config
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildReferenceTopics.proj]
-Build started 12/25/2015 18:40:04.
+Build started 12/27/2015 00:37:06.
 Project &quot;Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildReferenceTopics:
@@ -204,9 +214,6 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestur
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.GestureManager] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.GestureManager] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.GestureManager] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.ITouch.Position] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.ITouch.PreviousPosition] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.ITouch.Target] Unknown reference link target &#39;T:UnityEngine.Transform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.ITouchManager.GetHitTarget(UnityEngine.Vector2)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.ITouchManager.GetHitTarget(UnityEngine.Vector2)] Unknown reference link target &#39;T:UnityEngine.Transform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.ITouchManager.GetHitTarget(UnityEngine.Vector2,TouchScript.Hit.TouchHit@)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -218,6 +225,9 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.TouchM
 BuildAssembler : warning : ResolveReferenceLinksComponent: [F:TouchScript.TouchManager.INVALID_POSITION] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.TouchManager.IsInvalidPosition(UnityEngine.Vector2)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.TouchManager.SendMessageTarget] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.TouchPoint.Position] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.TouchPoint.PreviousPosition] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.TouchPoint.Target] Unknown reference link target &#39;T:UnityEngine.Transform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.TouchScriptInputModule] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.TouchScriptInputModule] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.TouchScriptInputModule] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -243,13 +253,13 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behavi
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.endPointer(UnityEngine.EventSystems.PointerEventData)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.getLastPointerEventData(System.Int32)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.getPointerData(System.Int32,UnityEngine.EventSystems.PointerEventData@,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.initPointerData(TouchScript.ITouch)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.initPointerData(TouchScript.TouchPoint)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.injectPointer(UnityEngine.EventSystems.PointerEventData)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.movePointer(UnityEngine.EventSystems.PointerEventData)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [F:TouchScript.Behaviors.TouchScriptInputModule.pointerEvents] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.raycastPointer(UnityEngine.EventSystems.PointerEventData)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.removePointerData(UnityEngine.EventSystems.PointerEventData)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.updatePointerData(TouchScript.ITouch)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.TouchScriptInputModule.updatePointerData(TouchScript.TouchPoint)] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Transformer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Transformer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Transformer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -263,7 +273,7 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behavi
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Visualizer.TouchProxyBase] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Visualizer.TouchProxyBase] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Visualizer.TouchProxyBase] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.Visualizer.TouchProxyBase.Init(UnityEngine.RectTransform,TouchScript.ITouch)] Unknown reference link target &#39;T:UnityEngine.RectTransform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Behaviors.Visualizer.TouchProxyBase.Init(UnityEngine.RectTransform,TouchScript.TouchPoint)] Unknown reference link target &#39;T:UnityEngine.RectTransform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [F:TouchScript.Behaviors.Visualizer.TouchProxyBase.rect] Unknown reference link target &#39;T:UnityEngine.RectTransform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Visualizer.TouchVisualizer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Behaviors.Visualizer.TouchVisualizer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -277,6 +287,22 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Device
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Devices.Display.DisplayDevice] Unknown reference link target &#39;T:UnityEngine.ScriptableObject&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Devices.Display.GenericDisplayDevice] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Devices.Display.GenericDisplayDevice] Unknown reference link target &#39;T:UnityEngine.ScriptableObject&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.CustomTouchProxy] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.CustomTouchProxy] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.CustomTouchProxy] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.CustomTouchProxy] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.Init] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.Init] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.Init] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.Init] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.LayerDelegate] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.LayerDelegate] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.LayerDelegate] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.LayerDelegate] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.RedirectInput] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.RedirectInput] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.RedirectInput] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Examples.Cube.RedirectInput] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.FlickGesture] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.FlickGesture] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.FlickGesture] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -313,9 +339,9 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestur
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;T:TouchScript.Gestures.Base.PinnedTrasformGestureBase&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.PinnedTrasformGestureBase.OnEnable&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.PinnedTrasformGestureBase.touchBegan(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.PinnedTrasformGestureBase.touchBegan(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.PinnedTrasformGestureBase.OnEnable&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.PinnedTrasformGestureBase.touchBegan(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.PinnedTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.PinnedTrasformGestureBase.touchBegan(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.PinnedTransformGesture.ApplyTransform(UnityEngine.Transform)] Unknown reference link target &#39;T:UnityEngine.Transform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.Gestures.PinnedTransformGesture.ProjectionPlaneNormal] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.Gestures.PinnedTransformGesture.RotationAxis] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -372,13 +398,13 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestur
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.doScaling(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,TouchScript.Layers.ProjectionParams)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.doTwoPointTranslation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Single,TouchScript.Layers.ProjectionParams)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.OnEnable&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.doOnePointTranslation(UnityEngine.Vector2,UnityEngine.Vector2,TouchScript.Layers.ProjectionParams)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.doRotation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,TouchScript.Layers.ProjectionParams)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.doScaling(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,TouchScript.Layers.ProjectionParams)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.doTwoPointTranslation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Single,System.Single,TouchScript.Layers.ProjectionParams)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.OnEnable&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.TransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.TransformGesture.ApplyTransform(UnityEngine.Transform)] Unknown reference link target &#39;T:UnityEngine.Transform&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.TransformGesture.doOnePointTranslation(UnityEngine.Vector2,UnityEngine.Vector2,TouchScript.Layers.ProjectionParams)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.TransformGesture.doOnePointTranslation(UnityEngine.Vector2,UnityEngine.Vector2,TouchScript.Layers.ProjectionParams)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -424,18 +450,18 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestur
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches1&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.reset&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.getNumPoints&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.getPointPreviousScreenPosition(System.Int32)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.getPointScreenPosition(System.Int32)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches1&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.reset&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchBegan(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture.getPointPreviousScreenPosition(System.Int32)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.Clustered.ClusteredScreenTransformGesture.getPointScreenPosition(System.Int32)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -449,16 +475,16 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestur
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches1&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.reset&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.getNumPoints&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.getPointPreviousScreenPosition(System.Int32)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.getPointScreenPosition(System.Int32)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches1&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.relevantTouches2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.reset&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.ITouch)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchEnded(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.Gestures.Clustered.ClusteredTransformGesture] Unknown reference link target &#39;M:TouchScript.Gestures.Base.TransformGestureBase.touchMoved(TouchScript.TouchPoint)&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.Clustered.ClusteredTransformGesture.getPointPreviousScreenPosition(System.Int32)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Gestures.Clustered.ClusteredTransformGesture.getPointScreenPosition(System.Int32)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Gestures.UI.UIGesture] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -488,7 +514,6 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Hit.Un
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.ICoordinatesRemapper.Remap(UnityEngine.Vector2)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.ICoordinatesRemapper.Remap(UnityEngine.Vector2)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputSources.IInputSource] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputSources.IInputSource] Unknown reference link target &#39;T:TouchScript.TouchPoint&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.InputSources.IInputSource] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.IInputSource.UpdateInput] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputSources.InputSource] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -497,8 +522,7 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputS
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputSources.InputSource] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputSources.InputSource] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.InputSources.InputSource] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputSource.beginTouch(UnityEngine.Vector2)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputSource.beginTouch(UnityEngine.Vector2,TouchScript.Tags)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputSource.beginTouch(UnityEngine.Vector2,TouchScript.Tags,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputSource.moveTouch(System.Int32,UnityEngine.Vector2)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputSource.UpdateInput] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputSources.MobileInput] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -529,10 +553,10 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputS
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.InputSources.TuioInput] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:TouchScript.InputSources.TuioInput] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.TuioInput.UpdateInput] Unknown reference link target &#39;T:TouchScript.TouchManagerInstance&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.MouseHandler.#ctor(System.Func{UnityEngine.Vector2,TouchScript.ITouch},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.MouseHandler.#ctor(System.Func{UnityEngine.Vector2,TouchScript.ITouch},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.TouchHandler.#ctor(System.Func{UnityEngine.Vector2,TouchScript.ITouch},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.TouchHandler.#ctor(System.Func{UnityEngine.Vector2,TouchScript.ITouch},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.MouseHandler.#ctor(TouchScript.Tags,System.Func{UnityEngine.Vector2,TouchScript.Tags,System.Boolean,TouchScript.TouchPoint},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.MouseHandler.#ctor(TouchScript.Tags,System.Func{UnityEngine.Vector2,TouchScript.Tags,System.Boolean,TouchScript.TouchPoint},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.TouchHandler.#ctor(TouchScript.Tags,System.Func{UnityEngine.Vector2,TouchScript.Tags,System.Boolean,TouchScript.TouchPoint},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.InputSources.InputHandlers.TouchHandler.#ctor(TouchScript.Tags,System.Func{UnityEngine.Vector2,TouchScript.Tags,System.Boolean,TouchScript.TouchPoint},System.Action{System.Int32,UnityEngine.Vector2},System.Action{System.Int32},System.Action{System.Int32})] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.CameraLayer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.CameraLayer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.CameraLayer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -585,7 +609,6 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.TouchLayer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.TouchLayer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.TouchLayer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.TouchLayer] Unknown reference link target &#39;T:TouchScript.TouchPoint&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Layers.TouchLayer.Hit(UnityEngine.Vector2,TouchScript.Hit.TouchHit@)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:TouchScript.Layers.TouchLayer.WorldProjectionNormal] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.UILayer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
@@ -593,16 +616,17 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.UILayer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:TouchScript.Layers.UILayer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:TouchScript.Layers.UILayer.Hit(UnityEngine.Vector2,TouchScript.Hit.TouchHit@)] Unknown reference link target &#39;T:UnityEngine.Vector2&#39;. [Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj]
-  Processed 685 topic(s)
-  397 warning(s)
+  Processed 725 topic(s)
+  410 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+  ResolveReferenceLinksComponent: New MSDN content ID cache size: 25 entries
 Done Building Project &quot;Z:\Work\TouchScript\TouchScript\Docs\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:10.78
-    Last step completed in 00:00:10.9219
+Time Elapsed 00:00:15.37
+    Last step completed in 00:00:15.5000
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -619,11 +643,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in Z:\Work\TouchScript\TouchScript\Docs\Help\Working\Output\Website
-Processed 684 HTML files
+Processed 723 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to Z:\Work\TouchScript\TouchScript\Docs\Help\Working\WebKI.xml
 Saving website table of contents to Z:\Work\TouchScript\TouchScript\Docs\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.9688
+    Last step completed in 00:00:01.0937
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -712,7 +736,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\TOC.css -&gt; Z:\Work\TouchScript\TouchScript\Docs\Help\Working\Output\Website\TOC.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\TOC.js -&gt; Z:\Work\TouchScript\TouchScript\Docs\Help\Working\Output\Website\TOC.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\..\LegacyWeb\Web.Config -&gt; Z:\Work\TouchScript\TouchScript\Docs\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.1719
+    Last step completed in 00:00:00.2969
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -721,22 +745,22 @@ Generating website table of contents file...
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.0782
+    Last step completed in 00:00:00.1094
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
-Copied 794 files for the website content
-    Last step completed in 00:00:01.6250
+Copied 833 files for the website content
+    Last step completed in 00:00:01.8751
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:02.2969
+    Last step completed in 00:00:02.8280
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/25/2015 18:40:20.  Total time: 00:00:21.6094
+Build completed successfully at 12/27/2015 00:37:28.  Total time: 00:00:28.4844
 
 </buildStep>
 </shfbBuild>
