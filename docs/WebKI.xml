@@ -105,7 +105,6 @@
     <HelpKINode Title="ITouchManager.CancelTouch Method " Url="html/Overload_TouchScript_ITouchManager_CancelTouch.htm" />
     <HelpKINode Title="MobileInput.CancelTouch Method " Url="html/M_TouchScript_InputSources_MobileInput_CancelTouch.htm" />
     <HelpKINode Title="MouseHandler.CancelTouch Method " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler_CancelTouch.htm" />
-    <HelpKINode Title="RedirectInput.CancelTouch Method " Url="html/M_TouchScript_Examples_Cube_RedirectInput_CancelTouch.htm" />
     <HelpKINode Title="MouseInput.CancelTouch Method " Url="html/M_TouchScript_InputSources_MouseInput_CancelTouch.htm" />
     <HelpKINode Title="StandardInput.CancelTouch Method " Url="html/M_TouchScript_InputSources_StandardInput_CancelTouch.htm" />
     <HelpKINode Title="TouchHandler.CancelTouch Method " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler_CancelTouch.htm" />
@@ -222,14 +221,6 @@
   </HelpKINode>
   <HelpKINode Title="Cursors enumeration member" Url="html/T_TouchScript_InputSources_TuioInput_InputType.htm" />
   <HelpKINode Title="CursorTags property" Url="html/P_TouchScript_InputSources_TuioInput_CursorTags.htm" />
-  <HelpKINode Title="CustomTouchProxy class">
-    <HelpKINode Title="CustomTouchProxy Class" Url="html/T_TouchScript_Examples_Cube_CustomTouchProxy.htm" />
-    <HelpKINode Title="about CustomTouchProxy class" Url="html/T_TouchScript_Examples_Cube_CustomTouchProxy.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_Examples_Cube_CustomTouchProxy__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Examples_Cube_CustomTouchProxy.htm" />
-  </HelpKINode>
-  <HelpKINode Title="CustomTouchProxy.CustomTouchProxy constructor" Url="html/M_TouchScript_Examples_Cube_CustomTouchProxy__ctor.htm" />
-  <HelpKINode Title="CustomTouchProxy.updateOnce method" Url="html/M_TouchScript_Examples_Cube_CustomTouchProxy_updateOnce.htm" />
   <HelpKINode Title="Data field" Url="html/F_TouchScript_Gestures_UI_UIGesture_TouchData_Data.htm" />
   <HelpKINode Title="DeactivateModule method" Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_DeactivateModule.htm" />
   <HelpKINode Title="DebuggableMonoBehaviour class">
@@ -494,7 +485,6 @@
   <HelpKINode Title="HasTag method" Url="html/M_TouchScript_Tags_HasTag.htm" />
   <HelpKINode Title="HasTouch method" Url="html/M_TouchScript_Gestures_Gesture_HasTouch.htm" />
   <HelpKINode Title="HasTouches property" Url="html/P_TouchScript_InputSources_InputHandlers_TouchHandler_HasTouches.htm" />
-  <HelpKINode Title="Height field" Url="html/F_TouchScript_Examples_Cube_RedirectInput_Height.htm" />
   <HelpKINode Title="Hide method" Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_Hide.htm" />
   <HelpKINode Title="Hit enumeration member">
     <HelpKINode Title="HitTest.ObjectHitResult Enumeration" Url="html/T_TouchScript_Hit_HitTest_ObjectHitResult.htm" />
@@ -576,13 +566,7 @@
   </HelpKINode>
   <HelpKINode Title="ILayerDelegate.ShouldReceiveTouch method" Url="html/M_TouchScript_Layers_ILayerDelegate_ShouldReceiveTouch.htm" />
   <HelpKINode Title="INCH_TO_CM field" Url="html/F_TouchScript_TouchManager_INCH_TO_CM.htm" />
-  <HelpKINode Title="Init class">
-    <HelpKINode Title="Init Class" Url="html/T_TouchScript_Examples_Cube_Init.htm" />
-    <HelpKINode Title="about Init class" Url="html/T_TouchScript_Examples_Cube_Init.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_Examples_Cube_Init__ctor.htm" />
-  </HelpKINode>
   <HelpKINode Title="Init method" Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_Init.htm" />
-  <HelpKINode Title="Init.Init constructor" Url="html/M_TouchScript_Examples_Cube_Init__ctor.htm" />
   <HelpKINode Title="initPointerData method" Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_initPointerData.htm" />
   <HelpKINode Title="injectPointer method" Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_injectPointer.htm" />
   <HelpKINode Title="Inputs property" Url="html/P_TouchScript_ITouchManager_Inputs.htm" />
@@ -669,17 +653,6 @@
     <HelpKINode Title="TransformGesture.ProjectionType Enumeration" Url="html/T_TouchScript_Gestures_TransformGesture_ProjectionType.htm" />
   </HelpKINode>
   <HelpKINode Title="Layer property" Url="html/P_TouchScript_TouchPoint_Layer.htm" />
-  <HelpKINode Title="LayerDelegate class">
-    <HelpKINode Title="LayerDelegate Class" Url="html/T_TouchScript_Examples_Cube_LayerDelegate.htm" />
-    <HelpKINode Title="about LayerDelegate class" Url="html/T_TouchScript_Examples_Cube_LayerDelegate.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_Examples_Cube_LayerDelegate__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_Examples_Cube_LayerDelegate.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Examples_Cube_LayerDelegate.htm" />
-  </HelpKINode>
-  <HelpKINode Title="LayerDelegate.LayerDelegate constructor" Url="html/M_TouchScript_Examples_Cube_LayerDelegate__ctor.htm" />
-  <HelpKINode Title="LayerDelegate.RenderTextureLayer field" Url="html/F_TouchScript_Examples_Cube_LayerDelegate_RenderTextureLayer.htm" />
-  <HelpKINode Title="LayerDelegate.ShouldReceiveTouch method" Url="html/M_TouchScript_Examples_Cube_LayerDelegate_ShouldReceiveTouch.htm" />
-  <HelpKINode Title="LayerDelegate.Source field" Url="html/F_TouchScript_Examples_Cube_LayerDelegate_Source.htm" />
   <HelpKINode Title="LayerMask property" Url="html/P_TouchScript_Layers_CameraLayerBase_LayerMask.htm" />
   <HelpKINode Title="layerProjectionParams field" Url="html/F_TouchScript_Layers_TouchLayer_layerProjectionParams.htm" />
   <HelpKINode Title="Layers property" Url="html/P_TouchScript_ITouchManager_Layers.htm" />
@@ -811,7 +784,6 @@
     <HelpKINode Title="Gesture.OnDisable Method " Url="html/M_TouchScript_Gestures_Gesture_OnDisable.htm" />
     <HelpKINode Title="InputSource.OnDisable Method " Url="html/M_TouchScript_InputSources_InputSource_OnDisable.htm" />
     <HelpKINode Title="PinnedTransformGesture.OnDisable Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_OnDisable.htm" />
-    <HelpKINode Title="RedirectInput.OnDisable Method " Url="html/M_TouchScript_Examples_Cube_RedirectInput_OnDisable.htm" />
   </HelpKINode>
   <HelpKINode Title="OnEnable method">
     <HelpKINode Title="CameraLayer2D.OnEnable Method " Url="html/M_TouchScript_Layers_CameraLayer2D_OnEnable.htm" />
@@ -821,7 +793,6 @@
     <HelpKINode Title="InputSource.OnEnable Method " Url="html/M_TouchScript_InputSources_InputSource_OnEnable.htm" />
     <HelpKINode Title="LongPressGesture.OnEnable Method " Url="html/M_TouchScript_Gestures_LongPressGesture_OnEnable.htm" />
     <HelpKINode Title="PinnedTransformGesture.OnEnable Method " Url="html/M_TouchScript_Gestures_PinnedTransformGesture_OnEnable.htm" />
-    <HelpKINode Title="RedirectInput.OnEnable Method " Url="html/M_TouchScript_Examples_Cube_RedirectInput_OnEnable.htm" />
     <HelpKINode Title="TapGesture.OnEnable Method " Url="html/M_TouchScript_Gestures_TapGesture_OnEnable.htm" />
     <HelpKINode Title="TransformGesture.OnEnable Method " Url="html/M_TouchScript_Gestures_TransformGesture_OnEnable.htm" />
   </HelpKINode>
@@ -937,19 +908,6 @@
     <HelpKINode Title="CanvasProjectionParams.rect Field" Url="html/F_TouchScript_Layers_CanvasProjectionParams_rect.htm" />
     <HelpKINode Title="TouchProxyBase.rect Field" Url="html/F_TouchScript_Behaviors_Visualizer_TouchProxyBase_rect.htm" />
   </HelpKINode>
-  <HelpKINode Title="RedirectInput class">
-    <HelpKINode Title="RedirectInput Class" Url="html/T_TouchScript_Examples_Cube_RedirectInput.htm" />
-    <HelpKINode Title="about RedirectInput class" Url="html/T_TouchScript_Examples_Cube_RedirectInput.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_Examples_Cube_RedirectInput__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_Examples_Cube_RedirectInput.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Examples_Cube_RedirectInput.htm" />
-  </HelpKINode>
-  <HelpKINode Title="RedirectInput.CancelTouch method" Url="html/M_TouchScript_Examples_Cube_RedirectInput_CancelTouch.htm" />
-  <HelpKINode Title="RedirectInput.Height field" Url="html/F_TouchScript_Examples_Cube_RedirectInput_Height.htm" />
-  <HelpKINode Title="RedirectInput.OnDisable method" Url="html/M_TouchScript_Examples_Cube_RedirectInput_OnDisable.htm" />
-  <HelpKINode Title="RedirectInput.OnEnable method" Url="html/M_TouchScript_Examples_Cube_RedirectInput_OnEnable.htm" />
-  <HelpKINode Title="RedirectInput.RedirectInput constructor" Url="html/M_TouchScript_Examples_Cube_RedirectInput__ctor.htm" />
-  <HelpKINode Title="RedirectInput.Width field" Url="html/F_TouchScript_Examples_Cube_RedirectInput_Width.htm" />
   <HelpKINode Title="Released event" Url="html/E_TouchScript_Gestures_ReleaseGesture_Released.htm" />
   <HelpKINode Title="ReleaseGesture class">
     <HelpKINode Title="ReleaseGesture Class" Url="html/T_TouchScript_Gestures_ReleaseGesture.htm" />
@@ -989,7 +947,6 @@
     <HelpKINode Title="UIGesture.removePointerData Method " Url="html/M_TouchScript_Gestures_UI_UIGesture_removePointerData.htm" />
   </HelpKINode>
   <HelpKINode Title="RemovePoints method" Url="html/M_TouchScript_Clusters_Clusters_RemovePoints.htm" />
-  <HelpKINode Title="RenderTextureLayer field" Url="html/F_TouchScript_Examples_Cube_LayerDelegate_RenderTextureLayer.htm" />
   <HelpKINode Title="RequireGestureToFail property" Url="html/P_TouchScript_Gestures_Gesture_RequireGestureToFail.htm" />
   <HelpKINode Title="reset method">
     <HelpKINode Title="ClusteredScreenTransformGesture.reset Method " Url="html/M_TouchScript_Gestures_Clustered_ClusteredScreenTransformGesture_reset.htm" />
@@ -1053,7 +1010,6 @@
     <HelpKINode Title="Gesture.ShouldReceiveTouch Method " Url="html/M_TouchScript_Gestures_Gesture_ShouldReceiveTouch.htm" />
     <HelpKINode Title="IGestureDelegate.ShouldReceiveTouch Method " Url="html/M_TouchScript_IGestureDelegate_ShouldReceiveTouch.htm" />
     <HelpKINode Title="ILayerDelegate.ShouldReceiveTouch Method " Url="html/M_TouchScript_Layers_ILayerDelegate_ShouldReceiveTouch.htm" />
-    <HelpKINode Title="LayerDelegate.ShouldReceiveTouch Method " Url="html/M_TouchScript_Examples_Cube_LayerDelegate_ShouldReceiveTouch.htm" />
     <HelpKINode Title="PressGesture.ShouldReceiveTouch Method " Url="html/M_TouchScript_Gestures_PressGesture_ShouldReceiveTouch.htm" />
     <HelpKINode Title="ReleaseGesture.ShouldReceiveTouch Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_ShouldReceiveTouch.htm" />
   </HelpKINode>
@@ -1069,7 +1025,6 @@
   </HelpKINode>
   <HelpKINode Title="size field" Url="html/F_TouchScript_Behaviors_Visualizer_TouchProxyBase_size.htm" />
   <HelpKINode Title="Size property" Url="html/P_TouchScript_Behaviors_Visualizer_TouchProxyBase_Size.htm" />
-  <HelpKINode Title="Source field" Url="html/F_TouchScript_Examples_Cube_LayerDelegate_Source.htm" />
   <HelpKINode Title="SOURCE_TUIO field" Url="html/F_TouchScript_InputSources_TuioInput_SOURCE_TUIO.htm" />
   <HelpKINode Title="StandardInput class">
     <HelpKINode Title="StandardInput Class" Url="html/T_TouchScript_InputSources_StandardInput.htm" />
@@ -1381,11 +1336,6 @@
   <HelpKINode Title="TouchScript.Devices.Display.DisplayDevice class" Url="html/T_TouchScript_Devices_Display_DisplayDevice.htm" />
   <HelpKINode Title="TouchScript.Devices.Display.GenericDisplayDevice class" Url="html/T_TouchScript_Devices_Display_GenericDisplayDevice.htm" />
   <HelpKINode Title="TouchScript.Devices.Display.IDisplayDevice interface" Url="html/T_TouchScript_Devices_Display_IDisplayDevice.htm" />
-  <HelpKINode Title="TouchScript.Examples.Cube namespace" Url="html/N_TouchScript_Examples_Cube.htm" />
-  <HelpKINode Title="TouchScript.Examples.Cube.CustomTouchProxy class" Url="html/T_TouchScript_Examples_Cube_CustomTouchProxy.htm" />
-  <HelpKINode Title="TouchScript.Examples.Cube.Init class" Url="html/T_TouchScript_Examples_Cube_Init.htm" />
-  <HelpKINode Title="TouchScript.Examples.Cube.LayerDelegate class" Url="html/T_TouchScript_Examples_Cube_LayerDelegate.htm" />
-  <HelpKINode Title="TouchScript.Examples.Cube.RedirectInput class" Url="html/T_TouchScript_Examples_Cube_RedirectInput.htm" />
   <HelpKINode Title="TouchScript.GestureManager class" Url="html/T_TouchScript_GestureManager.htm" />
   <HelpKINode Title="TouchScript.Gestures namespace" Url="html/N_TouchScript_Gestures.htm" />
   <HelpKINode Title="TouchScript.Gestures.Clustered namespace" Url="html/N_TouchScript_Gestures_Clustered.htm" />
@@ -1633,8 +1583,8 @@
   <HelpKINode Title="Untouchable.Untouchable constructor" Url="html/M_TouchScript_Hit_Untouchable__ctor.htm" />
   <HelpKINode Title="update method" Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_update.htm" />
   <HelpKINode Title="Update method">
-    <HelpKINode Title="TouchHandler.Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler_Update.htm" />
     <HelpKINode Title="MouseHandler.Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler_Update.htm" />
+    <HelpKINode Title="TouchHandler.Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler_Update.htm" />
   </HelpKINode>
   <HelpKINode Title="updateCamera method" Url="html/M_TouchScript_Layers_CameraLayerBase_updateCamera.htm" />
   <HelpKINode Title="UpdateInput method">
@@ -1646,16 +1596,15 @@
     <HelpKINode Title="TuioInput.UpdateInput Method " Url="html/M_TouchScript_InputSources_TuioInput_UpdateInput.htm" />
   </HelpKINode>
   <HelpKINode Title="updateOnce method">
-    <HelpKINode Title="CustomTouchProxy.updateOnce Method " Url="html/M_TouchScript_Examples_Cube_CustomTouchProxy_updateOnce.htm" />
     <HelpKINode Title="TouchProxy.updateOnce Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxy_updateOnce.htm" />
     <HelpKINode Title="TouchProxyBase.updateOnce Method " Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_updateOnce.htm" />
   </HelpKINode>
   <HelpKINode Title="updatePointerData method" Url="html/M_TouchScript_Behaviors_TouchScriptInputModule_updatePointerData.htm" />
+  <HelpKINode Title="UpdateTouch method" Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_UpdateTouch.htm" />
   <HelpKINode Title="updateTouch method">
     <HelpKINode Title="InputSource.updateTouch Method " Url="html/M_TouchScript_InputSources_InputSource_updateTouch.htm" />
     <HelpKINode Title="TouchLayer.updateTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_updateTouch.htm" />
   </HelpKINode>
-  <HelpKINode Title="UpdateTouch method" Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_UpdateTouch.htm" />
   <HelpKINode Title="UseDPI property" Url="html/P_TouchScript_Behaviors_Visualizer_TouchVisualizer_UseDPI.htm" />
   <HelpKINode Title="UseSendMessage property">
     <HelpKINode Title="Gesture.UseSendMessage Property " Url="html/P_TouchScript_Gestures_Gesture_UseSendMessage.htm" />
@@ -1666,7 +1615,6 @@
   <HelpKINode Title="VerticalAxis property" Url="html/P_TouchScript_Behaviors_TouchScriptInputModule_VerticalAxis.htm" />
   <HelpKINode Title="WebGLTouch field" Url="html/F_TouchScript_InputSources_StandardInput_WebGLTouch.htm" />
   <HelpKINode Title="WebPlayerTouch field" Url="html/F_TouchScript_InputSources_StandardInput_WebPlayerTouch.htm" />
-  <HelpKINode Title="Width field" Url="html/F_TouchScript_Examples_Cube_RedirectInput_Width.htm" />
   <HelpKINode Title="Windows7 enumeration member">
     <HelpKINode Title="StandardInput.Windows7TouchAPIType Enumeration" Url="html/T_TouchScript_InputSources_StandardInput_Windows7TouchAPIType.htm" />
     <HelpKINode Title="StandardInput.Windows8TouchAPIType Enumeration" Url="html/T_TouchScript_InputSources_StandardInput_Windows8TouchAPIType.htm" />
