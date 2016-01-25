@@ -1342,11 +1342,11 @@
   <HelpKINode Title="Untouchable.DiscardTouch field" Url="html/F_TouchScript_Hit_Untouchable_DiscardTouch.htm" />
   <HelpKINode Title="Untouchable.IsHit method" Url="html/M_TouchScript_Hit_Untouchable_IsHit.htm" />
   <HelpKINode Title="Untouchable.Untouchable constructor" Url="html/M_TouchScript_Hit_Untouchable__ctor.htm" />
-  <HelpKINode Title="Update method">
-    <HelpKINode Title="MouseHandler.Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler_Update.htm" />
-    <HelpKINode Title="TouchHandler.Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler_Update.htm" />
-  </HelpKINode>
   <HelpKINode Title="update method" Url="html/M_TouchScript_Behaviors_Visualizer_TouchProxyBase_update.htm" />
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="TouchHandler.Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_TouchHandler_Update.htm" />
+    <HelpKINode Title="MouseHandler.Update Method " Url="html/M_TouchScript_InputSources_InputHandlers_MouseHandler_Update.htm" />
+  </HelpKINode>
   <HelpKINode Title="UpdateInput method">
     <HelpKINode Title="IInputSource.UpdateInput Method " Url="html/M_TouchScript_InputSources_IInputSource_UpdateInput.htm" />
     <HelpKINode Title="InputSource.UpdateInput Method " Url="html/M_TouchScript_InputSources_InputSource_UpdateInput.htm" />
